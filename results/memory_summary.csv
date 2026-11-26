@@ -1,0 +1,21 @@
+﻿task,method,peak_allocated,peak_reserved,scope,sampled_max_CPU_RSS_bytes,CPU_true_peak
+E,ABR,35537408,37748736,whole measured process; models co-resident; not model-exclusive memory,2721038336,UNKNOWN; sampled maximum only
+E,Q63-All,35537408,37748736,whole measured process; models co-resident; not model-exclusive memory,2721234944,UNKNOWN; sampled maximum only
+E,Q63-Top32,35537408,37748736,whole measured process; models co-resident; not model-exclusive memory,2721792000,UNKNOWN; sampled maximum only
+E,Deep Sets-Top32,35452416,37748736,whole measured process; models co-resident; not model-exclusive memory,2721595392,UNKNOWN; sampled maximum only
+E,Attention-Top32,35452416,37748736,whole measured process; models co-resident; not model-exclusive memory,2721390592,UNKNOWN; sampled maximum only
+C,ABR,35537408,37748736,whole measured process; models co-resident; not model-exclusive memory,2770345984,UNKNOWN; sampled maximum only
+C,Q63-All,35537408,37748736,whole measured process; models co-resident; not model-exclusive memory,2770558976,UNKNOWN; sampled maximum only
+C,Q63-Top32,35537408,37748736,whole measured process; models co-resident; not model-exclusive memory,2771181568,UNKNOWN; sampled maximum only
+C,Deep Sets-Top32,35452416,37748736,whole measured process; models co-resident; not model-exclusive memory,2770997248,UNKNOWN; sampled maximum only
+C,Attention-Top32,35452416,37748736,whole measured process; models co-resident; not model-exclusive memory,2770763776,UNKNOWN; sampled maximum only
+U,ABR,35537408,37748736,whole measured process; models co-resident; not model-exclusive memory,3264618496,UNKNOWN; sampled maximum only
+U,Q63-All,35537408,37748736,whole measured process; models co-resident; not model-exclusive memory,3264811008,UNKNOWN; sampled maximum only
+U,Q63-Top32,35537408,37748736,whole measured process; models co-resident; not model-exclusive memory,3265474560,UNKNOWN; sampled maximum only
+U,Deep Sets-Top32,35452416,37748736,whole measured process; models co-resident; not model-exclusive memory,3265257472,UNKNOWN; sampled maximum only
+U,Attention-Top32,35452416,37748736,whole measured process; models co-resident; not model-exclusive memory,3265056768,UNKNOWN; sampled maximum only
+G,ABR,35537408,37748736,whole measured process; models co-resident; not model-exclusive memory,2847924224,UNKNOWN; sampled maximum only
+G,Q63-All,35537408,37748736,whole measured process; models co-resident; not model-exclusive memory,2848157696,UNKNOWN; sampled maximum only
+G,Q63-Top32,35537408,37748736,whole measured process; models co-resident; not model-exclusive memory,2848792576,UNKNOWN; sampled maximum only
+G,Deep Sets-Top32,35452416,37748736,whole measured process; models co-resident; not model-exclusive memory,2848575488,UNKNOWN; sampled maximum only
+G,Attention-Top32,35452416,37748736,whole measured process; models co-resident; not model-exclusive memory,2848358400,UNKNOWN; sampled maximum only

@@ -1,0 +1,8 @@
+﻿family,size,tasks,definition,config_file,config_sha,training_budget,adjustment,new_scientific_comparison
+main80,12,ECUG,"ABR-AB,Full-ABR,Full-AB",protocol_frozen.json,1951ef7c47a24ef62cdb83ed5bcf760ba6e042b636d263b6a9262c452003333b,80,Bonferroni within own family; no joint78 guarantee,False
+LR12,12,ECUG,"QS48-Q24,QS48-S24,Full-QS48",protocol_frozen.json,a25549a3bdb494dfa6b5245ac14155159f0b5256fb50006626697346b8ca32cd,80,Bonferroni within own family; no joint78 guarantee,False
+MLP12,12,ECUG,"QS48-Q24,Full-QS48,Full-Q21select",protocol_frozen.json,a25549a3bdb494dfa6b5245ac14155159f0b5256fb50006626697346b8ca32cd,80,Bonferroni within own family; no joint78 guarantee,False
+AGG12,12,ECUG,"Full-Top32,Top32-SetTop32,Top32-AttentionTop32",protocol_frozen.json,a25549a3bdb494dfa6b5245ac14155159f0b5256fb50006626697346b8ca32cd,80,Bonferroni within own family; no joint78 guarantee,False
+R1six,6,ECU,"D-A,D-C-mean",protocol_v2.json,316585a4c0c232144b8bf149d8bc8414f6001ad90d40ded14ca9dbf1fd328175,80,Bonferroni within own family; no joint78 guarantee,False
+stage160,12,ECUG,"ABR160-AB160,Full160-ABR160,Full160-AB160",budget_experiment_protocol.json,f7911d659fd59a00e983d5cbeab2bd0df97251a46c244aad313a3ae00a4f9d97,160,Bonferroni within own family; no joint78 guarantee,True
+gain_change160_minus80,12,ECUG,signed four-prediction stage difference160 minus80,budget_experiment_protocol.json,f7911d659fd59a00e983d5cbeab2bd0df97251a46c244aad313a3ae00a4f9d97,160,Bonferroni within own family; no joint78 guarantee,True

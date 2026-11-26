@@ -1,0 +1,12 @@
+﻿claim,task,status,comparison,estimate,lo,hi,evidence,scope
+R1附加判别价值,E,已支持,ABR-AB under160,0.07550202446675187,0.047220856600934225,0.10378319233256952,budget_statistical_intervals.csv,"historically exposed fixed formal task, shared fallback, mean3 fixed predictions"
+Q63附加判别价值,E,有限支持（点差为正）,Full-ABR under160,0.008675562902328368,-0.005601247329373036,0.02295237313402977,budget_statistical_intervals.csv,"historically exposed fixed formal task, shared fallback, mean3 fixed predictions"
+R1附加判别价值,C,已支持,ABR-AB under160,0.07171364301601568,0.04600582225824476,0.0974214637737866,budget_statistical_intervals.csv,"historically exposed fixed formal task, shared fallback, mean3 fixed predictions"
+Q63附加判别价值,C,有限支持（点差为正）,Full-ABR under160,0.014762606487264388,-0.0010157081382611895,0.030540921112789964,budget_statistical_intervals.csv,"historically exposed fixed formal task, shared fallback, mean3 fixed predictions"
+R1附加判别价值,U,已支持,ABR-AB under160,0.0872030180253071,0.07113131945421683,0.10327471659639736,budget_statistical_intervals.csv,"historically exposed fixed formal task, shared fallback, mean3 fixed predictions"
+Q63附加判别价值,U,已支持,Full-ABR under160,0.016496950396139447,0.010016065019582916,0.02297783577269598,budget_statistical_intervals.csv,"historically exposed fixed formal task, shared fallback, mean3 fixed predictions"
+R1附加判别价值,G,已支持,ABR-AB under160,0.0531737537754318,0.026015912243241533,0.08033159530762207,budget_statistical_intervals.csv,"historically exposed fixed formal task, shared fallback, mean3 fixed predictions"
+Q63附加判别价值,G,已支持,Full-ABR under160,0.02362694223803567,0.005160451177128534,0.0420934332989428,budget_statistical_intervals.csv,"historically exposed fixed formal task, shared fallback, mean3 fixed predictions"
+原始RDF至清洁池可重建,,已支持,,,,,dataset_reconstruction_summary.csv,"current exact five archive tasks, formal four"
+固定摘要普遍更快,,不作此主张,,,,,inference_timing_summary.csv,specific frozen adapters only
+全部历史实验从零复现,,未支持,,,,,final_reproduction_acceptance.json,L3a completed; L3b/L3c not rerun

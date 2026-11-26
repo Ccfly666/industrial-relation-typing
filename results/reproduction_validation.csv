@@ -1,0 +1,6 @@
+﻿level,status
+L1,PASS original54 independent +72 main/2016 metric and457 historical points author replay
+L2,FUNCTIONAL_PASS with diagnosed fresh-feature numerical differences
+L3a,"COMPLETE formal E_o0 Full first seed, raw-RDF frontend with retained role/split/projector/namevector inputs; measured numeric comparison below"
+L3b,NOT_RERUN
+L3c,NOT_RERUN

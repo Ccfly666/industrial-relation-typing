@@ -1,0 +1,163 @@
+{
+  "batch": "PAPER_FINAL_COMPLETION01",
+  "utc": "2026-11-26T05:18:30.031127+00:00",
+  "historical_exposure": "post-hoc repair motivated by known CPU AB/early-stop diagnosis; not independent preregistration or new data",
+  "tasks": {
+    "E": "etim-eclass",
+    "C": "eclass-gpc",
+    "U": "eclass-unspsc",
+    "G": "gpc-unspsc"
+  },
+  "labels": [
+    "=",
+    ">",
+    "<",
+    "~"
+  ],
+  "seeds": [
+    2026111601,
+    2026111602,
+    2026111603
+  ],
+  "arms": [
+    "AB",
+    "ABR",
+    "Full"
+  ],
+  "layout": {
+    "AB": "first71, last75 exactlyzero AFTER scaling",
+    "ABR": "first83, last63 exactlyzero AFTER scaling",
+    "Full": "all146; original fit-only Q63 mean/std"
+  },
+  "Net_source_sha256": "c301301f6e3b372f3f4d550fc4d631ef27885f486bd4d60bb60c421d8ddadc1c",
+  "Net_AST_sha256": "5afff40241d499c595742be0a066a397a79d9d54a97f373dd02cde2e18acc4bd",
+  "registered_parameters": 28645,
+  "head_parameters": 27332,
+  "runtime": {
+    "torch": "2.5.1+cu118",
+    "numpy": "2.1.3",
+    "cuda": "11.8",
+    "cudnn": 90100,
+    "gpu": "NVIDIA GeForce RTX 3050 Laptop GPU",
+    "compute_capability": [
+      8,
+      6
+    ],
+    "device": "cuda:0",
+    "dtype": "float32",
+    "AMP": false,
+    "TF32_matmul": false,
+    "TF32_cudnn": false,
+    "deterministic_algorithms": true,
+    "cudnn_deterministic": false,
+    "cudnn_benchmark": false,
+    "CUBLAS_WORKSPACE_CONFIG": ":4096:8",
+    "cuda_memory_total": 4294443008
+  },
+  "optimizer": {
+    "name": "AdamW",
+    "weight_decay": 0.001,
+    "loss": "unweighted CrossEntropy",
+    "clip_norm": 5,
+    "batch": 4096,
+    "learning_rates": [
+      0.0003,
+      0.001
+    ],
+    "epochs": [
+      5,
+      10,
+      15,
+      20,
+      25,
+      30,
+      35,
+      40,
+      45,
+      50,
+      55,
+      60,
+      65,
+      70,
+      75,
+      80,
+      85,
+      90,
+      95,
+      100,
+      105,
+      110,
+      115,
+      120,
+      125,
+      130,
+      135,
+      140,
+      145,
+      150,
+      155,
+      160
+    ]
+  },
+  "training": "CUDA float32; no AMP; original SeedSequence([seed,epoch]) permutation; no gradient accumulation",
+  "selection": "Full160 all32 epoch candidates; same mean3 inner / lower lr / earlier epoch",
+  "early_stopping": false,
+  "outer_labels_read_before_all_predictions_locked": false,
+  "scope": "same frozen fit graph, query wholeblock/proof rules and direction",
+  "fallback": "raw.float64 then exact common fixedLR-AB bothdegreezero; original formal v2 probability definition",
+  "statistics": {
+    "primary": "operational/full/mean of3 paired per-seed pooled differences",
+    "comparisons": [
+      "ABR-AB",
+      "Full-ABR",
+      "Full-AB"
+    ],
+    "family_size": 12,
+    "confidence": "nominal95 and Bonferroni12 simultaneous95; paired P19 IF iid/fact/two_way; mean paired IF retains cross-seed covariance",
+    "conditional": "fixed saved predictions and dependency assumptions; excludes historical selection, full pipeline retraining and label uncertainty",
+    "subsets": "descriptive raw/full/nonempty/zero/source_only/target_only/both; no low-support forced CI",
+    "seed_SD": "sample SD of per-seed pooled metric; not CI"
+  },
+  "stops": [
+    "prefix mismatch: diagnose before affected fits",
+    "input/hash/nonfinite mismatch",
+    "G free<1GiB",
+    "CUDA unavailable: no CPU fallback",
+    "no budget beyond160; no performance-dependent changes"
+  ],
+  "scope_upper_bound": {
+    "inner": 360,
+    "outer": 180,
+    "total": 540
+  },
+  "no_new_other_models": true,
+  "no_shutdown": true,
+  "no_quota_reset": true,
+  "budget": 160,
+  "previous_budget": 80,
+  "historical_protocol_sha": "1951ef7c47a24ef62cdb83ed5bcf760ba6e042b636d263b6a9262c452003333b",
+  "feature_manifest_sha": "c7a6b9ebacbc7e39a7e09d88c32758c47967b8bf96962e28584073591170493e",
+  "original_net_sha": "4d1b9d8684ac6420c37b681d9f5ea5b7c72a883fec033f72c6ca3c03d71a404b",
+  "prefix_check": {
+    "representatives": [
+      "E_o0_AB",
+      "E_o0_ABR",
+      "E_o0_Full",
+      "U_o0_AB",
+      "U_o0_ABR",
+      "U_o0_Full"
+    ],
+    "lr": 0.0003,
+    "inner": 0,
+    "probability_abs_tolerance": 1e-07,
+    "macro_abs_tolerance": 1e-12,
+    "rule": "all prefix validation checkpoints must match; otherwise halt affected family before formal scores"
+  },
+  "continuation": "Only complete model+AdamW+CPU/CUDA RNG checkpoint with exact input/model/RNG identity; otherwise fresh full160",
+  "statistics_new": {
+    "family1": "12 operational stage gains at160",
+    "family2": "12 paired four-prediction stage gain changes160-80",
+    "adjustment": "Bonferroni12 each, not joint78",
+    "same_query_seed_pairing": true
+  }
+}

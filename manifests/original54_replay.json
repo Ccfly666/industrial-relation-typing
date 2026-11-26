@@ -1,0 +1,2756 @@
+[
+  {
+    "task": "E",
+    "family": "main12",
+    "comparison": "ABR-AB",
+    "family_size": 12,
+    "dependency_sha": "d3c113db717a79ccc9ca78c9eac7e729438bc94050534f1169e4701702667700",
+    "seeds": [
+      {
+        "seed": 2026111601,
+        "terms": [
+          {
+            "sha256": "5824411c5cf4134e588ec79ab8ec01a9905d4dd967e37f6106f00470842cd816",
+            "probability_key": "ABR",
+            "sign": 1
+          },
+          {
+            "sha256": "5824411c5cf4134e588ec79ab8ec01a9905d4dd967e37f6106f00470842cd816",
+            "probability_key": "AB",
+            "sign": -1
+          }
+        ]
+      },
+      {
+        "seed": 2026111602,
+        "terms": [
+          {
+            "sha256": "692e9592b06d90bb32cbf09c2bcfda6b047cd562bfbeef4a67e95346445674d5",
+            "probability_key": "ABR",
+            "sign": 1
+          },
+          {
+            "sha256": "692e9592b06d90bb32cbf09c2bcfda6b047cd562bfbeef4a67e95346445674d5",
+            "probability_key": "AB",
+            "sign": -1
+          }
+        ]
+      },
+      {
+        "seed": 2026111603,
+        "terms": [
+          {
+            "sha256": "8d94ec61c7810968df6775817f6529cc21fabe479859ed48879c5afb3a0b21d7",
+            "probability_key": "ABR",
+            "sign": 1
+          },
+          {
+            "sha256": "8d94ec61c7810968df6775817f6529cc21fabe479859ed48879c5afb3a0b21d7",
+            "probability_key": "AB",
+            "sign": -1
+          }
+        ]
+      }
+    ],
+    "expected": {
+      "variance": 0.00015014477964373624,
+      "se": 0.012253357892583415,
+      "lo": 0.08157710586929115,
+      "hi": 0.15179522418553748
+    },
+    "estimate": 0.11668616502741432
+  },
+  {
+    "task": "E",
+    "family": "main12",
+    "comparison": "Full-ABR",
+    "family_size": 12,
+    "dependency_sha": "d3c113db717a79ccc9ca78c9eac7e729438bc94050534f1169e4701702667700",
+    "seeds": [
+      {
+        "seed": 2026111601,
+        "terms": [
+          {
+            "sha256": "5824411c5cf4134e588ec79ab8ec01a9905d4dd967e37f6106f00470842cd816",
+            "probability_key": "Full",
+            "sign": 1
+          },
+          {
+            "sha256": "5824411c5cf4134e588ec79ab8ec01a9905d4dd967e37f6106f00470842cd816",
+            "probability_key": "ABR",
+            "sign": -1
+          }
+        ]
+      },
+      {
+        "seed": 2026111602,
+        "terms": [
+          {
+            "sha256": "692e9592b06d90bb32cbf09c2bcfda6b047cd562bfbeef4a67e95346445674d5",
+            "probability_key": "Full",
+            "sign": 1
+          },
+          {
+            "sha256": "692e9592b06d90bb32cbf09c2bcfda6b047cd562bfbeef4a67e95346445674d5",
+            "probability_key": "ABR",
+            "sign": -1
+          }
+        ]
+      },
+      {
+        "seed": 2026111603,
+        "terms": [
+          {
+            "sha256": "8d94ec61c7810968df6775817f6529cc21fabe479859ed48879c5afb3a0b21d7",
+            "probability_key": "Full",
+            "sign": 1
+          },
+          {
+            "sha256": "8d94ec61c7810968df6775817f6529cc21fabe479859ed48879c5afb3a0b21d7",
+            "probability_key": "ABR",
+            "sign": -1
+          }
+        ]
+      }
+    ],
+    "expected": {
+      "variance": 2.9004772417022554e-05,
+      "se": 0.005385607896702335,
+      "lo": 0.004462454989566942,
+      "hi": 0.035324791323058706
+    },
+    "estimate": 0.019893623156312823
+  },
+  {
+    "task": "E",
+    "family": "main12",
+    "comparison": "Full-AB",
+    "family_size": 12,
+    "dependency_sha": "d3c113db717a79ccc9ca78c9eac7e729438bc94050534f1169e4701702667700",
+    "seeds": [
+      {
+        "seed": 2026111601,
+        "terms": [
+          {
+            "sha256": "5824411c5cf4134e588ec79ab8ec01a9905d4dd967e37f6106f00470842cd816",
+            "probability_key": "Full",
+            "sign": 1
+          },
+          {
+            "sha256": "5824411c5cf4134e588ec79ab8ec01a9905d4dd967e37f6106f00470842cd816",
+            "probability_key": "AB",
+            "sign": -1
+          }
+        ]
+      },
+      {
+        "seed": 2026111602,
+        "terms": [
+          {
+            "sha256": "692e9592b06d90bb32cbf09c2bcfda6b047cd562bfbeef4a67e95346445674d5",
+            "probability_key": "Full",
+            "sign": 1
+          },
+          {
+            "sha256": "692e9592b06d90bb32cbf09c2bcfda6b047cd562bfbeef4a67e95346445674d5",
+            "probability_key": "AB",
+            "sign": -1
+          }
+        ]
+      },
+      {
+        "seed": 2026111603,
+        "terms": [
+          {
+            "sha256": "8d94ec61c7810968df6775817f6529cc21fabe479859ed48879c5afb3a0b21d7",
+            "probability_key": "Full",
+            "sign": 1
+          },
+          {
+            "sha256": "8d94ec61c7810968df6775817f6529cc21fabe479859ed48879c5afb3a0b21d7",
+            "probability_key": "AB",
+            "sign": -1
+          }
+        ]
+      }
+    ],
+    "expected": {
+      "variance": 0.00016818284627828745,
+      "se": 0.012968532926984742,
+      "lo": 0.099421566435943,
+      "hi": 0.17373800993151128
+    },
+    "estimate": 0.13657978818372715
+  },
+  {
+    "task": "E",
+    "family": "LR12",
+    "comparison": "QS48-Q24",
+    "family_size": 12,
+    "dependency_sha": "d3c113db717a79ccc9ca78c9eac7e729438bc94050534f1169e4701702667700",
+    "seeds": [
+      {
+        "seed": 0,
+        "terms": [
+          {
+            "sha256": "8b22d33902e8832fd79d43f5366162437ea44dfbedb3dfb6c46a11b08f243bcc",
+            "probability_key": "probabilities",
+            "sign": 1
+          },
+          {
+            "sha256": "1a7fd6891af018973a89fd91c07a417ae850289137bb37d6563298bec6615115",
+            "probability_key": "probabilities",
+            "sign": -1
+          }
+        ]
+      }
+    ],
+    "expected": {
+      "variance": 1.834643964242515e-05,
+      "se": 0.0042832744066222455,
+      "lo": -0.007673964428526855,
+      "hi": 0.01687142726750723
+    },
+    "estimate": 0.004598731419490187
+  },
+  {
+    "task": "E",
+    "family": "LR12",
+    "comparison": "QS48-S24",
+    "family_size": 12,
+    "dependency_sha": "d3c113db717a79ccc9ca78c9eac7e729438bc94050534f1169e4701702667700",
+    "seeds": [
+      {
+        "seed": 0,
+        "terms": [
+          {
+            "sha256": "8b22d33902e8832fd79d43f5366162437ea44dfbedb3dfb6c46a11b08f243bcc",
+            "probability_key": "probabilities",
+            "sign": 1
+          },
+          {
+            "sha256": "6316c330b79bce6ad3e7b88315fbe22daa651c8e73bb09319f941a98c09e7581",
+            "probability_key": "probabilities",
+            "sign": -1
+          }
+        ]
+      }
+    ],
+    "expected": {
+      "variance": 4.756756259203028e-06,
+      "se": 0.0021809989131595245,
+      "lo": -0.002469184940791667,
+      "hi": 0.010029073991523904
+    },
+    "estimate": 0.003779944525366119
+  },
+  {
+    "task": "E",
+    "family": "LR12",
+    "comparison": "Full-QS48",
+    "family_size": 12,
+    "dependency_sha": "d3c113db717a79ccc9ca78c9eac7e729438bc94050534f1169e4701702667700",
+    "seeds": [
+      {
+        "seed": 0,
+        "terms": [
+          {
+            "sha256": "dd04a71807008189eb4f069028d995a3a8dfd15a97373274ce596e686d409f4e",
+            "probability_key": "probabilities",
+            "sign": 1
+          },
+          {
+            "sha256": "8b22d33902e8832fd79d43f5366162437ea44dfbedb3dfb6c46a11b08f243bcc",
+            "probability_key": "probabilities",
+            "sign": -1
+          }
+        ]
+      }
+    ],
+    "expected": {
+      "variance": 1.1427303000869081e-05,
+      "se": 0.00338042941072123,
+      "lo": -0.009285376229151057,
+      "hi": 0.010086243730257252
+    },
+    "estimate": 0.0004004337505530975
+  },
+  {
+    "task": "E",
+    "family": "MLP12",
+    "comparison": "QS48-Q24",
+    "family_size": 12,
+    "dependency_sha": "d3c113db717a79ccc9ca78c9eac7e729438bc94050534f1169e4701702667700",
+    "seeds": [
+      {
+        "seed": 2026111601,
+        "terms": [
+          {
+            "sha256": "dcd55ec2dc2ad91d776541888dde53168c892b9441c24aa0d055d9ab9709973b",
+            "probability_key": "probabilities",
+            "sign": 1
+          },
+          {
+            "sha256": "5827da4d9db38b1f6f3ea4f5c5c22457b06fe434597bfc8372cd3906b75c80c2",
+            "probability_key": "probabilities",
+            "sign": -1
+          }
+        ]
+      },
+      {
+        "seed": 2026111602,
+        "terms": [
+          {
+            "sha256": "c839c5c80bc347bfbcd3043d97047c0b994e5186a99a8fc02c6998eb69552d7b",
+            "probability_key": "probabilities",
+            "sign": 1
+          },
+          {
+            "sha256": "0af581dcbc873e9fecfcff0e3b98346dae231965c9016ad1d179e07bc0e8f935",
+            "probability_key": "probabilities",
+            "sign": -1
+          }
+        ]
+      },
+      {
+        "seed": 2026111603,
+        "terms": [
+          {
+            "sha256": "265c2312acda4ebfffa52f364b6e6774a3e5675976ecee97d0e7e7b08bca204b",
+            "probability_key": "probabilities",
+            "sign": 1
+          },
+          {
+            "sha256": "e2096cd10c19c65537c29990c7df6e0b49e0d02e1e9074e4c04d298733d7cdd0",
+            "probability_key": "probabilities",
+            "sign": -1
+          }
+        ]
+      }
+    ],
+    "expected": {
+      "variance": 1.4869975978690868e-05,
+      "se": 0.0038561607822665887,
+      "lo": -0.0028681971507233343,
+      "hi": 0.019229611174907527
+    },
+    "estimate": 0.008180707012092095
+  },
+  {
+    "task": "E",
+    "family": "MLP12",
+    "comparison": "Full-QS48",
+    "family_size": 12,
+    "dependency_sha": "d3c113db717a79ccc9ca78c9eac7e729438bc94050534f1169e4701702667700",
+    "seeds": [
+      {
+        "seed": 2026111601,
+        "terms": [
+          {
+            "sha256": "092a4988372624864ae0e4e14048601ca0751aa44e0da5595b9340946877682a",
+            "probability_key": "probabilities",
+            "sign": 1
+          },
+          {
+            "sha256": "dcd55ec2dc2ad91d776541888dde53168c892b9441c24aa0d055d9ab9709973b",
+            "probability_key": "probabilities",
+            "sign": -1
+          }
+        ]
+      },
+      {
+        "seed": 2026111602,
+        "terms": [
+          {
+            "sha256": "b7a5b8f7e55afa111f3fb9373499f787d63834076ff1963b862ea428bd36d10d",
+            "probability_key": "probabilities",
+            "sign": 1
+          },
+          {
+            "sha256": "c839c5c80bc347bfbcd3043d97047c0b994e5186a99a8fc02c6998eb69552d7b",
+            "probability_key": "probabilities",
+            "sign": -1
+          }
+        ]
+      },
+      {
+        "seed": 2026111603,
+        "terms": [
+          {
+            "sha256": "09c33a7ffeffa0ed1ac6ece2a3c601ef84fd04fd85a083c68e867480918d4b2f",
+            "probability_key": "probabilities",
+            "sign": 1
+          },
+          {
+            "sha256": "265c2312acda4ebfffa52f364b6e6774a3e5675976ecee97d0e7e7b08bca204b",
+            "probability_key": "probabilities",
+            "sign": -1
+          }
+        ]
+      }
+    ],
+    "expected": {
+      "variance": 1.2828247082333319e-05,
+      "se": 0.0035816542382442946,
+      "lo": -0.004193598515404018,
+      "hi": 0.01633114443861894
+    },
+    "estimate": 0.00606877296160746
+  },
+  {
+    "task": "E",
+    "family": "MLP12",
+    "comparison": "Full-Q21select",
+    "family_size": 12,
+    "dependency_sha": "d3c113db717a79ccc9ca78c9eac7e729438bc94050534f1169e4701702667700",
+    "seeds": [
+      {
+        "seed": 2026111601,
+        "terms": [
+          {
+            "sha256": "092a4988372624864ae0e4e14048601ca0751aa44e0da5595b9340946877682a",
+            "probability_key": "probabilities",
+            "sign": 1
+          },
+          {
+            "sha256": "59e5533379073b9fe67fecffb008afa14cecd912b5439c36c994fbb5050825a9",
+            "probability_key": "probabilities",
+            "sign": -1
+          }
+        ]
+      },
+      {
+        "seed": 2026111602,
+        "terms": [
+          {
+            "sha256": "b7a5b8f7e55afa111f3fb9373499f787d63834076ff1963b862ea428bd36d10d",
+            "probability_key": "probabilities",
+            "sign": 1
+          },
+          {
+            "sha256": "9198e296f06222bd6d33f1e09444a0a0fd032b528a8deb82668ce9835efcd135",
+            "probability_key": "probabilities",
+            "sign": -1
+          }
+        ]
+      },
+      {
+        "seed": 2026111603,
+        "terms": [
+          {
+            "sha256": "09c33a7ffeffa0ed1ac6ece2a3c601ef84fd04fd85a083c68e867480918d4b2f",
+            "probability_key": "probabilities",
+            "sign": 1
+          },
+          {
+            "sha256": "4180d2c7cd1d033a41cda49b9cfbbcf6296e846550f9ec2a1acbb92db50374a0",
+            "probability_key": "probabilities",
+            "sign": -1
+          }
+        ]
+      }
+    ],
+    "expected": {
+      "variance": 8.96283994537904e-06,
+      "se": 0.0029938002514160894,
+      "lo": -0.003838264324865397,
+      "hi": 0.01331776932011466
+    },
+    "estimate": 0.0047397524976246315
+  },
+  {
+    "task": "E",
+    "family": "AGG12",
+    "comparison": "Full-Top32",
+    "family_size": 12,
+    "dependency_sha": "d3c113db717a79ccc9ca78c9eac7e729438bc94050534f1169e4701702667700",
+    "seeds": [
+      {
+        "seed": 2026111601,
+        "terms": [
+          {
+            "sha256": "092a4988372624864ae0e4e14048601ca0751aa44e0da5595b9340946877682a",
+            "probability_key": "probabilities",
+            "sign": 1
+          },
+          {
+            "sha256": "9ca8d9d3b637ca5b5606cd4cea95d8f455d3adf1d057818c9eb93621a0d836cd",
+            "probability_key": "probabilities",
+            "sign": -1
+          }
+        ]
+      },
+      {
+        "seed": 2026111602,
+        "terms": [
+          {
+            "sha256": "b7a5b8f7e55afa111f3fb9373499f787d63834076ff1963b862ea428bd36d10d",
+            "probability_key": "probabilities",
+            "sign": 1
+          },
+          {
+            "sha256": "127d3b9678e3de0bf30faa3fa363582f3e3dae156b5cea1c3ea8f110583ce8c7",
+            "probability_key": "probabilities",
+            "sign": -1
+          }
+        ]
+      },
+      {
+        "seed": 2026111603,
+        "terms": [
+          {
+            "sha256": "09c33a7ffeffa0ed1ac6ece2a3c601ef84fd04fd85a083c68e867480918d4b2f",
+            "probability_key": "probabilities",
+            "sign": 1
+          },
+          {
+            "sha256": "47925d6dfd37cc1512548421d31f6da73eebb6017982496a29fd562a252c1acd",
+            "probability_key": "probabilities",
+            "sign": -1
+          }
+        ]
+      }
+    ],
+    "expected": {
+      "variance": 1.4369350613827543e-07,
+      "se": 0.000379069262982737,
+      "lo": -0.0012054603239593134,
+      "hi": 0.0009668038497889214
+    },
+    "estimate": -0.00011932823708519595
+  },
+  {
+    "task": "E",
+    "family": "AGG12",
+    "comparison": "Top32-SetTop32",
+    "family_size": 12,
+    "dependency_sha": "d3c113db717a79ccc9ca78c9eac7e729438bc94050534f1169e4701702667700",
+    "seeds": [
+      {
+        "seed": 2026111601,
+        "terms": [
+          {
+            "sha256": "9ca8d9d3b637ca5b5606cd4cea95d8f455d3adf1d057818c9eb93621a0d836cd",
+            "probability_key": "probabilities",
+            "sign": 1
+          },
+          {
+            "sha256": "1e42d3b1ef8d8384abad4dcd08b9f844c66ba3247f4d9a6fcc2adb930bc0af89",
+            "probability_key": "probabilities",
+            "sign": -1
+          }
+        ]
+      },
+      {
+        "seed": 2026111602,
+        "terms": [
+          {
+            "sha256": "127d3b9678e3de0bf30faa3fa363582f3e3dae156b5cea1c3ea8f110583ce8c7",
+            "probability_key": "probabilities",
+            "sign": 1
+          },
+          {
+            "sha256": "3ae39ee5278289889f9d95aac3c222cd8209cd311b92d13a20000fa61114b8dc",
+            "probability_key": "probabilities",
+            "sign": -1
+          }
+        ]
+      },
+      {
+        "seed": 2026111603,
+        "terms": [
+          {
+            "sha256": "47925d6dfd37cc1512548421d31f6da73eebb6017982496a29fd562a252c1acd",
+            "probability_key": "probabilities",
+            "sign": 1
+          },
+          {
+            "sha256": "40a7120c48367b4ac7e090b943a8ab7876b5b9cd9338a0101c564e80efe4a190",
+            "probability_key": "probabilities",
+            "sign": -1
+          }
+        ]
+      }
+    ],
+    "expected": {
+      "variance": 3.301099191737175e-05,
+      "se": 0.005745519290488176,
+      "lo": 0.009700929520152609,
+      "hi": 0.042625745465662876
+    },
+    "estimate": 0.02616333749290774
+  },
+  {
+    "task": "E",
+    "family": "AGG12",
+    "comparison": "Top32-AttentionTop32",
+    "family_size": 12,
+    "dependency_sha": "d3c113db717a79ccc9ca78c9eac7e729438bc94050534f1169e4701702667700",
+    "seeds": [
+      {
+        "seed": 2026111601,
+        "terms": [
+          {
+            "sha256": "9ca8d9d3b637ca5b5606cd4cea95d8f455d3adf1d057818c9eb93621a0d836cd",
+            "probability_key": "probabilities",
+            "sign": 1
+          },
+          {
+            "sha256": "03261fa0a730df2d06b4ae7e7cc7c2f9ab87688e5e56f2a7ece201651c1bc51c",
+            "probability_key": "probabilities",
+            "sign": -1
+          }
+        ]
+      },
+      {
+        "seed": 2026111602,
+        "terms": [
+          {
+            "sha256": "127d3b9678e3de0bf30faa3fa363582f3e3dae156b5cea1c3ea8f110583ce8c7",
+            "probability_key": "probabilities",
+            "sign": 1
+          },
+          {
+            "sha256": "ed33f509b5480088b08d064b5aa88c5905eb641bdb344be77d93f16761ef87e0",
+            "probability_key": "probabilities",
+            "sign": -1
+          }
+        ]
+      },
+      {
+        "seed": 2026111603,
+        "terms": [
+          {
+            "sha256": "47925d6dfd37cc1512548421d31f6da73eebb6017982496a29fd562a252c1acd",
+            "probability_key": "probabilities",
+            "sign": 1
+          },
+          {
+            "sha256": "73106dba068da0efba976da21ee82fbd34b643617fa12042f234efcdd1a3bc81",
+            "probability_key": "probabilities",
+            "sign": -1
+          }
+        ]
+      }
+    ],
+    "expected": {
+      "variance": 3.1726958175687333e-05,
+      "se": 0.005632668832417483,
+      "lo": 0.010621465977782255,
+      "hi": 0.042899590062472334
+    },
+    "estimate": 0.026760528020127294
+  },
+  {
+    "task": "E",
+    "family": "R1six",
+    "comparison": "D-A",
+    "family_size": 6,
+    "dependency_sha": "d3c113db717a79ccc9ca78c9eac7e729438bc94050534f1169e4701702667700",
+    "seeds": [
+      {
+        "seed": "fixed",
+        "terms": [
+          {
+            "sha256": "01d71b318d9fffda05859058cbb86adfc7e14dfedaf31f83cb27209c0ad9eb6a",
+            "probability_key": "D",
+            "sign": 1
+          },
+          {
+            "sha256": "01d71b318d9fffda05859058cbb86adfc7e14dfedaf31f83cb27209c0ad9eb6a",
+            "probability_key": "A",
+            "sign": -1
+          }
+        ]
+      }
+    ],
+    "expected": {
+      "variance": 0.00011705513403068286,
+      "se": 0.01081920209769107,
+      "lo": 0.06302788056985306,
+      "hi": 0.12011555782474984
+    },
+    "estimate": 0.09157171919730145
+  },
+  {
+    "task": "E",
+    "family": "R1six",
+    "comparison": "D-C-mean",
+    "family_size": 6,
+    "dependency_sha": "d3c113db717a79ccc9ca78c9eac7e729438bc94050534f1169e4701702667700",
+    "seeds": [
+      {
+        "seed": "fixed",
+        "terms": [
+          {
+            "sha256": "01d71b318d9fffda05859058cbb86adfc7e14dfedaf31f83cb27209c0ad9eb6a",
+            "probability_key": "D",
+            "sign": 1
+          },
+          {
+            "sha256": "01d71b318d9fffda05859058cbb86adfc7e14dfedaf31f83cb27209c0ad9eb6a",
+            "probability_key": "C-mean",
+            "sign": -1
+          }
+        ]
+      }
+    ],
+    "expected": {
+      "variance": 0.00011288455250389624,
+      "se": 0.01062471423163448,
+      "lo": 0.06409739555635592,
+      "hi": 0.12015885475679915
+    },
+    "estimate": 0.09212812515657753
+  },
+  {
+    "task": "C",
+    "family": "main12",
+    "comparison": "ABR-AB",
+    "family_size": 12,
+    "dependency_sha": "366b868db8cdefd51bc8e5813438aff557a72d8508fa0a062bdb4a6fb788f613",
+    "seeds": [
+      {
+        "seed": 2026111601,
+        "terms": [
+          {
+            "sha256": "5b629a8e78da7f9cf211990f44eec293d7b1e65c2e22fe0d43693eb9cb97c256",
+            "probability_key": "ABR",
+            "sign": 1
+          },
+          {
+            "sha256": "5b629a8e78da7f9cf211990f44eec293d7b1e65c2e22fe0d43693eb9cb97c256",
+            "probability_key": "AB",
+            "sign": -1
+          }
+        ]
+      },
+      {
+        "seed": 2026111602,
+        "terms": [
+          {
+            "sha256": "8a7ffedf21d2f1c602769d1d2c6ade21a2910a095444585e0691393d0fea664c",
+            "probability_key": "ABR",
+            "sign": 1
+          },
+          {
+            "sha256": "8a7ffedf21d2f1c602769d1d2c6ade21a2910a095444585e0691393d0fea664c",
+            "probability_key": "AB",
+            "sign": -1
+          }
+        ]
+      },
+      {
+        "seed": 2026111603,
+        "terms": [
+          {
+            "sha256": "81718cde4d7dd8997a306d18c18f629591238cee18f28d05d6f1b2664051a0ed",
+            "probability_key": "ABR",
+            "sign": 1
+          },
+          {
+            "sha256": "81718cde4d7dd8997a306d18c18f629591238cee18f28d05d6f1b2664051a0ed",
+            "probability_key": "AB",
+            "sign": -1
+          }
+        ]
+      }
+    ],
+    "expected": {
+      "variance": 0.00020266479847855945,
+      "se": 0.014236038721447741,
+      "lo": 0.12172294216668861,
+      "hi": 0.20330285357222472
+    },
+    "estimate": 0.16251289786945666
+  },
+  {
+    "task": "C",
+    "family": "main12",
+    "comparison": "Full-ABR",
+    "family_size": 12,
+    "dependency_sha": "366b868db8cdefd51bc8e5813438aff557a72d8508fa0a062bdb4a6fb788f613",
+    "seeds": [
+      {
+        "seed": 2026111601,
+        "terms": [
+          {
+            "sha256": "5b629a8e78da7f9cf211990f44eec293d7b1e65c2e22fe0d43693eb9cb97c256",
+            "probability_key": "Full",
+            "sign": 1
+          },
+          {
+            "sha256": "5b629a8e78da7f9cf211990f44eec293d7b1e65c2e22fe0d43693eb9cb97c256",
+            "probability_key": "ABR",
+            "sign": -1
+          }
+        ]
+      },
+      {
+        "seed": 2026111602,
+        "terms": [
+          {
+            "sha256": "8a7ffedf21d2f1c602769d1d2c6ade21a2910a095444585e0691393d0fea664c",
+            "probability_key": "Full",
+            "sign": 1
+          },
+          {
+            "sha256": "8a7ffedf21d2f1c602769d1d2c6ade21a2910a095444585e0691393d0fea664c",
+            "probability_key": "ABR",
+            "sign": -1
+          }
+        ]
+      },
+      {
+        "seed": 2026111603,
+        "terms": [
+          {
+            "sha256": "81718cde4d7dd8997a306d18c18f629591238cee18f28d05d6f1b2664051a0ed",
+            "probability_key": "Full",
+            "sign": 1
+          },
+          {
+            "sha256": "81718cde4d7dd8997a306d18c18f629591238cee18f28d05d6f1b2664051a0ed",
+            "probability_key": "ABR",
+            "sign": -1
+          }
+        ]
+      }
+    ],
+    "expected": {
+      "variance": 3.0103721522334707e-05,
+      "se": 0.0054866858414105235,
+      "lo": 0.0007350509900165003,
+      "hi": 0.0321766165554381
+    },
+    "estimate": 0.016455833772727302
+  },
+  {
+    "task": "C",
+    "family": "main12",
+    "comparison": "Full-AB",
+    "family_size": 12,
+    "dependency_sha": "366b868db8cdefd51bc8e5813438aff557a72d8508fa0a062bdb4a6fb788f613",
+    "seeds": [
+      {
+        "seed": 2026111601,
+        "terms": [
+          {
+            "sha256": "5b629a8e78da7f9cf211990f44eec293d7b1e65c2e22fe0d43693eb9cb97c256",
+            "probability_key": "Full",
+            "sign": 1
+          },
+          {
+            "sha256": "5b629a8e78da7f9cf211990f44eec293d7b1e65c2e22fe0d43693eb9cb97c256",
+            "probability_key": "AB",
+            "sign": -1
+          }
+        ]
+      },
+      {
+        "seed": 2026111602,
+        "terms": [
+          {
+            "sha256": "8a7ffedf21d2f1c602769d1d2c6ade21a2910a095444585e0691393d0fea664c",
+            "probability_key": "Full",
+            "sign": 1
+          },
+          {
+            "sha256": "8a7ffedf21d2f1c602769d1d2c6ade21a2910a095444585e0691393d0fea664c",
+            "probability_key": "AB",
+            "sign": -1
+          }
+        ]
+      },
+      {
+        "seed": 2026111603,
+        "terms": [
+          {
+            "sha256": "81718cde4d7dd8997a306d18c18f629591238cee18f28d05d6f1b2664051a0ed",
+            "probability_key": "Full",
+            "sign": 1
+          },
+          {
+            "sha256": "81718cde4d7dd8997a306d18c18f629591238cee18f28d05d6f1b2664051a0ed",
+            "probability_key": "AB",
+            "sign": -1
+          }
+        ]
+      }
+    ],
+    "expected": {
+      "variance": 0.00023801682978267602,
+      "se": 0.015427794067288947,
+      "lo": 0.13476408673291898,
+      "hi": 0.22317337655144895
+    },
+    "estimate": 0.17896873164218396
+  },
+  {
+    "task": "C",
+    "family": "LR12",
+    "comparison": "QS48-Q24",
+    "family_size": 12,
+    "dependency_sha": "366b868db8cdefd51bc8e5813438aff557a72d8508fa0a062bdb4a6fb788f613",
+    "seeds": [
+      {
+        "seed": 0,
+        "terms": [
+          {
+            "sha256": "2b587755d968923a12120a41635db7c4f24034d62cfb9363ccafb6cc11c9be68",
+            "probability_key": "probabilities",
+            "sign": 1
+          },
+          {
+            "sha256": "7ab108125ef0744381f84b03a505776adc28542c1eca79a2771ed6dcd70d7f61",
+            "probability_key": "probabilities",
+            "sign": -1
+          }
+        ]
+      }
+    ],
+    "expected": {
+      "variance": 1.8022074545667434e-05,
+      "se": 0.004245241400164122,
+      "lo": -0.018270865993990103,
+      "hi": 0.00605657677973139
+    },
+    "estimate": -0.006107144607129356
+  },
+  {
+    "task": "C",
+    "family": "LR12",
+    "comparison": "QS48-S24",
+    "family_size": 12,
+    "dependency_sha": "366b868db8cdefd51bc8e5813438aff557a72d8508fa0a062bdb4a6fb788f613",
+    "seeds": [
+      {
+        "seed": 0,
+        "terms": [
+          {
+            "sha256": "2b587755d968923a12120a41635db7c4f24034d62cfb9363ccafb6cc11c9be68",
+            "probability_key": "probabilities",
+            "sign": 1
+          },
+          {
+            "sha256": "894cfb6f82ea7532452722535a81125b8e3ba94b4188c4818756db61964bbf50",
+            "probability_key": "probabilities",
+            "sign": -1
+          }
+        ]
+      }
+    ],
+    "expected": {
+      "variance": 1.0916062165504098e-05,
+      "se": 0.0033039464531835405,
+      "lo": -0.006082995230881912,
+      "hi": 0.012850337574210231
+    },
+    "estimate": 0.00338367117166416
+  },
+  {
+    "task": "C",
+    "family": "LR12",
+    "comparison": "Full-QS48",
+    "family_size": 12,
+    "dependency_sha": "366b868db8cdefd51bc8e5813438aff557a72d8508fa0a062bdb4a6fb788f613",
+    "seeds": [
+      {
+        "seed": 0,
+        "terms": [
+          {
+            "sha256": "aa206b8ff2e8a5fa4f4f70e32efbe8677f45dd6c64ed21f82bc06047211029cc",
+            "probability_key": "probabilities",
+            "sign": 1
+          },
+          {
+            "sha256": "2b587755d968923a12120a41635db7c4f24034d62cfb9363ccafb6cc11c9be68",
+            "probability_key": "probabilities",
+            "sign": -1
+          }
+        ]
+      }
+    ],
+    "expected": {
+      "variance": 1.7075819988636597e-05,
+      "se": 0.004132289920690052,
+      "lo": 0.005196208038228987,
+      "hi": 0.028876380045909613
+    },
+    "estimate": 0.0170362940420693
+  },
+  {
+    "task": "C",
+    "family": "MLP12",
+    "comparison": "QS48-Q24",
+    "family_size": 12,
+    "dependency_sha": "366b868db8cdefd51bc8e5813438aff557a72d8508fa0a062bdb4a6fb788f613",
+    "seeds": [
+      {
+        "seed": 2026111601,
+        "terms": [
+          {
+            "sha256": "38a1a07b0aa7e8f19a70d31bebec5e3508bfb2e2d5dc54e731f357237c0d445b",
+            "probability_key": "probabilities",
+            "sign": 1
+          },
+          {
+            "sha256": "27a9020a49f88e93c2cf6e8d9ca5a664d338901a4c138fb5ebbd7c8bbfe777c8",
+            "probability_key": "probabilities",
+            "sign": -1
+          }
+        ]
+      },
+      {
+        "seed": 2026111602,
+        "terms": [
+          {
+            "sha256": "38a52777e39ad46f32e0de9fae7c9d7b94d64c95136c521ad7d28b9d32a228a2",
+            "probability_key": "probabilities",
+            "sign": 1
+          },
+          {
+            "sha256": "68ea9300ff40da60adfe7a06ff1c3d8ddfa6a7753b4389f6c019f011e79dbc67",
+            "probability_key": "probabilities",
+            "sign": -1
+          }
+        ]
+      },
+      {
+        "seed": 2026111603,
+        "terms": [
+          {
+            "sha256": "78eb61850c81e380968f955886345b26dd1770c60f4d1e20eb8cb336ed325057",
+            "probability_key": "probabilities",
+            "sign": 1
+          },
+          {
+            "sha256": "68c4346b8c01c7042c9577dfc90d88318f680ebb203a2795b77c677c0e854c8b",
+            "probability_key": "probabilities",
+            "sign": -1
+          }
+        ]
+      }
+    ],
+    "expected": {
+      "variance": 1.674228860435143e-05,
+      "se": 0.004091734180558584,
+      "lo": -0.00012557964846134778,
+      "hi": 0.023322186859933407
+    },
+    "estimate": 0.01159830360573603
+  },
+  {
+    "task": "C",
+    "family": "MLP12",
+    "comparison": "Full-QS48",
+    "family_size": 12,
+    "dependency_sha": "366b868db8cdefd51bc8e5813438aff557a72d8508fa0a062bdb4a6fb788f613",
+    "seeds": [
+      {
+        "seed": 2026111601,
+        "terms": [
+          {
+            "sha256": "00518d59b8c8050cc5bd4e6b242d2b64bfbe48ea3f571d9b5f9df1bbfee70628",
+            "probability_key": "probabilities",
+            "sign": 1
+          },
+          {
+            "sha256": "38a1a07b0aa7e8f19a70d31bebec5e3508bfb2e2d5dc54e731f357237c0d445b",
+            "probability_key": "probabilities",
+            "sign": -1
+          }
+        ]
+      },
+      {
+        "seed": 2026111602,
+        "terms": [
+          {
+            "sha256": "8b40a4bcb1492ecfefa90a0f97444350dfac0e75e0e606fb6ae5625e7dcb1391",
+            "probability_key": "probabilities",
+            "sign": 1
+          },
+          {
+            "sha256": "38a52777e39ad46f32e0de9fae7c9d7b94d64c95136c521ad7d28b9d32a228a2",
+            "probability_key": "probabilities",
+            "sign": -1
+          }
+        ]
+      },
+      {
+        "seed": 2026111603,
+        "terms": [
+          {
+            "sha256": "7fedbdc72f8551bc217975f51f30370e2a3cc8f0b37d953d23599ad201c28882",
+            "probability_key": "probabilities",
+            "sign": 1
+          },
+          {
+            "sha256": "78eb61850c81e380968f955886345b26dd1770c60f4d1e20eb8cb336ed325057",
+            "probability_key": "probabilities",
+            "sign": -1
+          }
+        ]
+      }
+    ],
+    "expected": {
+      "variance": 8.471180607771456e-06,
+      "se": 0.0029105292659190795,
+      "lo": -0.007970323413899619,
+      "hi": 0.008708524143544503
+    },
+    "estimate": 0.00036910036482244263
+  },
+  {
+    "task": "C",
+    "family": "MLP12",
+    "comparison": "Full-Q21select",
+    "family_size": 12,
+    "dependency_sha": "366b868db8cdefd51bc8e5813438aff557a72d8508fa0a062bdb4a6fb788f613",
+    "seeds": [
+      {
+        "seed": 2026111601,
+        "terms": [
+          {
+            "sha256": "00518d59b8c8050cc5bd4e6b242d2b64bfbe48ea3f571d9b5f9df1bbfee70628",
+            "probability_key": "probabilities",
+            "sign": 1
+          },
+          {
+            "sha256": "43f1391ec7828d1b38cb90be0fa9aa04a037771623e2abed749682e48cb12b72",
+            "probability_key": "probabilities",
+            "sign": -1
+          }
+        ]
+      },
+      {
+        "seed": 2026111602,
+        "terms": [
+          {
+            "sha256": "8b40a4bcb1492ecfefa90a0f97444350dfac0e75e0e606fb6ae5625e7dcb1391",
+            "probability_key": "probabilities",
+            "sign": 1
+          },
+          {
+            "sha256": "eb8b8c5f6bd4f4811e97019c115f09134da6ed4cb089012ac7e7a03f059505ef",
+            "probability_key": "probabilities",
+            "sign": -1
+          }
+        ]
+      },
+      {
+        "seed": 2026111603,
+        "terms": [
+          {
+            "sha256": "7fedbdc72f8551bc217975f51f30370e2a3cc8f0b37d953d23599ad201c28882",
+            "probability_key": "probabilities",
+            "sign": 1
+          },
+          {
+            "sha256": "765f7a55af67607ef35f836d50e247c58de72928be7bed8afed58d9f80b2b9f3",
+            "probability_key": "probabilities",
+            "sign": -1
+          }
+        ]
+      }
+    ],
+    "expected": {
+      "variance": 1.0217233081192165e-05,
+      "se": 0.003196440689453218,
+      "lo": -0.006514880408520383,
+      "hi": 0.011802388416112712
+    },
+    "estimate": 0.002643754003796165
+  },
+  {
+    "task": "C",
+    "family": "AGG12",
+    "comparison": "Full-Top32",
+    "family_size": 12,
+    "dependency_sha": "366b868db8cdefd51bc8e5813438aff557a72d8508fa0a062bdb4a6fb788f613",
+    "seeds": [
+      {
+        "seed": 2026111601,
+        "terms": [
+          {
+            "sha256": "00518d59b8c8050cc5bd4e6b242d2b64bfbe48ea3f571d9b5f9df1bbfee70628",
+            "probability_key": "probabilities",
+            "sign": 1
+          },
+          {
+            "sha256": "f609c93d6f86eebe66ae38996309319158aebe6a40405bf593b806a4b6825f08",
+            "probability_key": "probabilities",
+            "sign": -1
+          }
+        ]
+      },
+      {
+        "seed": 2026111602,
+        "terms": [
+          {
+            "sha256": "8b40a4bcb1492ecfefa90a0f97444350dfac0e75e0e606fb6ae5625e7dcb1391",
+            "probability_key": "probabilities",
+            "sign": 1
+          },
+          {
+            "sha256": "9980d358e84613ab641e41eb4afe4ed88878d78443c6b02bfb3b925c16b28274",
+            "probability_key": "probabilities",
+            "sign": -1
+          }
+        ]
+      },
+      {
+        "seed": 2026111603,
+        "terms": [
+          {
+            "sha256": "7fedbdc72f8551bc217975f51f30370e2a3cc8f0b37d953d23599ad201c28882",
+            "probability_key": "probabilities",
+            "sign": 1
+          },
+          {
+            "sha256": "75f97f3ae6eb52048cdd0fc242a531486f87bb57813b56e29b42b55c174a439e",
+            "probability_key": "probabilities",
+            "sign": -1
+          }
+        ]
+      }
+    ],
+    "expected": {
+      "variance": 8.772128912881595e-07,
+      "se": 0.0009365964399292576,
+      "lo": -0.002088836869234989,
+      "hi": 0.003278348208525117
+    },
+    "estimate": 0.000594755669645064
+  },
+  {
+    "task": "C",
+    "family": "AGG12",
+    "comparison": "Top32-SetTop32",
+    "family_size": 12,
+    "dependency_sha": "366b868db8cdefd51bc8e5813438aff557a72d8508fa0a062bdb4a6fb788f613",
+    "seeds": [
+      {
+        "seed": 2026111601,
+        "terms": [
+          {
+            "sha256": "f609c93d6f86eebe66ae38996309319158aebe6a40405bf593b806a4b6825f08",
+            "probability_key": "probabilities",
+            "sign": 1
+          },
+          {
+            "sha256": "48215ab881527c2b04a322f9573219ab80a7cfdd7a9ecd117d73714b71b67aab",
+            "probability_key": "probabilities",
+            "sign": -1
+          }
+        ]
+      },
+      {
+        "seed": 2026111602,
+        "terms": [
+          {
+            "sha256": "9980d358e84613ab641e41eb4afe4ed88878d78443c6b02bfb3b925c16b28274",
+            "probability_key": "probabilities",
+            "sign": 1
+          },
+          {
+            "sha256": "fba56aded926c20ef0a8fa249639a17df88621357998b2201f19d88d958c7435",
+            "probability_key": "probabilities",
+            "sign": -1
+          }
+        ]
+      },
+      {
+        "seed": 2026111603,
+        "terms": [
+          {
+            "sha256": "75f97f3ae6eb52048cdd0fc242a531486f87bb57813b56e29b42b55c174a439e",
+            "probability_key": "probabilities",
+            "sign": 1
+          },
+          {
+            "sha256": "11051206e688b1149b5fde34e46d15d2a1df8c6f409336892e482f36feb55e5b",
+            "probability_key": "probabilities",
+            "sign": -1
+          }
+        ]
+      }
+    ],
+    "expected": {
+      "variance": 2.566030691037663e-05,
+      "se": 0.005065600350439879,
+      "lo": -0.002414863867615167,
+      "hi": 0.0266136626692045
+    },
+    "estimate": 0.012099399400794667
+  },
+  {
+    "task": "C",
+    "family": "AGG12",
+    "comparison": "Top32-AttentionTop32",
+    "family_size": 12,
+    "dependency_sha": "366b868db8cdefd51bc8e5813438aff557a72d8508fa0a062bdb4a6fb788f613",
+    "seeds": [
+      {
+        "seed": 2026111601,
+        "terms": [
+          {
+            "sha256": "f609c93d6f86eebe66ae38996309319158aebe6a40405bf593b806a4b6825f08",
+            "probability_key": "probabilities",
+            "sign": 1
+          },
+          {
+            "sha256": "8fbd841baa1d2e1a941b7d53abe510cc65b49128b501f8294a3b237876689d68",
+            "probability_key": "probabilities",
+            "sign": -1
+          }
+        ]
+      },
+      {
+        "seed": 2026111602,
+        "terms": [
+          {
+            "sha256": "9980d358e84613ab641e41eb4afe4ed88878d78443c6b02bfb3b925c16b28274",
+            "probability_key": "probabilities",
+            "sign": 1
+          },
+          {
+            "sha256": "33989bf5f0bf6da504059ece2ae271512f27fdc756e04b1b87521f0fb228e9f3",
+            "probability_key": "probabilities",
+            "sign": -1
+          }
+        ]
+      },
+      {
+        "seed": 2026111603,
+        "terms": [
+          {
+            "sha256": "75f97f3ae6eb52048cdd0fc242a531486f87bb57813b56e29b42b55c174a439e",
+            "probability_key": "probabilities",
+            "sign": 1
+          },
+          {
+            "sha256": "0777674fac8877c42ad438335411bc20a74f95285dcd992c08298a33a24f42db",
+            "probability_key": "probabilities",
+            "sign": -1
+          }
+        ]
+      }
+    ],
+    "expected": {
+      "variance": 2.6376754508009296e-05,
+      "se": 0.005135830459430032,
+      "lo": -0.0037202288837006013,
+      "hi": 0.025710752730793592
+    },
+    "estimate": 0.010995261923546495
+  },
+  {
+    "task": "C",
+    "family": "R1six",
+    "comparison": "D-A",
+    "family_size": 6,
+    "dependency_sha": "366b868db8cdefd51bc8e5813438aff557a72d8508fa0a062bdb4a6fb788f613",
+    "seeds": [
+      {
+        "seed": "fixed",
+        "terms": [
+          {
+            "sha256": "41c31c150d5b9fe7614233920ee7548b7e4085ec44f10ae0edec44736d28fadf",
+            "probability_key": "D",
+            "sign": 1
+          },
+          {
+            "sha256": "41c31c150d5b9fe7614233920ee7548b7e4085ec44f10ae0edec44736d28fadf",
+            "probability_key": "A",
+            "sign": -1
+          }
+        ]
+      }
+    ],
+    "expected": {
+      "variance": 4.9604025157158706e-05,
+      "se": 0.007043012505821547,
+      "lo": 0.04147025757808254,
+      "hi": 0.07863281551942536
+    },
+    "estimate": 0.06005153654875395
+  },
+  {
+    "task": "C",
+    "family": "R1six",
+    "comparison": "D-C-mean",
+    "family_size": 6,
+    "dependency_sha": "366b868db8cdefd51bc8e5813438aff557a72d8508fa0a062bdb4a6fb788f613",
+    "seeds": [
+      {
+        "seed": "fixed",
+        "terms": [
+          {
+            "sha256": "41c31c150d5b9fe7614233920ee7548b7e4085ec44f10ae0edec44736d28fadf",
+            "probability_key": "D",
+            "sign": 1
+          },
+          {
+            "sha256": "41c31c150d5b9fe7614233920ee7548b7e4085ec44f10ae0edec44736d28fadf",
+            "probability_key": "C-mean",
+            "sign": -1
+          }
+        ]
+      }
+    ],
+    "expected": {
+      "variance": 6.0419074253107574e-05,
+      "se": 0.007772970748247261,
+      "lo": 0.04331809683445931,
+      "hi": 0.08433229006063003
+    },
+    "estimate": 0.06382519344754467
+  },
+  {
+    "task": "U",
+    "family": "main12",
+    "comparison": "ABR-AB",
+    "family_size": 12,
+    "dependency_sha": "60f06c4d65105bbf9137e026faa9b0b61777d6a9cf966dd7e2ee00d8eec1ac2d",
+    "seeds": [
+      {
+        "seed": 2026111601,
+        "terms": [
+          {
+            "sha256": "cc7f377d44c007e51db3459c1e3af53b952a6bc037da26ca4e07a8fed978f5ed",
+            "probability_key": "ABR",
+            "sign": 1
+          },
+          {
+            "sha256": "cc7f377d44c007e51db3459c1e3af53b952a6bc037da26ca4e07a8fed978f5ed",
+            "probability_key": "AB",
+            "sign": -1
+          }
+        ]
+      },
+      {
+        "seed": 2026111602,
+        "terms": [
+          {
+            "sha256": "27f0fa96fcbe7853474ce0196155d707fcd119832279c7ae674f1b388951e287",
+            "probability_key": "ABR",
+            "sign": 1
+          },
+          {
+            "sha256": "27f0fa96fcbe7853474ce0196155d707fcd119832279c7ae674f1b388951e287",
+            "probability_key": "AB",
+            "sign": -1
+          }
+        ]
+      },
+      {
+        "seed": 2026111603,
+        "terms": [
+          {
+            "sha256": "25cd42784a831fd6914279856be8a6d0dd1eab3807ca908bbed94d20b43bc277",
+            "probability_key": "ABR",
+            "sign": 1
+          },
+          {
+            "sha256": "25cd42784a831fd6914279856be8a6d0dd1eab3807ca908bbed94d20b43bc277",
+            "probability_key": "AB",
+            "sign": -1
+          }
+        ]
+      }
+    ],
+    "expected": {
+      "variance": 3.423154254660109e-05,
+      "se": 0.0058507728161842935,
+      "lo": 0.073812262926361,
+      "hi": 0.10734023635615608
+    },
+    "estimate": 0.09057624964125854
+  },
+  {
+    "task": "U",
+    "family": "main12",
+    "comparison": "Full-ABR",
+    "family_size": 12,
+    "dependency_sha": "60f06c4d65105bbf9137e026faa9b0b61777d6a9cf966dd7e2ee00d8eec1ac2d",
+    "seeds": [
+      {
+        "seed": 2026111601,
+        "terms": [
+          {
+            "sha256": "cc7f377d44c007e51db3459c1e3af53b952a6bc037da26ca4e07a8fed978f5ed",
+            "probability_key": "Full",
+            "sign": 1
+          },
+          {
+            "sha256": "cc7f377d44c007e51db3459c1e3af53b952a6bc037da26ca4e07a8fed978f5ed",
+            "probability_key": "ABR",
+            "sign": -1
+          }
+        ]
+      },
+      {
+        "seed": 2026111602,
+        "terms": [
+          {
+            "sha256": "27f0fa96fcbe7853474ce0196155d707fcd119832279c7ae674f1b388951e287",
+            "probability_key": "Full",
+            "sign": 1
+          },
+          {
+            "sha256": "27f0fa96fcbe7853474ce0196155d707fcd119832279c7ae674f1b388951e287",
+            "probability_key": "ABR",
+            "sign": -1
+          }
+        ]
+      },
+      {
+        "seed": 2026111603,
+        "terms": [
+          {
+            "sha256": "25cd42784a831fd6914279856be8a6d0dd1eab3807ca908bbed94d20b43bc277",
+            "probability_key": "Full",
+            "sign": 1
+          },
+          {
+            "sha256": "25cd42784a831fd6914279856be8a6d0dd1eab3807ca908bbed94d20b43bc277",
+            "probability_key": "ABR",
+            "sign": -1
+          }
+        ]
+      }
+    ],
+    "expected": {
+      "variance": 5.308706330280245e-06,
+      "se": 0.0023040630048417176,
+      "lo": 0.009938444313325592,
+      "hi": 0.023141924543017285
+    },
+    "estimate": 0.01654018442817144
+  },
+  {
+    "task": "U",
+    "family": "main12",
+    "comparison": "Full-AB",
+    "family_size": 12,
+    "dependency_sha": "60f06c4d65105bbf9137e026faa9b0b61777d6a9cf966dd7e2ee00d8eec1ac2d",
+    "seeds": [
+      {
+        "seed": 2026111601,
+        "terms": [
+          {
+            "sha256": "cc7f377d44c007e51db3459c1e3af53b952a6bc037da26ca4e07a8fed978f5ed",
+            "probability_key": "Full",
+            "sign": 1
+          },
+          {
+            "sha256": "cc7f377d44c007e51db3459c1e3af53b952a6bc037da26ca4e07a8fed978f5ed",
+            "probability_key": "AB",
+            "sign": -1
+          }
+        ]
+      },
+      {
+        "seed": 2026111602,
+        "terms": [
+          {
+            "sha256": "27f0fa96fcbe7853474ce0196155d707fcd119832279c7ae674f1b388951e287",
+            "probability_key": "Full",
+            "sign": 1
+          },
+          {
+            "sha256": "27f0fa96fcbe7853474ce0196155d707fcd119832279c7ae674f1b388951e287",
+            "probability_key": "AB",
+            "sign": -1
+          }
+        ]
+      },
+      {
+        "seed": 2026111603,
+        "terms": [
+          {
+            "sha256": "25cd42784a831fd6914279856be8a6d0dd1eab3807ca908bbed94d20b43bc277",
+            "probability_key": "Full",
+            "sign": 1
+          },
+          {
+            "sha256": "25cd42784a831fd6914279856be8a6d0dd1eab3807ca908bbed94d20b43bc277",
+            "probability_key": "AB",
+            "sign": -1
+          }
+        ]
+      }
+    ],
+    "expected": {
+      "variance": 4.1476252831570994e-05,
+      "se": 0.006440205961890582,
+      "lo": 0.0886635679988673,
+      "hi": 0.12556930013999268
+    },
+    "estimate": 0.10711643406942999
+  },
+  {
+    "task": "U",
+    "family": "LR12",
+    "comparison": "QS48-Q24",
+    "family_size": 12,
+    "dependency_sha": "60f06c4d65105bbf9137e026faa9b0b61777d6a9cf966dd7e2ee00d8eec1ac2d",
+    "seeds": [
+      {
+        "seed": 0,
+        "terms": [
+          {
+            "sha256": "9895b2f9a18b865c47438aa3db4df09de6b5a01900a21cd4cd84c47dce43924b",
+            "probability_key": "probabilities",
+            "sign": 1
+          },
+          {
+            "sha256": "64b960099c4c52495892c27207d4828ba92cb15fef96212e975b0dfc32632b96",
+            "probability_key": "probabilities",
+            "sign": -1
+          }
+        ]
+      }
+    ],
+    "expected": {
+      "variance": 3.177105598369238e-06,
+      "se": 0.0017824437153439762,
+      "lo": 0.003976601333099689,
+      "hi": 0.01419093154309286
+    },
+    "estimate": 0.009083766438096275
+  },
+  {
+    "task": "U",
+    "family": "LR12",
+    "comparison": "QS48-S24",
+    "family_size": 12,
+    "dependency_sha": "60f06c4d65105bbf9137e026faa9b0b61777d6a9cf966dd7e2ee00d8eec1ac2d",
+    "seeds": [
+      {
+        "seed": 0,
+        "terms": [
+          {
+            "sha256": "9895b2f9a18b865c47438aa3db4df09de6b5a01900a21cd4cd84c47dce43924b",
+            "probability_key": "probabilities",
+            "sign": 1
+          },
+          {
+            "sha256": "771fb3ed966c4575eef6fc6746e9816c84f92f73c407444eb69c5a2b4702c9dc",
+            "probability_key": "probabilities",
+            "sign": -1
+          }
+        ]
+      }
+    ],
+    "expected": {
+      "variance": 8.61189157558068e-06,
+      "se": 0.0029346024561396184,
+      "lo": 0.0025753591344408796,
+      "hi": 0.01939215860139206
+    },
+    "estimate": 0.010983758867916471
+  },
+  {
+    "task": "U",
+    "family": "LR12",
+    "comparison": "Full-QS48",
+    "family_size": 12,
+    "dependency_sha": "60f06c4d65105bbf9137e026faa9b0b61777d6a9cf966dd7e2ee00d8eec1ac2d",
+    "seeds": [
+      {
+        "seed": 0,
+        "terms": [
+          {
+            "sha256": "c2e386f0693c3daabc2c846ccfceeef9e3fd391b76d5e02370d74c99299df4b9",
+            "probability_key": "probabilities",
+            "sign": 1
+          },
+          {
+            "sha256": "9895b2f9a18b865c47438aa3db4df09de6b5a01900a21cd4cd84c47dce43924b",
+            "probability_key": "probabilities",
+            "sign": -1
+          }
+        ]
+      }
+    ],
+    "expected": {
+      "variance": 1.8333038419816154e-06,
+      "se": 0.0013539955103255015,
+      "lo": 0.0012784685602901307,
+      "hi": 0.009037567558063501
+    },
+    "estimate": 0.0051580180591768165
+  },
+  {
+    "task": "U",
+    "family": "MLP12",
+    "comparison": "QS48-Q24",
+    "family_size": 12,
+    "dependency_sha": "60f06c4d65105bbf9137e026faa9b0b61777d6a9cf966dd7e2ee00d8eec1ac2d",
+    "seeds": [
+      {
+        "seed": 2026111601,
+        "terms": [
+          {
+            "sha256": "0f28a7e641ebeef8e9729a8ee63be9f9f368df331e234a435a2cf2c03583284f",
+            "probability_key": "probabilities",
+            "sign": 1
+          },
+          {
+            "sha256": "35857f8f72602a928888721622fc129f30d9931dabf5cb76228107fea4f2f88f",
+            "probability_key": "probabilities",
+            "sign": -1
+          }
+        ]
+      },
+      {
+        "seed": 2026111602,
+        "terms": [
+          {
+            "sha256": "d07b7745e3f69fa7abaf079f14e0c9488a539718fd59830dca76f003472d8be7",
+            "probability_key": "probabilities",
+            "sign": 1
+          },
+          {
+            "sha256": "68f9f0f383cbf9cae679a5895f4875f16685c2500593b1cfbd84a39ac390c695",
+            "probability_key": "probabilities",
+            "sign": -1
+          }
+        ]
+      },
+      {
+        "seed": 2026111603,
+        "terms": [
+          {
+            "sha256": "097561d25774c204901ca174c0de47eaf2f094f7562a2d42d6edbccad134e732",
+            "probability_key": "probabilities",
+            "sign": 1
+          },
+          {
+            "sha256": "c50ded2e53f3919deac43d5348040ce0e9157ff32252c93ba27045b6e1e601ab",
+            "probability_key": "probabilities",
+            "sign": -1
+          }
+        ]
+      }
+    ],
+    "expected": {
+      "variance": 2.1827569641644458e-06,
+      "se": 0.0014774156369026443,
+      "lo": 0.0012208859363086414,
+      "hi": 0.009687246496714194
+    },
+    "estimate": 0.005454066216511418
+  },
+  {
+    "task": "U",
+    "family": "MLP12",
+    "comparison": "Full-QS48",
+    "family_size": 12,
+    "dependency_sha": "60f06c4d65105bbf9137e026faa9b0b61777d6a9cf966dd7e2ee00d8eec1ac2d",
+    "seeds": [
+      {
+        "seed": 2026111601,
+        "terms": [
+          {
+            "sha256": "c3ee24e8133b1c4a18ea64a80064263b412322c323dba8263eb27d6bcc39e4a1",
+            "probability_key": "probabilities",
+            "sign": 1
+          },
+          {
+            "sha256": "0f28a7e641ebeef8e9729a8ee63be9f9f368df331e234a435a2cf2c03583284f",
+            "probability_key": "probabilities",
+            "sign": -1
+          }
+        ]
+      },
+      {
+        "seed": 2026111602,
+        "terms": [
+          {
+            "sha256": "48fa3906a3e8d444148331e2d97e9ac014bad535f96c847d5f58cf6d2f1b4199",
+            "probability_key": "probabilities",
+            "sign": 1
+          },
+          {
+            "sha256": "d07b7745e3f69fa7abaf079f14e0c9488a539718fd59830dca76f003472d8be7",
+            "probability_key": "probabilities",
+            "sign": -1
+          }
+        ]
+      },
+      {
+        "seed": 2026111603,
+        "terms": [
+          {
+            "sha256": "2887b75f0fc5e8aaa0e38091b185a63754a8c527a0ceef422da6e037441cdfac",
+            "probability_key": "probabilities",
+            "sign": 1
+          },
+          {
+            "sha256": "097561d25774c204901ca174c0de47eaf2f094f7562a2d42d6edbccad134e732",
+            "probability_key": "probabilities",
+            "sign": -1
+          }
+        ]
+      }
+    ],
+    "expected": {
+      "variance": 1.019519756519683e-06,
+      "se": 0.0010097127098931077,
+      "lo": -0.0006550785584229636,
+      "hi": 0.005131100801571545
+    },
+    "estimate": 0.0022380111215742904
+  },
+  {
+    "task": "U",
+    "family": "MLP12",
+    "comparison": "Full-Q21select",
+    "family_size": 12,
+    "dependency_sha": "60f06c4d65105bbf9137e026faa9b0b61777d6a9cf966dd7e2ee00d8eec1ac2d",
+    "seeds": [
+      {
+        "seed": 2026111601,
+        "terms": [
+          {
+            "sha256": "c3ee24e8133b1c4a18ea64a80064263b412322c323dba8263eb27d6bcc39e4a1",
+            "probability_key": "probabilities",
+            "sign": 1
+          },
+          {
+            "sha256": "054daecdd96b234e9a8ee74f3903b36511204ace19a05ffdf1b4781afaf1a13e",
+            "probability_key": "probabilities",
+            "sign": -1
+          }
+        ]
+      },
+      {
+        "seed": 2026111602,
+        "terms": [
+          {
+            "sha256": "48fa3906a3e8d444148331e2d97e9ac014bad535f96c847d5f58cf6d2f1b4199",
+            "probability_key": "probabilities",
+            "sign": 1
+          },
+          {
+            "sha256": "9cca1f7ae0d6b4562b31d6c38ce2c7c6d995dad31cfa81f4622527abd2ab93fd",
+            "probability_key": "probabilities",
+            "sign": -1
+          }
+        ]
+      },
+      {
+        "seed": 2026111603,
+        "terms": [
+          {
+            "sha256": "2887b75f0fc5e8aaa0e38091b185a63754a8c527a0ceef422da6e037441cdfac",
+            "probability_key": "probabilities",
+            "sign": 1
+          },
+          {
+            "sha256": "6e6e879559639d986f4cffe57226676161c9bb8947c5abb93eae535c0cc8b020",
+            "probability_key": "probabilities",
+            "sign": -1
+          }
+        ]
+      }
+    ],
+    "expected": {
+      "variance": 1.1940555519774486e-06,
+      "se": 0.0010927284895972324,
+      "lo": -0.0012867040252832718,
+      "hi": 0.004975198960225179
+    },
+    "estimate": 0.0018442474674709535
+  },
+  {
+    "task": "U",
+    "family": "AGG12",
+    "comparison": "Full-Top32",
+    "family_size": 12,
+    "dependency_sha": "60f06c4d65105bbf9137e026faa9b0b61777d6a9cf966dd7e2ee00d8eec1ac2d",
+    "seeds": [
+      {
+        "seed": 2026111601,
+        "terms": [
+          {
+            "sha256": "c3ee24e8133b1c4a18ea64a80064263b412322c323dba8263eb27d6bcc39e4a1",
+            "probability_key": "probabilities",
+            "sign": 1
+          },
+          {
+            "sha256": "b36a22bfa08e5d69fc404733afe590d45ae82c8d7cde945670d04cf3495558bd",
+            "probability_key": "probabilities",
+            "sign": -1
+          }
+        ]
+      },
+      {
+        "seed": 2026111602,
+        "terms": [
+          {
+            "sha256": "48fa3906a3e8d444148331e2d97e9ac014bad535f96c847d5f58cf6d2f1b4199",
+            "probability_key": "probabilities",
+            "sign": 1
+          },
+          {
+            "sha256": "b30e9ba11a008e7632dadc8ecb37121e1389b02727b45a353162fed197a13b69",
+            "probability_key": "probabilities",
+            "sign": -1
+          }
+        ]
+      },
+      {
+        "seed": 2026111603,
+        "terms": [
+          {
+            "sha256": "2887b75f0fc5e8aaa0e38091b185a63754a8c527a0ceef422da6e037441cdfac",
+            "probability_key": "probabilities",
+            "sign": 1
+          },
+          {
+            "sha256": "72b2d024894cd65f2e1c89b79fe9d8eb5a6085dd5f53608d19721ca5f04329b5",
+            "probability_key": "probabilities",
+            "sign": -1
+          }
+        ]
+      }
+    ],
+    "expected": {
+      "variance": 6.648190741318264e-07,
+      "se": 0.0008153643812013291,
+      "lo": -0.0013646298768950418,
+      "hi": 0.0033078324058480116
+    },
+    "estimate": 0.0009716012644764849
+  },
+  {
+    "task": "U",
+    "family": "AGG12",
+    "comparison": "Top32-SetTop32",
+    "family_size": 12,
+    "dependency_sha": "60f06c4d65105bbf9137e026faa9b0b61777d6a9cf966dd7e2ee00d8eec1ac2d",
+    "seeds": [
+      {
+        "seed": 2026111601,
+        "terms": [
+          {
+            "sha256": "b36a22bfa08e5d69fc404733afe590d45ae82c8d7cde945670d04cf3495558bd",
+            "probability_key": "probabilities",
+            "sign": 1
+          },
+          {
+            "sha256": "c4313c0dc7ce32b43b5707ea7f9b43eba31d5f02dd3c0c2abbd51095d01e1f1f",
+            "probability_key": "probabilities",
+            "sign": -1
+          }
+        ]
+      },
+      {
+        "seed": 2026111602,
+        "terms": [
+          {
+            "sha256": "b30e9ba11a008e7632dadc8ecb37121e1389b02727b45a353162fed197a13b69",
+            "probability_key": "probabilities",
+            "sign": 1
+          },
+          {
+            "sha256": "22581391d09d0cb813a0ec4283a1278307dc44b6368c64ea6b6a360143ad1afa",
+            "probability_key": "probabilities",
+            "sign": -1
+          }
+        ]
+      },
+      {
+        "seed": 2026111603,
+        "terms": [
+          {
+            "sha256": "72b2d024894cd65f2e1c89b79fe9d8eb5a6085dd5f53608d19721ca5f04329b5",
+            "probability_key": "probabilities",
+            "sign": 1
+          },
+          {
+            "sha256": "a65a3145cfa1642954a158d41e3d0ebc52f6b18cbdcd1040020b4da789fda7cb",
+            "probability_key": "probabilities",
+            "sign": -1
+          }
+        ]
+      }
+    ],
+    "expected": {
+      "variance": 3.223754477907588e-06,
+      "se": 0.0017954816840913717,
+      "lo": 5.73166827532931e-06,
+      "hi": 0.010294776225154774
+    },
+    "estimate": 0.0051502539467150514
+  },
+  {
+    "task": "U",
+    "family": "AGG12",
+    "comparison": "Top32-AttentionTop32",
+    "family_size": 12,
+    "dependency_sha": "60f06c4d65105bbf9137e026faa9b0b61777d6a9cf966dd7e2ee00d8eec1ac2d",
+    "seeds": [
+      {
+        "seed": 2026111601,
+        "terms": [
+          {
+            "sha256": "b36a22bfa08e5d69fc404733afe590d45ae82c8d7cde945670d04cf3495558bd",
+            "probability_key": "probabilities",
+            "sign": 1
+          },
+          {
+            "sha256": "deb37e074fde58c31b7fc5b69ce262cd3f14e1d5e2ded983984c2aeece721de0",
+            "probability_key": "probabilities",
+            "sign": -1
+          }
+        ]
+      },
+      {
+        "seed": 2026111602,
+        "terms": [
+          {
+            "sha256": "b30e9ba11a008e7632dadc8ecb37121e1389b02727b45a353162fed197a13b69",
+            "probability_key": "probabilities",
+            "sign": 1
+          },
+          {
+            "sha256": "1a05b60a5d78cb66db3a2571ada8616602fb58c6d860141adfb58d577184f7ae",
+            "probability_key": "probabilities",
+            "sign": -1
+          }
+        ]
+      },
+      {
+        "seed": 2026111603,
+        "terms": [
+          {
+            "sha256": "72b2d024894cd65f2e1c89b79fe9d8eb5a6085dd5f53608d19721ca5f04329b5",
+            "probability_key": "probabilities",
+            "sign": 1
+          },
+          {
+            "sha256": "fe2a8d6e612088aa4e08ced3a15f945241f032e372ee16c956159123c3af3dbe",
+            "probability_key": "probabilities",
+            "sign": -1
+          }
+        ]
+      }
+    ],
+    "expected": {
+      "variance": 2.5126171719694614e-06,
+      "se": 0.0015851237087273224,
+      "lo": -0.0004082590994263346,
+      "hi": 0.008675324772115646
+    },
+    "estimate": 0.0041335328363446555
+  },
+  {
+    "task": "U",
+    "family": "R1six",
+    "comparison": "D-A",
+    "family_size": 6,
+    "dependency_sha": "60f06c4d65105bbf9137e026faa9b0b61777d6a9cf966dd7e2ee00d8eec1ac2d",
+    "seeds": [
+      {
+        "seed": "fixed",
+        "terms": [
+          {
+            "sha256": "d6f36c04820ce2bbe927009b02524e8fa2012f89f3c8fb7ea35b3ad8e257fef2",
+            "probability_key": "D",
+            "sign": 1
+          },
+          {
+            "sha256": "d6f36c04820ce2bbe927009b02524e8fa2012f89f3c8fb7ea35b3ad8e257fef2",
+            "probability_key": "A",
+            "sign": -1
+          }
+        ]
+      }
+    ],
+    "expected": {
+      "variance": 4.358702825006854e-05,
+      "se": 0.0066020472771761134,
+      "lo": 0.07198676269028506,
+      "hi": 0.10682256118797959
+    },
+    "estimate": 0.08940466193913232
+  },
+  {
+    "task": "U",
+    "family": "R1six",
+    "comparison": "D-C-mean",
+    "family_size": 6,
+    "dependency_sha": "60f06c4d65105bbf9137e026faa9b0b61777d6a9cf966dd7e2ee00d8eec1ac2d",
+    "seeds": [
+      {
+        "seed": "fixed",
+        "terms": [
+          {
+            "sha256": "d6f36c04820ce2bbe927009b02524e8fa2012f89f3c8fb7ea35b3ad8e257fef2",
+            "probability_key": "D",
+            "sign": 1
+          },
+          {
+            "sha256": "d6f36c04820ce2bbe927009b02524e8fa2012f89f3c8fb7ea35b3ad8e257fef2",
+            "probability_key": "C-mean",
+            "sign": -1
+          }
+        ]
+      }
+    ],
+    "expected": {
+      "variance": 5.547814135191936e-05,
+      "se": 0.007448365011995543,
+      "lo": 0.07310201188234768,
+      "hi": 0.11240341821916165
+    },
+    "estimate": 0.09275271505075466
+  },
+  {
+    "task": "G",
+    "family": "main12",
+    "comparison": "ABR-AB",
+    "family_size": 12,
+    "dependency_sha": "539405ceb87aa9f2bd27bac0c76179f2fb3bf8ccf3ed2a227398bf375f141f5e",
+    "seeds": [
+      {
+        "seed": 2026111601,
+        "terms": [
+          {
+            "sha256": "d8ff66e65a3ff3902fafd0f789394174fbe917e2a43536a286c38b5563b279cd",
+            "probability_key": "ABR",
+            "sign": 1
+          },
+          {
+            "sha256": "d8ff66e65a3ff3902fafd0f789394174fbe917e2a43536a286c38b5563b279cd",
+            "probability_key": "AB",
+            "sign": -1
+          }
+        ]
+      },
+      {
+        "seed": 2026111602,
+        "terms": [
+          {
+            "sha256": "476c4e8cf99616f99be8d686873ef73ba3caf40d10573074c5f05d5f85696c43",
+            "probability_key": "ABR",
+            "sign": 1
+          },
+          {
+            "sha256": "476c4e8cf99616f99be8d686873ef73ba3caf40d10573074c5f05d5f85696c43",
+            "probability_key": "AB",
+            "sign": -1
+          }
+        ]
+      },
+      {
+        "seed": 2026111603,
+        "terms": [
+          {
+            "sha256": "f2d889a2db51de5e96ea4dbe703cb2d863a695959ddad0364fd0f9ec58af83a4",
+            "probability_key": "ABR",
+            "sign": 1
+          },
+          {
+            "sha256": "f2d889a2db51de5e96ea4dbe703cb2d863a695959ddad0364fd0f9ec58af83a4",
+            "probability_key": "AB",
+            "sign": -1
+          }
+        ]
+      }
+    ],
+    "expected": {
+      "variance": 0.000168255560909264,
+      "se": 0.01297133612660099,
+      "lo": 0.080806267910706,
+      "hi": 0.15513877519907648
+    },
+    "estimate": 0.11797252155489124
+  },
+  {
+    "task": "G",
+    "family": "main12",
+    "comparison": "Full-ABR",
+    "family_size": 12,
+    "dependency_sha": "539405ceb87aa9f2bd27bac0c76179f2fb3bf8ccf3ed2a227398bf375f141f5e",
+    "seeds": [
+      {
+        "seed": 2026111601,
+        "terms": [
+          {
+            "sha256": "d8ff66e65a3ff3902fafd0f789394174fbe917e2a43536a286c38b5563b279cd",
+            "probability_key": "Full",
+            "sign": 1
+          },
+          {
+            "sha256": "d8ff66e65a3ff3902fafd0f789394174fbe917e2a43536a286c38b5563b279cd",
+            "probability_key": "ABR",
+            "sign": -1
+          }
+        ]
+      },
+      {
+        "seed": 2026111602,
+        "terms": [
+          {
+            "sha256": "476c4e8cf99616f99be8d686873ef73ba3caf40d10573074c5f05d5f85696c43",
+            "probability_key": "Full",
+            "sign": 1
+          },
+          {
+            "sha256": "476c4e8cf99616f99be8d686873ef73ba3caf40d10573074c5f05d5f85696c43",
+            "probability_key": "ABR",
+            "sign": -1
+          }
+        ]
+      },
+      {
+        "seed": 2026111603,
+        "terms": [
+          {
+            "sha256": "f2d889a2db51de5e96ea4dbe703cb2d863a695959ddad0364fd0f9ec58af83a4",
+            "probability_key": "Full",
+            "sign": 1
+          },
+          {
+            "sha256": "f2d889a2db51de5e96ea4dbe703cb2d863a695959ddad0364fd0f9ec58af83a4",
+            "probability_key": "ABR",
+            "sign": -1
+          }
+        ]
+      }
+    ],
+    "expected": {
+      "variance": 3.4461024509321914e-05,
+      "se": 0.005870351310553902,
+      "lo": 0.010041757995010909,
+      "hi": 0.04368192638770112
+    },
+    "estimate": 0.02686184219135601
+  },
+  {
+    "task": "G",
+    "family": "main12",
+    "comparison": "Full-AB",
+    "family_size": 12,
+    "dependency_sha": "539405ceb87aa9f2bd27bac0c76179f2fb3bf8ccf3ed2a227398bf375f141f5e",
+    "seeds": [
+      {
+        "seed": 2026111601,
+        "terms": [
+          {
+            "sha256": "d8ff66e65a3ff3902fafd0f789394174fbe917e2a43536a286c38b5563b279cd",
+            "probability_key": "Full",
+            "sign": 1
+          },
+          {
+            "sha256": "d8ff66e65a3ff3902fafd0f789394174fbe917e2a43536a286c38b5563b279cd",
+            "probability_key": "AB",
+            "sign": -1
+          }
+        ]
+      },
+      {
+        "seed": 2026111602,
+        "terms": [
+          {
+            "sha256": "476c4e8cf99616f99be8d686873ef73ba3caf40d10573074c5f05d5f85696c43",
+            "probability_key": "Full",
+            "sign": 1
+          },
+          {
+            "sha256": "476c4e8cf99616f99be8d686873ef73ba3caf40d10573074c5f05d5f85696c43",
+            "probability_key": "AB",
+            "sign": -1
+          }
+        ]
+      },
+      {
+        "seed": 2026111603,
+        "terms": [
+          {
+            "sha256": "f2d889a2db51de5e96ea4dbe703cb2d863a695959ddad0364fd0f9ec58af83a4",
+            "probability_key": "Full",
+            "sign": 1
+          },
+          {
+            "sha256": "f2d889a2db51de5e96ea4dbe703cb2d863a695959ddad0364fd0f9ec58af83a4",
+            "probability_key": "AB",
+            "sign": -1
+          }
+        ]
+      }
+    ],
+    "expected": {
+      "variance": 0.00018451610804101032,
+      "se": 0.01358367063944832,
+      "lo": 0.1059136123697196,
+      "hi": 0.1837551151227749
+    },
+    "estimate": 0.14483436374624725
+  },
+  {
+    "task": "G",
+    "family": "LR12",
+    "comparison": "QS48-Q24",
+    "family_size": 12,
+    "dependency_sha": "539405ceb87aa9f2bd27bac0c76179f2fb3bf8ccf3ed2a227398bf375f141f5e",
+    "seeds": [
+      {
+        "seed": 0,
+        "terms": [
+          {
+            "sha256": "d91c3bd1120f432f6fab354ff1b193848a5a4f780de9c6436f4a129be244ceb3",
+            "probability_key": "probabilities",
+            "sign": 1
+          },
+          {
+            "sha256": "0df260b949694084181e179910708ca7ed5cd2e7d544af0d4e3873a66e6432b1",
+            "probability_key": "probabilities",
+            "sign": -1
+          }
+        ]
+      }
+    ],
+    "expected": {
+      "variance": 2.4695380595587178e-05,
+      "se": 0.0049694446969039885,
+      "lo": -0.004827409487292638,
+      "hi": 0.02365009510795411
+    },
+    "estimate": 0.009411342810330736
+  },
+  {
+    "task": "G",
+    "family": "LR12",
+    "comparison": "QS48-S24",
+    "family_size": 12,
+    "dependency_sha": "539405ceb87aa9f2bd27bac0c76179f2fb3bf8ccf3ed2a227398bf375f141f5e",
+    "seeds": [
+      {
+        "seed": 0,
+        "terms": [
+          {
+            "sha256": "d91c3bd1120f432f6fab354ff1b193848a5a4f780de9c6436f4a129be244ceb3",
+            "probability_key": "probabilities",
+            "sign": 1
+          },
+          {
+            "sha256": "9f701cc8dfaa1449c89ea0ed98d7e0a3c9c4f3b100cfc30bcc48ae194fc91e23",
+            "probability_key": "probabilities",
+            "sign": -1
+          }
+        ]
+      }
+    ],
+    "expected": {
+      "variance": 4.0406500458717984e-05,
+      "se": 0.006356610768225311,
+      "lo": -0.0085902516917861,
+      "hi": 0.02783643648025628
+    },
+    "estimate": 0.009623092394235089
+  },
+  {
+    "task": "G",
+    "family": "LR12",
+    "comparison": "Full-QS48",
+    "family_size": 12,
+    "dependency_sha": "539405ceb87aa9f2bd27bac0c76179f2fb3bf8ccf3ed2a227398bf375f141f5e",
+    "seeds": [
+      {
+        "seed": 0,
+        "terms": [
+          {
+            "sha256": "789d8e74da55166ef87992e66ea6749b5c95ba40178c6a5f5d15dd58df27ccee",
+            "probability_key": "probabilities",
+            "sign": 1
+          },
+          {
+            "sha256": "d91c3bd1120f432f6fab354ff1b193848a5a4f780de9c6436f4a129be244ceb3",
+            "probability_key": "probabilities",
+            "sign": -1
+          }
+        ]
+      }
+    ],
+    "expected": {
+      "variance": 2.040693364440698e-05,
+      "se": 0.004517403418381734,
+      "lo": -0.008131782224422431,
+      "hi": 0.017755290567774223
+    },
+    "estimate": 0.004811754171675897
+  },
+  {
+    "task": "G",
+    "family": "MLP12",
+    "comparison": "QS48-Q24",
+    "family_size": 12,
+    "dependency_sha": "539405ceb87aa9f2bd27bac0c76179f2fb3bf8ccf3ed2a227398bf375f141f5e",
+    "seeds": [
+      {
+        "seed": 2026111601,
+        "terms": [
+          {
+            "sha256": "9d8990f8f618165a869011c82c9d50852897e67ed729f6da818d90a4839aa72e",
+            "probability_key": "probabilities",
+            "sign": 1
+          },
+          {
+            "sha256": "f123e500f74b602b9ce557de6d05c4ec730dfd6f43ff320fb942b5f6c03529c3",
+            "probability_key": "probabilities",
+            "sign": -1
+          }
+        ]
+      },
+      {
+        "seed": 2026111602,
+        "terms": [
+          {
+            "sha256": "8de6dd77dac9fee36d0ae20e92c680cd9fbda92d56e5f5879b2b9c01f0f40f6a",
+            "probability_key": "probabilities",
+            "sign": 1
+          },
+          {
+            "sha256": "fc0dc15b758aadf29bfb3bd659b39277ff294f0420ab8827b12ec2ab55b88a2f",
+            "probability_key": "probabilities",
+            "sign": -1
+          }
+        ]
+      },
+      {
+        "seed": 2026111603,
+        "terms": [
+          {
+            "sha256": "aeab0ec37767e14ad384a602f14ca5ae814d3d6ebcb4ead95a106cd8106b97bb",
+            "probability_key": "probabilities",
+            "sign": 1
+          },
+          {
+            "sha256": "776e83261b85061976ef3c4bc5959dfa9a0e45449f645c750f263663764b82e8",
+            "probability_key": "probabilities",
+            "sign": -1
+          }
+        ]
+      }
+    ],
+    "expected": {
+      "variance": 1.7142864533636916e-05,
+      "se": 0.00414039424857548,
+      "lo": 0.0007847639248664603,
+      "hi": 0.024511377949447376
+    },
+    "estimate": 0.012648070937156919
+  },
+  {
+    "task": "G",
+    "family": "MLP12",
+    "comparison": "Full-QS48",
+    "family_size": 12,
+    "dependency_sha": "539405ceb87aa9f2bd27bac0c76179f2fb3bf8ccf3ed2a227398bf375f141f5e",
+    "seeds": [
+      {
+        "seed": 2026111601,
+        "terms": [
+          {
+            "sha256": "ac9ed0340b0ddf842965fadc872f622e75e35f4c0a7047ac6e40161b024fffb9",
+            "probability_key": "probabilities",
+            "sign": 1
+          },
+          {
+            "sha256": "9d8990f8f618165a869011c82c9d50852897e67ed729f6da818d90a4839aa72e",
+            "probability_key": "probabilities",
+            "sign": -1
+          }
+        ]
+      },
+      {
+        "seed": 2026111602,
+        "terms": [
+          {
+            "sha256": "4ff30b8c133721b1714921d22cb96f27cc9bf3f83ec0f5765a95fb5a02cd88c6",
+            "probability_key": "probabilities",
+            "sign": 1
+          },
+          {
+            "sha256": "8de6dd77dac9fee36d0ae20e92c680cd9fbda92d56e5f5879b2b9c01f0f40f6a",
+            "probability_key": "probabilities",
+            "sign": -1
+          }
+        ]
+      },
+      {
+        "seed": 2026111603,
+        "terms": [
+          {
+            "sha256": "adfa9c2afd2d5635746e3836c1dfe6a1cee5eb76cc25fbca9c7ec43dade697ee",
+            "probability_key": "probabilities",
+            "sign": 1
+          },
+          {
+            "sha256": "aeab0ec37767e14ad384a602f14ca5ae814d3d6ebcb4ead95a106cd8106b97bb",
+            "probability_key": "probabilities",
+            "sign": -1
+          }
+        ]
+      }
+    ],
+    "expected": {
+      "variance": 7.046998064473029e-06,
+      "se": 0.002654618252117059,
+      "lo": -0.012132989695463912,
+      "hi": 0.003079354557081454
+    },
+    "estimate": -0.004526817569191229
+  },
+  {
+    "task": "G",
+    "family": "MLP12",
+    "comparison": "Full-Q21select",
+    "family_size": 12,
+    "dependency_sha": "539405ceb87aa9f2bd27bac0c76179f2fb3bf8ccf3ed2a227398bf375f141f5e",
+    "seeds": [
+      {
+        "seed": 2026111601,
+        "terms": [
+          {
+            "sha256": "ac9ed0340b0ddf842965fadc872f622e75e35f4c0a7047ac6e40161b024fffb9",
+            "probability_key": "probabilities",
+            "sign": 1
+          },
+          {
+            "sha256": "7c3eb9160b53cd8ee5a303f519fec26437b9c9b028e2f546bfd8965f9b0b9bc4",
+            "probability_key": "probabilities",
+            "sign": -1
+          }
+        ]
+      },
+      {
+        "seed": 2026111602,
+        "terms": [
+          {
+            "sha256": "4ff30b8c133721b1714921d22cb96f27cc9bf3f83ec0f5765a95fb5a02cd88c6",
+            "probability_key": "probabilities",
+            "sign": 1
+          },
+          {
+            "sha256": "97f58c5866ad0826f8e17ed418a361d99071b1d600d255875e36bcd5d5e666cb",
+            "probability_key": "probabilities",
+            "sign": -1
+          }
+        ]
+      },
+      {
+        "seed": 2026111603,
+        "terms": [
+          {
+            "sha256": "adfa9c2afd2d5635746e3836c1dfe6a1cee5eb76cc25fbca9c7ec43dade697ee",
+            "probability_key": "probabilities",
+            "sign": 1
+          },
+          {
+            "sha256": "d95794eab73230c154a70afea777b0a1e6e2d0a0c17e46f31d66b5cfc9642973",
+            "probability_key": "probabilities",
+            "sign": -1
+          }
+        ]
+      }
+    ],
+    "expected": {
+      "variance": 1.2268007837731727e-05,
+      "se": 0.003502571603512443,
+      "lo": -0.008444666841624563,
+      "hi": 0.011626891454687325
+    },
+    "estimate": 0.00159111230653138
+  },
+  {
+    "task": "G",
+    "family": "AGG12",
+    "comparison": "Full-Top32",
+    "family_size": 12,
+    "dependency_sha": "539405ceb87aa9f2bd27bac0c76179f2fb3bf8ccf3ed2a227398bf375f141f5e",
+    "seeds": [
+      {
+        "seed": 2026111601,
+        "terms": [
+          {
+            "sha256": "ac9ed0340b0ddf842965fadc872f622e75e35f4c0a7047ac6e40161b024fffb9",
+            "probability_key": "probabilities",
+            "sign": 1
+          },
+          {
+            "sha256": "45508aa8540def696ef51b51c6582d0904d4ea5402f16cb3ace9054b17272bc8",
+            "probability_key": "probabilities",
+            "sign": -1
+          }
+        ]
+      },
+      {
+        "seed": 2026111602,
+        "terms": [
+          {
+            "sha256": "4ff30b8c133721b1714921d22cb96f27cc9bf3f83ec0f5765a95fb5a02cd88c6",
+            "probability_key": "probabilities",
+            "sign": 1
+          },
+          {
+            "sha256": "54e2338981c01ea9aa2dd3a80473cc1f498bc6e508568925219e618c7df4c939",
+            "probability_key": "probabilities",
+            "sign": -1
+          }
+        ]
+      },
+      {
+        "seed": 2026111603,
+        "terms": [
+          {
+            "sha256": "adfa9c2afd2d5635746e3836c1dfe6a1cee5eb76cc25fbca9c7ec43dade697ee",
+            "probability_key": "probabilities",
+            "sign": 1
+          },
+          {
+            "sha256": "1ff7f1c04666d5820500014ef17d76a23086d5e8a7ee41578c1f7e12861bf7e1",
+            "probability_key": "probabilities",
+            "sign": -1
+          }
+        ]
+      }
+    ],
+    "expected": {
+      "variance": 3.7126115992725948e-06,
+      "se": 0.0019268138465540969,
+      "lo": -0.005226021125624399,
+      "hi": 0.005815625077544824
+    },
+    "estimate": 0.00029480197596021274
+  },
+  {
+    "task": "G",
+    "family": "AGG12",
+    "comparison": "Top32-SetTop32",
+    "family_size": 12,
+    "dependency_sha": "539405ceb87aa9f2bd27bac0c76179f2fb3bf8ccf3ed2a227398bf375f141f5e",
+    "seeds": [
+      {
+        "seed": 2026111601,
+        "terms": [
+          {
+            "sha256": "45508aa8540def696ef51b51c6582d0904d4ea5402f16cb3ace9054b17272bc8",
+            "probability_key": "probabilities",
+            "sign": 1
+          },
+          {
+            "sha256": "1b69e8bf63866ab77072d1ecc0335117c98499a0b48645538b035cd312d53b5d",
+            "probability_key": "probabilities",
+            "sign": -1
+          }
+        ]
+      },
+      {
+        "seed": 2026111602,
+        "terms": [
+          {
+            "sha256": "54e2338981c01ea9aa2dd3a80473cc1f498bc6e508568925219e618c7df4c939",
+            "probability_key": "probabilities",
+            "sign": 1
+          },
+          {
+            "sha256": "139d61721ce9a5e6684bfe418b53f57fcad13aebadf2226eaba6aab691b7c234",
+            "probability_key": "probabilities",
+            "sign": -1
+          }
+        ]
+      },
+      {
+        "seed": 2026111603,
+        "terms": [
+          {
+            "sha256": "1ff7f1c04666d5820500014ef17d76a23086d5e8a7ee41578c1f7e12861bf7e1",
+            "probability_key": "probabilities",
+            "sign": 1
+          },
+          {
+            "sha256": "0a0af4603b550b596a8de4b56caf97fe3357c773db077d3ee22fe11c92b379f6",
+            "probability_key": "probabilities",
+            "sign": -1
+          }
+        ]
+      }
+    ],
+    "expected": {
+      "variance": 3.435727452616462e-05,
+      "se": 0.005861507871372742,
+      "lo": 0.005936691524104087,
+      "hi": 0.03952618240747898
+    },
+    "estimate": 0.022731436965791534
+  },
+  {
+    "task": "G",
+    "family": "AGG12",
+    "comparison": "Top32-AttentionTop32",
+    "family_size": 12,
+    "dependency_sha": "539405ceb87aa9f2bd27bac0c76179f2fb3bf8ccf3ed2a227398bf375f141f5e",
+    "seeds": [
+      {
+        "seed": 2026111601,
+        "terms": [
+          {
+            "sha256": "45508aa8540def696ef51b51c6582d0904d4ea5402f16cb3ace9054b17272bc8",
+            "probability_key": "probabilities",
+            "sign": 1
+          },
+          {
+            "sha256": "b6a17cfadb0ec7b85f4ececfc243d62d535052138895359d1c0181bfbe466085",
+            "probability_key": "probabilities",
+            "sign": -1
+          }
+        ]
+      },
+      {
+        "seed": 2026111602,
+        "terms": [
+          {
+            "sha256": "54e2338981c01ea9aa2dd3a80473cc1f498bc6e508568925219e618c7df4c939",
+            "probability_key": "probabilities",
+            "sign": 1
+          },
+          {
+            "sha256": "15745f11597b04801edca8eff5fb5a20889000cda5755abe8888ba3057ea7316",
+            "probability_key": "probabilities",
+            "sign": -1
+          }
+        ]
+      },
+      {
+        "seed": 2026111603,
+        "terms": [
+          {
+            "sha256": "1ff7f1c04666d5820500014ef17d76a23086d5e8a7ee41578c1f7e12861bf7e1",
+            "probability_key": "probabilities",
+            "sign": 1
+          },
+          {
+            "sha256": "6fce731ab6cd5fcec73bb2691513970cddb4609395d3833ff082de1cb8c51eb2",
+            "probability_key": "probabilities",
+            "sign": -1
+          }
+        ]
+      }
+    ],
+    "expected": {
+      "variance": 3.746446091759655e-05,
+      "se": 0.006120821915200323,
+      "lo": 0.006902923653287367,
+      "hi": 0.04197841897480656
+    },
+    "estimate": 0.024440671314046963
+  }
+]

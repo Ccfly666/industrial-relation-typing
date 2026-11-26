@@ -1,0 +1,138 @@
+{
+  "label_order": [
+    "=",
+    ">",
+    "<",
+    "~"
+  ],
+  "bench_doi": "10.5281/zenodo.17091043",
+  "source_archive_md5": "md5:3ad20fe713d112140dcae7af56f0e381",
+  "outer": {
+    "n": 5,
+    "seed": 20261010
+  },
+  "inner": {
+    "n": 3,
+    "seed": "20261020 + zero-based outer fold"
+  },
+  "exclusion": {
+    "key": "MS15|16|",
+    "block_size": 8,
+    "terminal": "keep remainder",
+    "build": "each fit scope independently"
+  },
+  "TFIDF": {
+    "analyzer": "char_wb",
+    "ngram_range": [
+      3,
+      5
+    ],
+    "max_features": 12000,
+    "sublinear_tf": true,
+    "norm": "l2",
+    "lowercase": true
+  },
+  "projection": {
+    "alpha": 0.5,
+    "rank": 64,
+    "initial_seed": 20261300,
+    "svd_iter": 7,
+    "oversamples": 10,
+    "outer": 4,
+    "steps": 10
+  },
+  "minilm": {
+    "repo": "sentence-transformers/all-MiniLM-L6-v2",
+    "revision": "1110a243fdf4706b3f48f1d95db1a4f5529b4d41",
+    "file": "model_quint8_avx2.onnx",
+    "max_length": 256,
+    "batch": 32,
+    "pooling": "masked mean then L2",
+    "runtime": "ONNX Runtime CPU"
+  },
+  "bert": {
+    "repo": "google-bert/bert-base-uncased",
+    "revision": "86b5e0934494bd15c9632b12f734a8a67f723594"
+  },
+  "taser": {
+    "archive": "10.6084/m9.figshare.21750338.v1",
+    "encoder_member": "TaSeR/pytorch_model.bin"
+  },
+  "evidence": {
+    "beta": [
+      1,
+      5,
+      10
+    ],
+    "Q28": [
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32,
+      33,
+      34,
+      35,
+      36,
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44,
+      45,
+      46,
+      47,
+      48,
+      49,
+      51,
+      52,
+      54
+    ],
+    "top32_ties": "stable fit-position order",
+    "sham_seed": "2026111600+7*outer+side",
+    "cap_seed": 2026111607,
+    "log_floor": 1e-30,
+    "q63_sd_floor": 1e-12,
+    "depth_cycle_handling": "Historical cycle policy unknown. New tool: root0 longest declared-parent DAG depth, cycles error. All current snapshots verified."
+  },
+  "mlp": {
+    "batch": 4096,
+    "lr": [
+      0.0003,
+      0.001
+    ],
+    "weight_decay": 0.001,
+    "epochs": 80,
+    "check_every": 5,
+    "dropout": 0.1,
+    "clip": 5,
+    "seeds": [
+      2026111601,
+      2026111602,
+      2026111603
+    ],
+    "selection": "mean of three inner raw Macro-F1; lower lr then earlier epoch; smaller beta if applicable"
+  },
+  "fallback": {
+    "C": 1,
+    "tol": 1e-06,
+    "max_iter": 3000,
+    "retry_max_iter": 10000,
+    "solver": "lbfgs",
+    "random_state": 2026111303
+  },
+  "r1_static": {
+    "C": 1,
+    "laplace": 1,
+    "fusion_weight": 0.5,
+    "alpha": 0.05,
+    "comparisons": 6,
+    "finite_cluster_multiplier": false
+  }
+}

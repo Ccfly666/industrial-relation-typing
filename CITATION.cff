@@ -1,0 +1,13 @@
+cff-version: 1.2.0
+message: "Please cite the accompanying research; bibliographic details are provisional."
+title: "Industrial relation typing: reproducible research code"
+type: software
+authors:
+  - family-names: Li
+    given-names: Yuhao
+  - family-names: Zhou
+    given-names: Chuan
+repository-code: "https://github.com/Ccfly666/industrial-relation-typing"
+version: "2026.11.26"
+license: MIT
+date-released: 2026-11-26

@@ -1,0 +1,8 @@
+﻿file,source,definition,original_sha256
+projection.py,legacy_lrpca.py,"retract, solve",23bc1668c08451214e00615857c7e421778549bb1ada52bcaf2712ba620bfa5c
+r1.py,prepare_context.py,relation_features,e3c2e422cab7210d9b87e55576fb3a443be7e225d673eb10f3141ce183442abf
+name_features.py,features.py,"norm_name, jaccard, char_bigrams, parent_context",04ddd82c1184b8b35dda2c6144c95764fe92b1d51b491fa8e696e57d43ecae46
+q63_kernel.py,build_evidence.py,summarize,c8113f8ccff10d7faa2ef7663d054fa611df074cb541202031292c711431e661
+net.py,original_net.py,Net,4d1b9d8684ac6420c37b681d9f5ea5b7c72a883fec033f72c6ca3c03d71a404b
+paired_stats.py,common19.py,"cm, macro, influence, groupsums, variances, interval",f33670a823870725681ef4612ac12e13ec581e8704e598655f637b8ab9deeaf3
+proof.py,legacy_proof_guard.py,"portable proof declarations, historical CLI excluded",70095fdac5f432d2d96794132487c7e0fda0366421ff6279b34919784438583a

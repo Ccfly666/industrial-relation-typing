@@ -1,0 +1,10 @@
+{
+  "status": "PASS",
+  "synthetic": true,
+  "N": 96,
+  "fit": 80,
+  "dimensions": 64,
+  "seconds": 27.1035727999988,
+  "formal_projection_fits": 0,
+  "centered_norm_type": "Python float64 scalar as original solver contract"
+}

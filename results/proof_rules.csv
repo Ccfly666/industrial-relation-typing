@@ -1,0 +1,14 @@
+﻿rule_id,rule,definition,source_sha256
+1,concept_identity,"RDF SHA256 + exact URI; no name equality, no automatic cross-version identity",d34b78fa4ae75f187fd3045ba4efabf5fabe3ec05347f8f0b967d0c7cc361770
+2,unordered_pair,lexicographically sorted two snapshot+URI endpoint identities,d34b78fa4ae75f187fd3045ba4efabf5fabe3ec05347f8f0b967d0c7cc361770
+3,fact_union,"exact unordered pair, dependency_group, all_assertion_ids, representative_assertion_id, (source_dataset,origin_uri); transitive DSU union",d34b78fa4ae75f187fd3045ba4efabf5fabe3ec05347f8f0b967d0c7cc361770
+4,group_id,G + SHA256 of sorted relation_id joined by |,d34b78fa4ae75f187fd3045ba4efabf5fabe3ec05347f8f0b967d0c7cc361770
+5,query_block,sort fit groups by SHA256(MS15|16|group_id); every eight group IDs a block; subtract the entire block for fit queries,e3c2e422cab7210d9b87e55576fb3a443be7e225d673eb10f3141ce183442abf
+6,evaluation_graph,only corresponding fit rows/labels; no eval event; train block exclusion is additional to fact-disjoint evaluation,e3c2e422cab7210d9b87e55576fb3a443be7e225d673eb10f3141ce183442abf
+7,atomic_inclusion,=:both inclusions; <:source⊆target; >:target⊆source; ~:no inclusion,70095fdac5f432d2d96794132487c7e0fda0366421ff6279b34919784438583a
+8,atomic_difference,> and ~ imply source not-subset target; < and ~ imply target not-subset source,70095fdac5f432d2d96794132487c7e0fda0366421ff6279b34919784438583a
+9,closure,inclusion reachability via SCC; if u⊆a and b⊆v and u⊄v then a⊄b; declared related/nonempty intersection premise,70095fdac5f432d2d96794132487c7e0fda0366421ff6279b34919784438583a
+10,potential_proof,= uses both inclusions; > uses reverse inclusion + source not-subset; < symmetric; ~ uses both not-subset facts under known-related premise,70095fdac5f432d2d96794132487c7e0fda0366421ff6279b34919784438583a
+11,E_fixed_point,round1 3272 groups/2 hits → merge actual query+proof support → round2 3267 groups/0 hits in all20scopes,33359bb75e7ca80ce849b6d86b912dd7b3ccfca4a4a0f0e91b9133c2783457ff
+12,G_fixed_point,"round1 14781 groups/0 hits in all20scopes; already at fixed point, no extra merges required",071cfe7e8446e528d90155abd5a6946b32f037c68c8870da6481bd1ecc80fd05
+13,C_U_scope,reuse40 scoped Gold-only fragment checks potential_queries=0; no claim over all possible semantics,45c6b691c0a3cbf4973cfd6b8d9a7d3770345f0f6405e3b8faa04f172289c803
