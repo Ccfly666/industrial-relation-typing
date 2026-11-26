@@ -1,0 +1,13 @@
+{
+  "environment": "Python 3.12 / PyTorch 2.5.1+cu118 / NumPy 2.1.3",
+  "component_tests": 9,
+  "synthetic_feature_checks": [
+    "B7",
+    "R1 query-block exclusion",
+    "Q63 empty side",
+    "proof fragment"
+  ],
+  "retained_score_records_checked": 72,
+  "reference_intervals_replayed": 54,
+  "reference_interval_tolerance": 5e-13
+}

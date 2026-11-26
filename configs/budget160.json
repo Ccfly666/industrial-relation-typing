@@ -1,7 +1,4 @@
 {
-  "batch": "PAPER_FINAL_COMPLETION01",
-  "utc": "2026-11-26T05:18:30.031127+00:00",
-  "historical_exposure": "post-hoc repair motivated by known CPU AB/early-stop diagnosis; not independent preregistration or new data",
   "tasks": {
     "E": "etim-eclass",
     "C": "eclass-gpc",
@@ -29,8 +26,6 @@
     "ABR": "first83, last63 exactlyzero AFTER scaling",
     "Full": "all146; original fit-only Q63 mean/std"
   },
-  "Net_source_sha256": "c301301f6e3b372f3f4d550fc4d631ef27885f486bd4d60bb60c421d8ddadc1c",
-  "Net_AST_sha256": "5afff40241d499c595742be0a066a397a79d9d54a97f373dd02cde2e18acc4bd",
   "registered_parameters": 28645,
   "head_parameters": 27332,
   "runtime": {
@@ -113,31 +108,13 @@
       "Full-AB"
     ],
     "family_size": 12,
-    "confidence": "nominal95 and Bonferroni12 simultaneous95; paired P19 IF iid/fact/two_way; mean paired IF retains cross-seed covariance",
+    "confidence": "nominal95 and Bonferroni12 simultaneous95; paired influence functions iid/fact/two_way; mean paired IF retains cross-seed covariance",
     "conditional": "fixed saved predictions and dependency assumptions; excludes historical selection, full pipeline retraining and label uncertainty",
     "subsets": "descriptive raw/full/nonempty/zero/source_only/target_only/both; no low-support forced CI",
     "seed_SD": "sample SD of per-seed pooled metric; not CI"
   },
-  "stops": [
-    "prefix mismatch: diagnose before affected fits",
-    "input/hash/nonfinite mismatch",
-    "G free<1GiB",
-    "CUDA unavailable: no CPU fallback",
-    "no budget beyond160; no performance-dependent changes"
-  ],
-  "scope_upper_bound": {
-    "inner": 360,
-    "outer": 180,
-    "total": 540
-  },
-  "no_new_other_models": true,
-  "no_shutdown": true,
-  "no_quota_reset": true,
   "budget": 160,
   "previous_budget": 80,
-  "historical_protocol_sha": "1951ef7c47a24ef62cdb83ed5bcf760ba6e042b636d263b6a9262c452003333b",
-  "feature_manifest_sha": "c7a6b9ebacbc7e39a7e09d88c32758c47967b8bf96962e28584073591170493e",
-  "original_net_sha": "4d1b9d8684ac6420c37b681d9f5ea5b7c72a883fec033f72c6ca3c03d71a404b",
   "prefix_check": {
     "representatives": [
       "E_o0_AB",

@@ -1,21 +1,30 @@
 # Data and model access
 
-## Source benchmark
+## Benchmark
 
-The source benchmark is identified by [DOI 10.5281/zenodo.17091043](https://doi.org/10.5281/zenodo.17091043). The published member is `benchmark.zip`; the recorded SHA-256 is `04cc6dd2a2f8d173ddcc19822428fa9f505e3855840f06b19072306233d240eb`. The download and local-copy paths both validate that checksum. File-level RDF identities are in `manifests/data_hashes.csv` and `manifests/dataset_sources.csv`.
+The four standard pairs come from [Zenodo record 17091043](https://doi.org/10.5281/zenodo.17091043). The archive is `benchmark.zip`, SHA-256 `04cc6dd2a2f8d173ddcc19822428fa9f505e3855840f06b19072306233d240eb`. Individual RDF checksums appear in [data_hashes.csv](manifests/data_hashes.csv) and [dataset_sources.csv](manifests/dataset_sources.csv).
 
-Use `scripts/fetch_sources.py --help` for acquisition and `scripts/audit.py --help` for parsing. Obtain authorization appropriate to the benchmark and the upstream ETIM, ECLASS, GPC and UNSPSC material. Public access and checksum verification do not establish unrestricted redistribution rights. This repository neither grants those rights nor republishes the original RDF, class descriptions, concept names, or reference mappings.
+## Download and parse
 
-## Retained roles and dependencies
+```sh
+python scripts/fetch_sources.py --out work/benchmark.zip --sha256 04cc6dd2a2f8d173ddcc19822428fa9f505e3855840f06b19072306233d240eb --url https://zenodo.org/api/records/17091043/files/benchmark.zip/content --extract
+python scripts/audit.py --input work/benchmark/etim-eclass --task E --out work/audit_E
+```
 
-`manifests/*_retained_roles_splits.csv` contains reference-cell indices, formal row identifiers, role decisions, dependency-group hashes, and outer/inner assignments. It contains no taxonomy text or reference relation labels. These are the declared historical role/Guard decisions, not newly rediscovered data curation. They are included as project-produced reproducibility metadata. Join them only against a matching authorized source snapshot with `scripts/verify_dataset.py`.
+Use `--local PATH` instead of `--url URL` for an existing authorized archive. Extraction creates `work/benchmark`; adjust the dataset directory if the archive has another enclosing directory. `verify_dataset.py` checks the three RDF hashes before restoring the retained rows and splits.
 
-## Text encoders and retained inputs
+## Models
 
-Model identifiers/revisions are recorded in `configs/verified_recipe.json` and the implementation registries. Obtain encoder weights from their authors under their own terms. `scripts/encode_names.py` is the name-vector construction entry. Fixed quantized batching/order matters for numerical replay.
+The name encoder is [all-MiniLM-L6-v2, revision 1110a243](https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/tree/1110a243fdf4706b3f48f1d95db1a4f5529b4d41), using `onnx/model_quint8_avx2.onnx` and `tokenizer.json`. The optional text comparisons use [BERT-base-uncased](https://huggingface.co/google-bert/bert-base-uncased) at revision `86b5e0934494bd15c9632b12f734a8a67f723594` and the [TaSeR author archive](https://doi.org/10.6084/m9.figshare.21750338.v1), including `TaSeR/pytorch_model.bin`.
 
-Embeddings, trained projectors, classifier checkpoints, per-row predictions, and private statistical/acceptance inputs are not included. Their hashes identify expected assets but do not make them downloadable here. For strict retained-input replay, request authorized access through the repository issue tracker; availability is not guaranteed and restricted assets cannot be shared merely because a request is made. Alternatively, rebuild the allowed components and report the new provenance and numerical differences.
+Download model files from these author sources. [model_sources.csv](manifests/model_sources.csv) records checkpoint hashes and the corresponding source terms. `scripts/encode_names.py` encodes an ordered JSON list of names with explicitly supplied ONNX/tokenizer files. The guide describes how its outputs map to source/target vector arrays.
 
-## Included results and license scope
+## Reproduction inputs
 
-The aggregate CSV results, split/dependency metadata, implementation code, and project documentation are released by the project rights holder. The MIT license covers project-owned materials to the extent of those rights. It does not relicense benchmark contents, model parameters, or third-party software. No manuscript, private review record, individual prediction file, or private validation input is distributed here.
+The split CSVs contain reference-cell indices, row identifiers, dependency-group hashes and fold assignments. Join them against the matching RDF snapshot to obtain names and labels. Historical role/Guard and cross-source screening decisions are retained metadata.
+
+Name vectors, fit-specific projectors, individual prediction files and statistical dependency arrays are additional inputs for exact retained-asset replay. Their schemas and hash conventions are in [REPRODUCIBILITY.md](docs/REPRODUCIBILITY.md). Where rights permit, availability can be discussed through the repository issue tracker; retained input access is subject to the source terms. Newly rebuilt features can be evaluated with their own provenance and numerical environment.
+
+## License
+
+The repository provides project code, aggregate results and split metadata under MIT. Taxonomy RDF/text/reference mappings and model weights are obtained separately under their applicable benchmark, ETIM/ECLASS/GPC/UNSPSC and model-source terms. Check these terms before downloading or redistributing the corresponding assets; the code license covers project-owned materials.

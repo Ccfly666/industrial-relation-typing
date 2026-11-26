@@ -1,23 +1,9 @@
-# Provenance
+# Code and experiment provenance
 
-This release is based on the version-3, 94-file `Reproduction_Final` package accepted in the study's T07 reproduction checks. Its parent research batch is `PAPER_FINAL_COMPLETION01`. Original kernels and their recorded hashes are listed in `manifests/code_origins.csv`; extracted/reconstructed adapters are distinct from the original historical execution scripts.
+The implementation combines supervised low-rank text projection, catalogue/name features, typed relation-neighbourhood profiles and query-conditioned summaries. [code_origins.csv](manifests/code_origins.csv) identifies the original research kernels and their reference hashes. Source names in that file and the implementation registry identify development versions rather than downloadable repository paths.
 
-## Publication changes
+The acquisition and RDF parsing tools were reconstructed for the released snapshots. Row roles, dependency groups and splits are retained research metadata; E uses the corrected proof-group split. Their schemas and source checksums are supplied in `manifests/`.
 
-- Added a researcher-facing English README, source/access explanation, this provenance file, and a changelog.
-- Applied the MIT license with the project rights holder's explicit authorization on 2026-11-26. Third-party rights remain separate.
-- Added a portable 80-budget configuration summary and refreshed the public file manifest. The original 160-budget protocol and numerical reference recipe are retained.
-- Added repository ignore/byte-preservation rules. No model architecture, feature computation, gold label, split, saved scientific metric, or training-selection implementation was changed for publication.
-- The source package's acceptance receipts retain their historical scope. They do not imply that this public repository supplies the restricted assets used for those checks.
+The main experiments use the 80-epoch configuration. A separate 160-epoch analysis examines training-budget sensitivity after earlier baseline and early-stop observations. Table cells, family definitions and per-seed aggregates are available in `results/`.
 
-## Scientific identity
-
-The task labels are ordered `[=, >, <, ~]`. E uses the corrected proof-group version. Role assignments, query exclusion groups, and identity manifests are explicit retained inputs. The three head seeds are 2026111601, 2026111602, and 2026111603. Raw probabilities and the declared public-fallback operational definition are different outputs.
-
-The 80- and 160-budget analyses are separate comparison families. The 160-budget repair followed known earlier baseline/early-stop observations; it is not an independent preregistered study. The `budget80_reproduction.json` summary describes the runnable suite setting and does not replace the original historical protocol or turn an earlier patience-limited experiment into a full-trajectory run.
-
-## Verification and limitations
-
-The independent accepted E scope retained its fit-specific projection and name-vector inputs. Upstream role/provenance choices were not independently rediscovered. Fresh feature and probability values showed small backend differences that remain documented. The complete four-task pipeline and all historical comparison families were not independently retrained. See `docs/REPRODUCTION.md` and `docs/LIMITATIONS.md`.
-
-`manifests/release_file_manifest.csv` records the public file bytes and SHA-256 values, excluding itself to avoid a self-referential checksum. These are artifact identity checks, not independent scientific validation. No access credentials, personal machine paths, manuscript, private review records, restricted source data, or pretrained weights are part of the release.
+[REPRODUCIBILITY.md](docs/REPRODUCIBILITY.md) documents the tested environment, the E-fold reproduction and numerical conditions. [CHANGELOG.md](CHANGELOG.md) records software revisions; [release_file_manifest.csv](manifests/release_file_manifest.csv) identifies the current public files. Current Python file hashes are listed in [code_hashes.csv](manifests/code_hashes.csv).

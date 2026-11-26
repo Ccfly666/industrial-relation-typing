@@ -1,0 +1,602 @@
+table_id,row_id,column_id,task,experiment_family,model,seed_scope,metric,original_value,displayed_value,training_budget,evaluation_mode,source_snapshot_sha256
+main,1,1.0,E,frozen80,AB,as original table,Macro-F1 %,78.03435402261834,78.03,80,operational,bd30d7bb3622b21982f567a4b863bd9ce3260e177c73a9481bd67957c2b53997
+main,1,1.1,E,frozen80,AB,as original table,sample SD %,1.572642817723412,1.57,80,operational,bd30d7bb3622b21982f567a4b863bd9ce3260e177c73a9481bd67957c2b53997
+main,1,2.0,E,frozen80,ABR,as original table,Macro-F1 %,89.70297052535977,89.70,80,operational,bd30d7bb3622b21982f567a4b863bd9ce3260e177c73a9481bd67957c2b53997
+main,1,2.1,E,frozen80,ABR,as original table,sample SD %,0.3493207287397751,0.35,80,operational,bd30d7bb3622b21982f567a4b863bd9ce3260e177c73a9481bd67957c2b53997
+main,1,3.0,E,frozen80,Full,as original table,Macro-F1 %,91.69233284099106,91.69,80,operational,bd30d7bb3622b21982f567a4b863bd9ce3260e177c73a9481bd67957c2b53997
+main,1,3.1,E,frozen80,Full,as original table,sample SD %,0.2964779542663837,0.30,80,operational,bd30d7bb3622b21982f567a4b863bd9ce3260e177c73a9481bd67957c2b53997
+main,1,4,E,frozen80,ABR-AB,as original table,paired gain pp,11.668616502741425,+11.67,80,operational,bd30d7bb3622b21982f567a4b863bd9ce3260e177c73a9481bd67957c2b53997
+main,1,5,E,frozen80,Full-ABR,as original table,paired gain pp,1.9893623156312823,+1.99,80,operational,bd30d7bb3622b21982f567a4b863bd9ce3260e177c73a9481bd67957c2b53997
+main,1,6,E,frozen80,Full-AB,as original table,paired gain pp,13.657978818372706,+13.66,80,operational,bd30d7bb3622b21982f567a4b863bd9ce3260e177c73a9481bd67957c2b53997
+main,2,1.0,C,frozen80,AB,as original table,Macro-F1 %,57.77779218030502,57.78,80,operational,bd30d7bb3622b21982f567a4b863bd9ce3260e177c73a9481bd67957c2b53997
+main,2,1.1,C,frozen80,AB,as original table,sample SD %,2.26700248200838,2.27,80,operational,bd30d7bb3622b21982f567a4b863bd9ce3260e177c73a9481bd67957c2b53997
+main,2,2.0,C,frozen80,ABR,as original table,Macro-F1 %,74.02908196725068,74.03,80,operational,bd30d7bb3622b21982f567a4b863bd9ce3260e177c73a9481bd67957c2b53997
+main,2,2.1,C,frozen80,ABR,as original table,sample SD %,0.47995274070798843,0.48,80,operational,bd30d7bb3622b21982f567a4b863bd9ce3260e177c73a9481bd67957c2b53997
+main,2,3.0,C,frozen80,Full,as original table,Macro-F1 %,75.67466534452342,75.67,80,operational,bd30d7bb3622b21982f567a4b863bd9ce3260e177c73a9481bd67957c2b53997
+main,2,3.1,C,frozen80,Full,as original table,sample SD %,0.3183021610130877,0.32,80,operational,bd30d7bb3622b21982f567a4b863bd9ce3260e177c73a9481bd67957c2b53997
+main,2,4,C,frozen80,ABR-AB,as original table,paired gain pp,16.251289786945655,+16.25,80,operational,bd30d7bb3622b21982f567a4b863bd9ce3260e177c73a9481bd67957c2b53997
+main,2,5,C,frozen80,Full-ABR,as original table,paired gain pp,1.6455833772727413,+1.65,80,operational,bd30d7bb3622b21982f567a4b863bd9ce3260e177c73a9481bd67957c2b53997
+main,2,6,C,frozen80,Full-AB,as original table,paired gain pp,17.8968731642184,+17.90,80,operational,bd30d7bb3622b21982f567a4b863bd9ce3260e177c73a9481bd67957c2b53997
+main,3,1.0,U,frozen80,AB,as original table,Macro-F1 %,75.3851138700259,75.39,80,operational,bd30d7bb3622b21982f567a4b863bd9ce3260e177c73a9481bd67957c2b53997
+main,3,1.1,U,frozen80,AB,as original table,sample SD %,0.14335973225234902,0.14,80,operational,bd30d7bb3622b21982f567a4b863bd9ce3260e177c73a9481bd67957c2b53997
+main,3,2.0,U,frozen80,ABR,as original table,Macro-F1 %,84.44273883415177,84.44,80,operational,bd30d7bb3622b21982f567a4b863bd9ce3260e177c73a9481bd67957c2b53997
+main,3,2.1,U,frozen80,ABR,as original table,sample SD %,0.0436897413310918,0.04,80,operational,bd30d7bb3622b21982f567a4b863bd9ce3260e177c73a9481bd67957c2b53997
+main,3,3.0,U,frozen80,Full,as original table,Macro-F1 %,86.0967572769689,86.10,80,operational,bd30d7bb3622b21982f567a4b863bd9ce3260e177c73a9481bd67957c2b53997
+main,3,3.1,U,frozen80,Full,as original table,sample SD %,0.14853133904859783,0.15,80,operational,bd30d7bb3622b21982f567a4b863bd9ce3260e177c73a9481bd67957c2b53997
+main,3,4,U,frozen80,ABR-AB,as original table,paired gain pp,9.057624964125866,+9.06,80,operational,bd30d7bb3622b21982f567a4b863bd9ce3260e177c73a9481bd67957c2b53997
+main,3,5,U,frozen80,Full-ABR,as original table,paired gain pp,1.65401844281714,+1.65,80,operational,bd30d7bb3622b21982f567a4b863bd9ce3260e177c73a9481bd67957c2b53997
+main,3,6,U,frozen80,Full-AB,as original table,paired gain pp,10.711643406943006,+10.71,80,operational,bd30d7bb3622b21982f567a4b863bd9ce3260e177c73a9481bd67957c2b53997
+main,4,1.0,G,frozen80,AB,as original table,Macro-F1 %,62.19335346523093,62.19,80,operational,bd30d7bb3622b21982f567a4b863bd9ce3260e177c73a9481bd67957c2b53997
+main,4,1.1,G,frozen80,AB,as original table,sample SD %,0.24513134736619333,0.25,80,operational,bd30d7bb3622b21982f567a4b863bd9ce3260e177c73a9481bd67957c2b53997
+main,4,2.0,G,frozen80,ABR,as original table,Macro-F1 %,73.99060562072006,73.99,80,operational,bd30d7bb3622b21982f567a4b863bd9ce3260e177c73a9481bd67957c2b53997
+main,4,2.1,G,frozen80,ABR,as original table,sample SD %,0.521538758552653,0.52,80,operational,bd30d7bb3622b21982f567a4b863bd9ce3260e177c73a9481bd67957c2b53997
+main,4,3.0,G,frozen80,Full,as original table,Macro-F1 %,76.67678983985566,76.68,80,operational,bd30d7bb3622b21982f567a4b863bd9ce3260e177c73a9481bd67957c2b53997
+main,4,3.1,G,frozen80,Full,as original table,sample SD %,0.46454078613989996,0.46,80,operational,bd30d7bb3622b21982f567a4b863bd9ce3260e177c73a9481bd67957c2b53997
+main,4,4,G,frozen80,ABR-AB,as original table,paired gain pp,11.797252155489135,+11.80,80,operational,bd30d7bb3622b21982f567a4b863bd9ce3260e177c73a9481bd67957c2b53997
+main,4,5,G,frozen80,Full-ABR,as original table,paired gain pp,2.686184219135601,+2.69,80,operational,bd30d7bb3622b21982f567a4b863bd9ce3260e177c73a9481bd67957c2b53997
+main,4,6,G,frozen80,Full-AB,as original table,paired gain pp,14.483436374624736,+14.48,80,operational,bd30d7bb3622b21982f567a4b863bd9ce3260e177c73a9481bd67957c2b53997
+baselines,1,1.0,E,frozen80,LR-Full,as original table,Macro-F1 %,92.21230781963527,92.21,80,operational,629d27794f6d15203b4442b94f26228df7d6d6e39fa639890021887eb57dec08
+baselines,1,2.0,C,frozen80,LR-Full,as original table,Macro-F1 %,74.52953201920317,74.53,80,operational,629d27794f6d15203b4442b94f26228df7d6d6e39fa639890021887eb57dec08
+baselines,1,3.0,U,frozen80,LR-Full,as original table,Macro-F1 %,84.10308140371976,84.10,80,operational,629d27794f6d15203b4442b94f26228df7d6d6e39fa639890021887eb57dec08
+baselines,1,4.0,G,frozen80,LR-Full,as original table,Macro-F1 %,75.20826036340706,75.21,80,operational,629d27794f6d15203b4442b94f26228df7d6d6e39fa639890021887eb57dec08
+baselines,2,1.0,E,frozen80,CatBoost-ABR,as original table,Macro-F1 %,92.6221816886702,92.62,80,operational,629d27794f6d15203b4442b94f26228df7d6d6e39fa639890021887eb57dec08
+baselines,2,2.0,C,frozen80,CatBoost-ABR,as original table,Macro-F1 %,75.31971177472899,75.32,80,operational,629d27794f6d15203b4442b94f26228df7d6d6e39fa639890021887eb57dec08
+baselines,2,3.0,U,frozen80,CatBoost-ABR,as original table,Macro-F1 %,82.9726475742691,82.97,80,operational,629d27794f6d15203b4442b94f26228df7d6d6e39fa639890021887eb57dec08
+baselines,2,4.0,G,frozen80,CatBoost-ABR,as original table,Macro-F1 %,75.3847265713448,75.38,80,operational,629d27794f6d15203b4442b94f26228df7d6d6e39fa639890021887eb57dec08
+baselines,3,1.0,E,frozen80,CatBoost-Full,as original table,Macro-F1 %,92.50590560995494,92.51,80,operational,629d27794f6d15203b4442b94f26228df7d6d6e39fa639890021887eb57dec08
+baselines,3,2.0,C,frozen80,CatBoost-Full,as original table,Macro-F1 %,77.11135963690035,77.11,80,operational,629d27794f6d15203b4442b94f26228df7d6d6e39fa639890021887eb57dec08
+baselines,3,3.0,U,frozen80,CatBoost-Full,as original table,Macro-F1 %,85.41687211580143,85.42,80,operational,629d27794f6d15203b4442b94f26228df7d6d6e39fa639890021887eb57dec08
+baselines,3,4.0,G,frozen80,CatBoost-Full,as original table,Macro-F1 %,76.3684562317541,76.37,80,operational,629d27794f6d15203b4442b94f26228df7d6d6e39fa639890021887eb57dec08
+baselines,4,1.0,E,frozen80,Set Transformer-RichSelf,as original table,Macro-F1 %,89.18019725527144,89.18,80,operational,629d27794f6d15203b4442b94f26228df7d6d6e39fa639890021887eb57dec08
+baselines,4,1.1,E,frozen80,Set Transformer-RichSelf,as original table,Macro-F1 %,0.2977611366426473,0.30,80,operational,629d27794f6d15203b4442b94f26228df7d6d6e39fa639890021887eb57dec08
+baselines,4,2.0,C,frozen80,Set Transformer-RichSelf,as original table,Macro-F1 %,75.70833033306616,75.71,80,operational,629d27794f6d15203b4442b94f26228df7d6d6e39fa639890021887eb57dec08
+baselines,4,2.1,C,frozen80,Set Transformer-RichSelf,as original table,Macro-F1 %,0.2154227477532846,0.22,80,operational,629d27794f6d15203b4442b94f26228df7d6d6e39fa639890021887eb57dec08
+baselines,4,3.0,U,frozen80,Set Transformer-RichSelf,as original table,Macro-F1 %,87.94305372760886,87.94,80,operational,629d27794f6d15203b4442b94f26228df7d6d6e39fa639890021887eb57dec08
+baselines,4,3.1,U,frozen80,Set Transformer-RichSelf,as original table,Macro-F1 %,0.21013149223346803,0.21,80,operational,629d27794f6d15203b4442b94f26228df7d6d6e39fa639890021887eb57dec08
+baselines,4,4.0,G,frozen80,Set Transformer-RichSelf,as original table,Macro-F1 %,76.78738924101802,76.79,80,operational,629d27794f6d15203b4442b94f26228df7d6d6e39fa639890021887eb57dec08
+baselines,4,4.1,G,frozen80,Set Transformer-RichSelf,as original table,Macro-F1 %,0.44993177056219535,0.45,80,operational,629d27794f6d15203b4442b94f26228df7d6d6e39fa639890021887eb57dec08
+baselines,5,1.0,E,frozen80,Full (ours),as original table,Macro-F1 %,91.69233284099106,91.69,80,operational,bd30d7bb3622b21982f567a4b863bd9ce3260e177c73a9481bd67957c2b53997
+baselines,5,1.1,E,frozen80,Full (ours),as original table,Macro-F1 %,0.2964779542663837,0.30,80,operational,bd30d7bb3622b21982f567a4b863bd9ce3260e177c73a9481bd67957c2b53997
+baselines,5,2.0,C,frozen80,Full (ours),as original table,Macro-F1 %,75.67466534452342,75.67,80,operational,bd30d7bb3622b21982f567a4b863bd9ce3260e177c73a9481bd67957c2b53997
+baselines,5,2.1,C,frozen80,Full (ours),as original table,Macro-F1 %,0.3183021610130877,0.32,80,operational,bd30d7bb3622b21982f567a4b863bd9ce3260e177c73a9481bd67957c2b53997
+baselines,5,3.0,U,frozen80,Full (ours),as original table,Macro-F1 %,86.0967572769689,86.10,80,operational,bd30d7bb3622b21982f567a4b863bd9ce3260e177c73a9481bd67957c2b53997
+baselines,5,3.1,U,frozen80,Full (ours),as original table,Macro-F1 %,0.14853133904859783,0.15,80,operational,bd30d7bb3622b21982f567a4b863bd9ce3260e177c73a9481bd67957c2b53997
+baselines,5,4.0,G,frozen80,Full (ours),as original table,Macro-F1 %,76.67678983985566,76.68,80,operational,bd30d7bb3622b21982f567a4b863bd9ce3260e177c73a9481bd67957c2b53997
+baselines,5,4.1,G,frozen80,Full (ours),as original table,Macro-F1 %,0.46454078613989996,0.46,80,operational,bd30d7bb3622b21982f567a4b863bd9ce3260e177c73a9481bd67957c2b53997
+classes,1,1,E,frozen80,Full,as original table,class F1 / accuracy / balanced accuracy %,97.46895893027698,97.47,80,operational,46435c1871e63b3c977ad8792cf6865d2a846d12c13f23d7b0c1b34b253c860c
+classes,1,2,E,frozen80,Full,as original table,class F1 / accuracy / balanced accuracy %,91.35141981369298,91.35,80,operational,46435c1871e63b3c977ad8792cf6865d2a846d12c13f23d7b0c1b34b253c860c
+classes,1,3,E,frozen80,Full,as original table,class F1 / accuracy / balanced accuracy %,89.53983188940597,89.54,80,operational,46435c1871e63b3c977ad8792cf6865d2a846d12c13f23d7b0c1b34b253c860c
+classes,1,4,E,frozen80,Full,as original table,class F1 / accuracy / balanced accuracy %,88.4091207305883,88.41,80,operational,46435c1871e63b3c977ad8792cf6865d2a846d12c13f23d7b0c1b34b253c860c
+classes,1,5,E,frozen80,Full,as original table,class F1 / accuracy / balanced accuracy %,94.72290138549306,94.72,80,operational,46435c1871e63b3c977ad8792cf6865d2a846d12c13f23d7b0c1b34b253c860c
+classes,1,6,E,frozen80,Full,as original table,class F1 / accuracy / balanced accuracy %,92.98561694050491,92.99,80,operational,46435c1871e63b3c977ad8792cf6865d2a846d12c13f23d7b0c1b34b253c860c
+classes,2,1,C,frozen80,Full,as original table,class F1 / accuracy / balanced accuracy %,68.01077710168619,68.01,80,operational,46435c1871e63b3c977ad8792cf6865d2a846d12c13f23d7b0c1b34b253c860c
+classes,2,2,C,frozen80,Full,as original table,class F1 / accuracy / balanced accuracy %,59.79754003301413,59.80,80,operational,46435c1871e63b3c977ad8792cf6865d2a846d12c13f23d7b0c1b34b253c860c
+classes,2,3,C,frozen80,Full,as original table,class F1 / accuracy / balanced accuracy %,78.25046791083899,78.25,80,operational,46435c1871e63b3c977ad8792cf6865d2a846d12c13f23d7b0c1b34b253c860c
+classes,2,4,C,frozen80,Full,as original table,class F1 / accuracy / balanced accuracy %,96.63987633255434,96.64,80,operational,46435c1871e63b3c977ad8792cf6865d2a846d12c13f23d7b0c1b34b253c860c
+classes,2,5,C,frozen80,Full,as original table,class F1 / accuracy / balanced accuracy %,93.54470943489247,93.54,80,operational,46435c1871e63b3c977ad8792cf6865d2a846d12c13f23d7b0c1b34b253c860c
+classes,2,6,C,frozen80,Full,as original table,class F1 / accuracy / balanced accuracy %,70.41790187331608,70.42,80,operational,46435c1871e63b3c977ad8792cf6865d2a846d12c13f23d7b0c1b34b253c860c
+classes,3,1,U,frozen80,Full,as original table,class F1 / accuracy / balanced accuracy %,72.16030296057586,72.16,80,operational,46435c1871e63b3c977ad8792cf6865d2a846d12c13f23d7b0c1b34b253c860c
+classes,3,2,U,frozen80,Full,as original table,class F1 / accuracy / balanced accuracy %,88.16437580332327,88.16,80,operational,46435c1871e63b3c977ad8792cf6865d2a846d12c13f23d7b0c1b34b253c860c
+classes,3,3,U,frozen80,Full,as original table,class F1 / accuracy / balanced accuracy %,84.74931631726967,84.75,80,operational,46435c1871e63b3c977ad8792cf6865d2a846d12c13f23d7b0c1b34b253c860c
+classes,3,4,U,frozen80,Full,as original table,class F1 / accuracy / balanced accuracy %,99.3130340267068,99.31,80,operational,46435c1871e63b3c977ad8792cf6865d2a846d12c13f23d7b0c1b34b253c860c
+classes,3,5,U,frozen80,Full,as original table,class F1 / accuracy / balanced accuracy %,98.58220361509836,98.58,80,operational,46435c1871e63b3c977ad8792cf6865d2a846d12c13f23d7b0c1b34b253c860c
+classes,3,6,U,frozen80,Full,as original table,class F1 / accuracy / balanced accuracy %,81.99670571161857,82.00,80,operational,46435c1871e63b3c977ad8792cf6865d2a846d12c13f23d7b0c1b34b253c860c
+classes,4,1,G,frozen80,Full,as original table,class F1 / accuracy / balanced accuracy %,69.20980926430516,69.21,80,operational,46435c1871e63b3c977ad8792cf6865d2a846d12c13f23d7b0c1b34b253c860c
+classes,4,2,G,frozen80,Full,as original table,class F1 / accuracy / balanced accuracy %,89.50637469715478,89.51,80,operational,46435c1871e63b3c977ad8792cf6865d2a846d12c13f23d7b0c1b34b253c860c
+classes,4,3,G,frozen80,Full,as original table,class F1 / accuracy / balanced accuracy %,49.120561004217514,49.12,80,operational,46435c1871e63b3c977ad8792cf6865d2a846d12c13f23d7b0c1b34b253c860c
+classes,4,4,G,frozen80,Full,as original table,class F1 / accuracy / balanced accuracy %,98.8704143937452,98.87,80,operational,46435c1871e63b3c977ad8792cf6865d2a846d12c13f23d7b0c1b34b253c860c
+classes,4,5,G,frozen80,Full,as original table,class F1 / accuracy / balanced accuracy %,97.42119225967541,97.42,80,operational,46435c1871e63b3c977ad8792cf6865d2a846d12c13f23d7b0c1b34b253c860c
+classes,4,6,G,frozen80,Full,as original table,class F1 / accuracy / balanced accuracy %,71.2927870337671,71.29,80,operational,46435c1871e63b3c977ad8792cf6865d2a846d12c13f23d7b0c1b34b253c860c
+AB,1,2,E,frozen80,P10-MLP_A,as original table,Macro-F1 %,80.19859136628244,80.20,80,operational,04bf2175231cc8897171daf7cce308409d40f3455835ac75e4c400e412d8ced1
+AB,1,3,C,frozen80,P10-MLP_A,as original table,Macro-F1 %,65.09236026801825,65.09,80,operational,04bf2175231cc8897171daf7cce308409d40f3455835ac75e4c400e412d8ced1
+AB,1,4,U,frozen80,P10-MLP_A,as original table,Macro-F1 %,74.40392163551086,74.40,80,operational,04bf2175231cc8897171daf7cce308409d40f3455835ac75e4c400e412d8ced1
+AB,1,5,G,frozen80,P10-MLP_A,as original table,Macro-F1 %,66.56840453924099,66.57,80,operational,04bf2175231cc8897171daf7cce308409d40f3455835ac75e4c400e412d8ced1
+AB,2,2,E,frozen80,P10-MLP_B,as original table,Macro-F1 %,65.90055133957318,65.90,80,operational,04bf2175231cc8897171daf7cce308409d40f3455835ac75e4c400e412d8ced1
+AB,2,3,C,frozen80,P10-MLP_B,as original table,Macro-F1 %,34.152482542215914,34.15,80,operational,04bf2175231cc8897171daf7cce308409d40f3455835ac75e4c400e412d8ced1
+AB,2,4,U,frozen80,P10-MLP_B,as original table,Macro-F1 %,36.37065264647301,36.37,80,operational,04bf2175231cc8897171daf7cce308409d40f3455835ac75e4c400e412d8ced1
+AB,2,5,G,frozen80,P10-MLP_B,as original table,Macro-F1 %,44.23343740972187,44.23,80,operational,04bf2175231cc8897171daf7cce308409d40f3455835ac75e4c400e412d8ced1
+AB,3,2,E,frozen80,P10-MLP_SB,as original table,Macro-F1 %,82.83086471564134,82.83,80,operational,04bf2175231cc8897171daf7cce308409d40f3455835ac75e4c400e412d8ced1
+AB,3,3,C,frozen80,P10-MLP_SB,as original table,Macro-F1 %,61.507742529912136,61.51,80,operational,04bf2175231cc8897171daf7cce308409d40f3455835ac75e4c400e412d8ced1
+AB,3,4,U,frozen80,P10-MLP_SB,as original table,Macro-F1 %,70.75000522916606,70.75,80,operational,04bf2175231cc8897171daf7cce308409d40f3455835ac75e4c400e412d8ced1
+AB,3,5,G,frozen80,P10-MLP_SB,as original table,Macro-F1 %,65.70924045849411,65.71,80,operational,04bf2175231cc8897171daf7cce308409d40f3455835ac75e4c400e412d8ced1
+AB,4,2,E,frozen80,P10-MLP_AB,as original table,Macro-F1 %,83.77112630982583,83.77,80,operational,04bf2175231cc8897171daf7cce308409d40f3455835ac75e4c400e412d8ced1
+AB,4,3,C,frozen80,P10-MLP_AB,as original table,Macro-F1 %,68.32153742730924,68.32,80,operational,04bf2175231cc8897171daf7cce308409d40f3455835ac75e4c400e412d8ced1
+AB,4,4,U,frozen80,P10-MLP_AB,as original table,Macro-F1 %,75.70444313835485,75.70,80,operational,04bf2175231cc8897171daf7cce308409d40f3455835ac75e4c400e412d8ced1
+AB,4,5,G,frozen80,P10-MLP_AB,as original table,Macro-F1 %,70.87606544486349,70.88,80,operational,04bf2175231cc8897171daf7cce308409d40f3455835ac75e4c400e412d8ced1
+AB,5,2,E,frozen80,FixedLR-A,as original table,Macro-F1 %,77.78662031546054,77.79,80,operational,04bf2175231cc8897171daf7cce308409d40f3455835ac75e4c400e412d8ced1
+AB,5,3,C,frozen80,FixedLR-A,as original table,Macro-F1 %,63.42999591251899,63.43,80,operational,04bf2175231cc8897171daf7cce308409d40f3455835ac75e4c400e412d8ced1
+AB,5,4,U,frozen80,FixedLR-A,as original table,Macro-F1 %,70.61414205781644,70.61,80,operational,04bf2175231cc8897171daf7cce308409d40f3455835ac75e4c400e412d8ced1
+AB,5,5,G,frozen80,FixedLR-A,as original table,Macro-F1 %,64.8580952268554,64.86,80,operational,04bf2175231cc8897171daf7cce308409d40f3455835ac75e4c400e412d8ced1
+AB,6,2,E,frozen80,FixedLR-AB,as original table,Macro-F1 %,82.2509594722343,82.25,80,operational,04bf2175231cc8897171daf7cce308409d40f3455835ac75e4c400e412d8ced1
+AB,6,3,C,frozen80,FixedLR-AB,as original table,Macro-F1 %,65.48660825185928,65.49,80,operational,04bf2175231cc8897171daf7cce308409d40f3455835ac75e4c400e412d8ced1
+AB,6,4,U,frozen80,FixedLR-AB,as original table,Macro-F1 %,71.82008467365517,71.82,80,operational,04bf2175231cc8897171daf7cce308409d40f3455835ac75e4c400e412d8ced1
+AB,6,5,G,frozen80,FixedLR-AB,as original table,Macro-F1 %,67.36826928159118,67.37,80,operational,04bf2175231cc8897171daf7cce308409d40f3455835ac75e4c400e412d8ced1
+AB,7,2,E,frozen80,FixedLR-AR,as original table,Macro-F1 %,88.4801693785625,88.48,80,operational,04bf2175231cc8897171daf7cce308409d40f3455835ac75e4c400e412d8ced1
+AB,7,3,C,frozen80,FixedLR-AR,as original table,Macro-F1 %,69.18644280524065,69.19,80,operational,04bf2175231cc8897171daf7cce308409d40f3455835ac75e4c400e412d8ced1
+AB,7,4,U,frozen80,FixedLR-AR,as original table,Macro-F1 %,79.20295214724082,79.20,80,operational,04bf2175231cc8897171daf7cce308409d40f3455835ac75e4c400e412d8ced1
+AB,7,5,G,frozen80,FixedLR-AR,as original table,Macro-F1 %,71.15560023280267,71.16,80,operational,04bf2175231cc8897171daf7cce308409d40f3455835ac75e4c400e412d8ced1
+AB,8,2,E,frozen80,FixedLR-ABR,as original table,Macro-F1 %,91.40813139196445,91.41,80,operational,04bf2175231cc8897171daf7cce308409d40f3455835ac75e4c400e412d8ced1
+AB,8,3,C,frozen80,FixedLR-ABR,as original table,Macro-F1 %,71.49176190673468,71.49,80,operational,04bf2175231cc8897171daf7cce308409d40f3455835ac75e4c400e412d8ced1
+AB,8,4,U,frozen80,FixedLR-ABR,as original table,Macro-F1 %,80.7605508675684,80.76,80,operational,04bf2175231cc8897171daf7cce308409d40f3455835ac75e4c400e412d8ced1
+AB,8,5,G,frozen80,FixedLR-ABR,as original table,Macro-F1 %,72.81143189532095,72.81,80,operational,04bf2175231cc8897171daf7cce308409d40f3455835ac75e4c400e412d8ced1
+R1,1,1,E,frozen80,AB,as original table,Macro-F1 %,82.2509594722343,82.25,80,operational,afda16308109fc475c7cbb11519be5517827483577f708d299aa0722eded7c1d
+R1,1,2,C,frozen80,AB,as original table,Macro-F1 %,65.48660825185928,65.49,80,operational,afda16308109fc475c7cbb11519be5517827483577f708d299aa0722eded7c1d
+R1,1,3,U,frozen80,AB,as original table,Macro-F1 %,71.82008467365517,71.82,80,operational,afda16308109fc475c7cbb11519be5517827483577f708d299aa0722eded7c1d
+R1,2,1,E,frozen80,AB+Mean,as original table,Macro-F1 %,82.19531887630669,82.20,80,operational,afda16308109fc475c7cbb11519be5517827483577f708d299aa0722eded7c1d
+R1,2,2,C,frozen80,AB+Mean,as original table,Macro-F1 %,65.10924256198021,65.11,80,operational,afda16308109fc475c7cbb11519be5517827483577f708d299aa0722eded7c1d
+R1,2,3,U,frozen80,AB+Mean,as original table,Macro-F1 %,71.48527936249293,71.49,80,operational,afda16308109fc475c7cbb11519be5517827483577f708d299aa0722eded7c1d
+R1,3,1,E,frozen80,AB+S4,as original table,Macro-F1 %,88.32792059049375,88.33,80,operational,afda16308109fc475c7cbb11519be5517827483577f708d299aa0722eded7c1d
+R1,3,2,C,frozen80,AB+S4,as original table,Macro-F1 %,67.68025292208904,67.68,80,operational,afda16308109fc475c7cbb11519be5517827483577f708d299aa0722eded7c1d
+R1,3,3,U,frozen80,AB+S4,as original table,Macro-F1 %,76.35840572804055,76.36,80,operational,afda16308109fc475c7cbb11519be5517827483577f708d299aa0722eded7c1d
+R1,4,1,E,frozen80,AB+T8,as original table,Macro-F1 %,90.64533717302817,90.65,80,operational,afda16308109fc475c7cbb11519be5517827483577f708d299aa0722eded7c1d
+R1,4,2,C,frozen80,AB+T8,as original table,Macro-F1 %,70.50233234151564,70.50,80,operational,afda16308109fc475c7cbb11519be5517827483577f708d299aa0722eded7c1d
+R1,4,3,U,frozen80,AB+T8,as original table,Macro-F1 %,80.77317611353611,80.77,80,operational,afda16308109fc475c7cbb11519be5517827483577f708d299aa0722eded7c1d
+R1,5,1,E,frozen80,AB+R1,as original table,Macro-F1 %,91.40813139196445,91.41,80,operational,afda16308109fc475c7cbb11519be5517827483577f708d299aa0722eded7c1d
+R1,5,2,C,frozen80,AB+R1,as original table,Macro-F1 %,71.49176190673468,71.49,80,operational,afda16308109fc475c7cbb11519be5517827483577f708d299aa0722eded7c1d
+R1,5,3,U,frozen80,AB+R1,as original table,Macro-F1 %,80.7605508675684,80.76,80,operational,afda16308109fc475c7cbb11519be5517827483577f708d299aa0722eded7c1d
+LR,1,1.0,E,frozen80,LR_ABR,as original table,Macro-F1 %,91.81030918418894,91.8103,80,operational,77bf5654a2a0e26c0c2ff5cf449a8d2ae1fe9011f9cf94731fb9f0de9ec9f323
+LR,1,2.0,C,frozen80,LR_ABR,as original table,Macro-F1 %,71.83797872407041,71.8380,80,operational,77bf5654a2a0e26c0c2ff5cf449a8d2ae1fe9011f9cf94731fb9f0de9ec9f323
+LR,1,3.0,U,frozen80,LR_ABR,as original table,Macro-F1 %,80.90614269885967,80.9061,80,operational,77bf5654a2a0e26c0c2ff5cf449a8d2ae1fe9011f9cf94731fb9f0de9ec9f323
+LR,1,4.0,G,frozen80,LR_ABR,as original table,Macro-F1 %,72.6412648582519,72.6413,80,operational,77bf5654a2a0e26c0c2ff5cf449a8d2ae1fe9011f9cf94731fb9f0de9ec9f323
+LR,2,1.0,E,frozen80,LR_Q24,as original table,Macro-F1 %,91.71239130263093,91.7124,80,operational,77bf5654a2a0e26c0c2ff5cf449a8d2ae1fe9011f9cf94731fb9f0de9ec9f323
+LR,2,2.0,C,frozen80,LR_Q24,as original table,Macro-F1 %,73.43661707570918,73.4366,80,operational,77bf5654a2a0e26c0c2ff5cf449a8d2ae1fe9011f9cf94731fb9f0de9ec9f323
+LR,2,3.0,U,frozen80,LR_Q24,as original table,Macro-F1 %,82.67890295399245,82.6789,80,operational,77bf5654a2a0e26c0c2ff5cf449a8d2ae1fe9011f9cf94731fb9f0de9ec9f323
+LR,2,4.0,G,frozen80,LR_Q24,as original table,Macro-F1 %,73.7859506652064,73.7860,80,operational,77bf5654a2a0e26c0c2ff5cf449a8d2ae1fe9011f9cf94731fb9f0de9ec9f323
+LR,3,1.0,E,frozen80,LR_S24,as original table,Macro-F1 %,91.79426999204334,91.7943,80,operational,77bf5654a2a0e26c0c2ff5cf449a8d2ae1fe9011f9cf94731fb9f0de9ec9f323
+LR,3,2.0,C,frozen80,LR_S24,as original table,Macro-F1 %,72.48753549782982,72.4875,80,operational,77bf5654a2a0e26c0c2ff5cf449a8d2ae1fe9011f9cf94731fb9f0de9ec9f323
+LR,3,3.0,U,frozen80,LR_S24,as original table,Macro-F1 %,82.48890371101044,82.4889,80,operational,77bf5654a2a0e26c0c2ff5cf449a8d2ae1fe9011f9cf94731fb9f0de9ec9f323
+LR,3,4.0,G,frozen80,LR_S24,as original table,Macro-F1 %,73.76477570681597,73.7648,80,operational,77bf5654a2a0e26c0c2ff5cf449a8d2ae1fe9011f9cf94731fb9f0de9ec9f323
+LR,4,1.0,E,frozen80,LR_QS48,as original table,Macro-F1 %,92.17226444457995,92.1723,80,operational,77bf5654a2a0e26c0c2ff5cf449a8d2ae1fe9011f9cf94731fb9f0de9ec9f323
+LR,4,2.0,C,frozen80,LR_QS48,as original table,Macro-F1 %,72.82590261499624,72.8259,80,operational,77bf5654a2a0e26c0c2ff5cf449a8d2ae1fe9011f9cf94731fb9f0de9ec9f323
+LR,4,3.0,U,frozen80,LR_QS48,as original table,Macro-F1 %,83.58727959780208,83.5873,80,operational,77bf5654a2a0e26c0c2ff5cf449a8d2ae1fe9011f9cf94731fb9f0de9ec9f323
+LR,4,4.0,G,frozen80,LR_QS48,as original table,Macro-F1 %,74.72708494623947,74.7271,80,operational,77bf5654a2a0e26c0c2ff5cf449a8d2ae1fe9011f9cf94731fb9f0de9ec9f323
+LR,5,1.0,E,frozen80,LR_Full,as original table,Macro-F1 %,92.21230781963527,92.2123,80,operational,77bf5654a2a0e26c0c2ff5cf449a8d2ae1fe9011f9cf94731fb9f0de9ec9f323
+LR,5,2.0,C,frozen80,LR_Full,as original table,Macro-F1 %,74.52953201920317,74.5295,80,operational,77bf5654a2a0e26c0c2ff5cf449a8d2ae1fe9011f9cf94731fb9f0de9ec9f323
+LR,5,3.0,U,frozen80,LR_Full,as original table,Macro-F1 %,84.10308140371976,84.1031,80,operational,77bf5654a2a0e26c0c2ff5cf449a8d2ae1fe9011f9cf94731fb9f0de9ec9f323
+LR,5,4.0,G,frozen80,LR_Full,as original table,Macro-F1 %,75.20826036340706,75.2083,80,operational,77bf5654a2a0e26c0c2ff5cf449a8d2ae1fe9011f9cf94731fb9f0de9ec9f323
+MLP,1,1.0,E,frozen80,NN_ABR,as original table,Macro-F1 %,89.70297052535977,89.70,80,operational,77bf5654a2a0e26c0c2ff5cf449a8d2ae1fe9011f9cf94731fb9f0de9ec9f323
+MLP,1,1.1,E,frozen80,NN_ABR,as original table,sample SD %,0.3493207287397751,0.35,80,operational,77bf5654a2a0e26c0c2ff5cf449a8d2ae1fe9011f9cf94731fb9f0de9ec9f323
+MLP,1,2.0,C,frozen80,NN_ABR,as original table,Macro-F1 %,74.02908196725068,74.03,80,operational,77bf5654a2a0e26c0c2ff5cf449a8d2ae1fe9011f9cf94731fb9f0de9ec9f323
+MLP,1,2.1,C,frozen80,NN_ABR,as original table,sample SD %,0.47995274070798843,0.48,80,operational,77bf5654a2a0e26c0c2ff5cf449a8d2ae1fe9011f9cf94731fb9f0de9ec9f323
+MLP,1,3.0,U,frozen80,NN_ABR,as original table,Macro-F1 %,84.44273883415177,84.44,80,operational,77bf5654a2a0e26c0c2ff5cf449a8d2ae1fe9011f9cf94731fb9f0de9ec9f323
+MLP,1,3.1,U,frozen80,NN_ABR,as original table,sample SD %,0.0436897413310918,0.04,80,operational,77bf5654a2a0e26c0c2ff5cf449a8d2ae1fe9011f9cf94731fb9f0de9ec9f323
+MLP,1,4.0,G,frozen80,NN_ABR,as original table,Macro-F1 %,73.99060562072006,73.99,80,operational,77bf5654a2a0e26c0c2ff5cf449a8d2ae1fe9011f9cf94731fb9f0de9ec9f323
+MLP,1,4.1,G,frozen80,NN_ABR,as original table,sample SD %,0.521538758552653,0.52,80,operational,77bf5654a2a0e26c0c2ff5cf449a8d2ae1fe9011f9cf94731fb9f0de9ec9f323
+MLP,2,1.0,E,frozen80,NN_Q24,as original table,Macro-F1 %,90.2673848436211,90.27,80,operational,77bf5654a2a0e26c0c2ff5cf449a8d2ae1fe9011f9cf94731fb9f0de9ec9f323
+MLP,2,1.1,E,frozen80,NN_Q24,as original table,sample SD %,0.3280442981539643,0.33,80,operational,77bf5654a2a0e26c0c2ff5cf449a8d2ae1fe9011f9cf94731fb9f0de9ec9f323
+MLP,2,2.0,C,frozen80,NN_Q24,as original table,Macro-F1 %,74.47792494746756,74.48,80,operational,77bf5654a2a0e26c0c2ff5cf449a8d2ae1fe9011f9cf94731fb9f0de9ec9f323
+MLP,2,2.1,C,frozen80,NN_Q24,as original table,sample SD %,0.843972568263685,0.84,80,operational,77bf5654a2a0e26c0c2ff5cf449a8d2ae1fe9011f9cf94731fb9f0de9ec9f323
+MLP,2,3.0,U,frozen80,NN_Q24,as original table,Macro-F1 %,85.32754954316033,85.33,80,operational,77bf5654a2a0e26c0c2ff5cf449a8d2ae1fe9011f9cf94731fb9f0de9ec9f323
+MLP,2,3.1,U,frozen80,NN_Q24,as original table,sample SD %,0.18487513992571383,0.18,80,operational,77bf5654a2a0e26c0c2ff5cf449a8d2ae1fe9011f9cf94731fb9f0de9ec9f323
+MLP,2,4.0,G,frozen80,NN_Q24,as original table,Macro-F1 %,75.86466450305909,75.86,80,operational,77bf5654a2a0e26c0c2ff5cf449a8d2ae1fe9011f9cf94731fb9f0de9ec9f323
+MLP,2,4.1,G,frozen80,NN_Q24,as original table,sample SD %,0.06100993552106565,0.06,80,operational,77bf5654a2a0e26c0c2ff5cf449a8d2ae1fe9011f9cf94731fb9f0de9ec9f323
+MLP,3,1.0,E,frozen80,NN_QS48,as original table,Macro-F1 %,91.08545554483032,91.09,80,operational,77bf5654a2a0e26c0c2ff5cf449a8d2ae1fe9011f9cf94731fb9f0de9ec9f323
+MLP,3,1.1,E,frozen80,NN_QS48,as original table,sample SD %,0.3720542211601028,0.37,80,operational,77bf5654a2a0e26c0c2ff5cf449a8d2ae1fe9011f9cf94731fb9f0de9ec9f323
+MLP,3,2.0,C,frozen80,NN_QS48,as original table,Macro-F1 %,75.63775530804116,75.64,80,operational,77bf5654a2a0e26c0c2ff5cf449a8d2ae1fe9011f9cf94731fb9f0de9ec9f323
+MLP,3,2.1,C,frozen80,NN_QS48,as original table,sample SD %,0.11098716596067762,0.11,80,operational,77bf5654a2a0e26c0c2ff5cf449a8d2ae1fe9011f9cf94731fb9f0de9ec9f323
+MLP,3,3.0,U,frozen80,NN_QS48,as original table,Macro-F1 %,85.87295616481147,85.87,80,operational,77bf5654a2a0e26c0c2ff5cf449a8d2ae1fe9011f9cf94731fb9f0de9ec9f323
+MLP,3,3.1,U,frozen80,NN_QS48,as original table,sample SD %,0.12958511939110512,0.13,80,operational,77bf5654a2a0e26c0c2ff5cf449a8d2ae1fe9011f9cf94731fb9f0de9ec9f323
+MLP,3,4.0,G,frozen80,NN_QS48,as original table,Macro-F1 %,77.12947159677479,77.13,80,operational,77bf5654a2a0e26c0c2ff5cf449a8d2ae1fe9011f9cf94731fb9f0de9ec9f323
+MLP,3,4.1,G,frozen80,NN_QS48,as original table,sample SD %,0.0958201991636284,0.10,80,operational,77bf5654a2a0e26c0c2ff5cf449a8d2ae1fe9011f9cf94731fb9f0de9ec9f323
+MLP,4,1.0,E,frozen80,NN_Q21select,as original table,Macro-F1 %,91.2183575912286,91.22,80,operational,77bf5654a2a0e26c0c2ff5cf449a8d2ae1fe9011f9cf94731fb9f0de9ec9f323
+MLP,4,1.1,E,frozen80,NN_Q21select,as original table,sample SD %,0.3282948127565746,0.33,80,operational,77bf5654a2a0e26c0c2ff5cf449a8d2ae1fe9011f9cf94731fb9f0de9ec9f323
+MLP,4,2.0,C,frozen80,NN_Q21select,as original table,Macro-F1 %,75.4102899441438,75.41,80,operational,77bf5654a2a0e26c0c2ff5cf449a8d2ae1fe9011f9cf94731fb9f0de9ec9f323
+MLP,4,2.1,C,frozen80,NN_Q21select,as original table,sample SD %,0.18929408947108567,0.19,80,operational,77bf5654a2a0e26c0c2ff5cf449a8d2ae1fe9011f9cf94731fb9f0de9ec9f323
+MLP,4,3.0,U,frozen80,NN_Q21select,as original table,Macro-F1 %,85.9123325302218,85.91,80,operational,77bf5654a2a0e26c0c2ff5cf449a8d2ae1fe9011f9cf94731fb9f0de9ec9f323
+MLP,4,3.1,U,frozen80,NN_Q21select,as original table,sample SD %,0.08698852481585036,0.09,80,operational,77bf5654a2a0e26c0c2ff5cf449a8d2ae1fe9011f9cf94731fb9f0de9ec9f323
+MLP,4,4.0,G,frozen80,NN_Q21select,as original table,Macro-F1 %,76.51767860920252,76.52,80,operational,77bf5654a2a0e26c0c2ff5cf449a8d2ae1fe9011f9cf94731fb9f0de9ec9f323
+MLP,4,4.1,G,frozen80,NN_Q21select,as original table,sample SD %,0.19893841461730086,0.20,80,operational,77bf5654a2a0e26c0c2ff5cf449a8d2ae1fe9011f9cf94731fb9f0de9ec9f323
+MLP,5,1.0,E,frozen80,NN_Full,as original table,Macro-F1 %,91.69233284099106,91.69,80,operational,77bf5654a2a0e26c0c2ff5cf449a8d2ae1fe9011f9cf94731fb9f0de9ec9f323
+MLP,5,1.1,E,frozen80,NN_Full,as original table,sample SD %,0.2964779542663837,0.30,80,operational,77bf5654a2a0e26c0c2ff5cf449a8d2ae1fe9011f9cf94731fb9f0de9ec9f323
+MLP,5,2.0,C,frozen80,NN_Full,as original table,Macro-F1 %,75.67466534452342,75.67,80,operational,77bf5654a2a0e26c0c2ff5cf449a8d2ae1fe9011f9cf94731fb9f0de9ec9f323
+MLP,5,2.1,C,frozen80,NN_Full,as original table,sample SD %,0.3183021610130877,0.32,80,operational,77bf5654a2a0e26c0c2ff5cf449a8d2ae1fe9011f9cf94731fb9f0de9ec9f323
+MLP,5,3.0,U,frozen80,NN_Full,as original table,Macro-F1 %,86.0967572769689,86.10,80,operational,77bf5654a2a0e26c0c2ff5cf449a8d2ae1fe9011f9cf94731fb9f0de9ec9f323
+MLP,5,3.1,U,frozen80,NN_Full,as original table,sample SD %,0.14853133904859783,0.15,80,operational,77bf5654a2a0e26c0c2ff5cf449a8d2ae1fe9011f9cf94731fb9f0de9ec9f323
+MLP,5,4.0,G,frozen80,NN_Full,as original table,Macro-F1 %,76.67678983985566,76.68,80,operational,77bf5654a2a0e26c0c2ff5cf449a8d2ae1fe9011f9cf94731fb9f0de9ec9f323
+MLP,5,4.1,G,frozen80,NN_Full,as original table,sample SD %,0.46454078613989996,0.46,80,operational,77bf5654a2a0e26c0c2ff5cf449a8d2ae1fe9011f9cf94731fb9f0de9ec9f323
+direct,1,1.0,E,frozen80,NN_ABR,as original table,Macro-F1 %,89.70297052535977,89.70,80,operational,77bf5654a2a0e26c0c2ff5cf449a8d2ae1fe9011f9cf94731fb9f0de9ec9f323
+direct,1,1.1,E,frozen80,NN_ABR,as original table,sample SD %,0.3493207287397751,0.35,80,operational,77bf5654a2a0e26c0c2ff5cf449a8d2ae1fe9011f9cf94731fb9f0de9ec9f323
+direct,1,2.0,C,frozen80,NN_ABR,as original table,Macro-F1 %,74.02908196725068,74.03,80,operational,77bf5654a2a0e26c0c2ff5cf449a8d2ae1fe9011f9cf94731fb9f0de9ec9f323
+direct,1,2.1,C,frozen80,NN_ABR,as original table,sample SD %,0.47995274070798843,0.48,80,operational,77bf5654a2a0e26c0c2ff5cf449a8d2ae1fe9011f9cf94731fb9f0de9ec9f323
+direct,1,3.0,U,frozen80,NN_ABR,as original table,Macro-F1 %,84.44273883415177,84.44,80,operational,77bf5654a2a0e26c0c2ff5cf449a8d2ae1fe9011f9cf94731fb9f0de9ec9f323
+direct,1,3.1,U,frozen80,NN_ABR,as original table,sample SD %,0.0436897413310918,0.04,80,operational,77bf5654a2a0e26c0c2ff5cf449a8d2ae1fe9011f9cf94731fb9f0de9ec9f323
+direct,1,4.0,G,frozen80,NN_ABR,as original table,Macro-F1 %,73.99060562072006,73.99,80,operational,77bf5654a2a0e26c0c2ff5cf449a8d2ae1fe9011f9cf94731fb9f0de9ec9f323
+direct,1,4.1,G,frozen80,NN_ABR,as original table,sample SD %,0.521538758552653,0.52,80,operational,77bf5654a2a0e26c0c2ff5cf449a8d2ae1fe9011f9cf94731fb9f0de9ec9f323
+direct,2,1.0,E,frozen80,NN_Full,as original table,Macro-F1 %,91.69233284099106,91.69,80,operational,77bf5654a2a0e26c0c2ff5cf449a8d2ae1fe9011f9cf94731fb9f0de9ec9f323
+direct,2,1.1,E,frozen80,NN_Full,as original table,sample SD %,0.2964779542663837,0.30,80,operational,77bf5654a2a0e26c0c2ff5cf449a8d2ae1fe9011f9cf94731fb9f0de9ec9f323
+direct,2,2.0,C,frozen80,NN_Full,as original table,Macro-F1 %,75.67466534452342,75.67,80,operational,77bf5654a2a0e26c0c2ff5cf449a8d2ae1fe9011f9cf94731fb9f0de9ec9f323
+direct,2,2.1,C,frozen80,NN_Full,as original table,sample SD %,0.3183021610130877,0.32,80,operational,77bf5654a2a0e26c0c2ff5cf449a8d2ae1fe9011f9cf94731fb9f0de9ec9f323
+direct,2,3.0,U,frozen80,NN_Full,as original table,Macro-F1 %,86.0967572769689,86.10,80,operational,77bf5654a2a0e26c0c2ff5cf449a8d2ae1fe9011f9cf94731fb9f0de9ec9f323
+direct,2,3.1,U,frozen80,NN_Full,as original table,sample SD %,0.14853133904859783,0.15,80,operational,77bf5654a2a0e26c0c2ff5cf449a8d2ae1fe9011f9cf94731fb9f0de9ec9f323
+direct,2,4.0,G,frozen80,NN_Full,as original table,Macro-F1 %,76.67678983985566,76.68,80,operational,77bf5654a2a0e26c0c2ff5cf449a8d2ae1fe9011f9cf94731fb9f0de9ec9f323
+direct,2,4.1,G,frozen80,NN_Full,as original table,sample SD %,0.46454078613989996,0.46,80,operational,77bf5654a2a0e26c0c2ff5cf449a8d2ae1fe9011f9cf94731fb9f0de9ec9f323
+direct,3,1.0,E,frozen80,NN_Top32,as original table,Macro-F1 %,91.70426566469958,91.70,80,operational,77bf5654a2a0e26c0c2ff5cf449a8d2ae1fe9011f9cf94731fb9f0de9ec9f323
+direct,3,1.1,E,frozen80,NN_Top32,as original table,sample SD %,0.3519270686139626,0.35,80,operational,77bf5654a2a0e26c0c2ff5cf449a8d2ae1fe9011f9cf94731fb9f0de9ec9f323
+direct,3,2.0,C,frozen80,NN_Top32,as original table,Macro-F1 %,75.6151897775589,75.62,80,operational,77bf5654a2a0e26c0c2ff5cf449a8d2ae1fe9011f9cf94731fb9f0de9ec9f323
+direct,3,2.1,C,frozen80,NN_Top32,as original table,sample SD %,0.2897238786066482,0.29,80,operational,77bf5654a2a0e26c0c2ff5cf449a8d2ae1fe9011f9cf94731fb9f0de9ec9f323
+direct,3,3.0,U,frozen80,NN_Top32,as original table,Macro-F1 %,85.99959715052127,86.00,80,operational,77bf5654a2a0e26c0c2ff5cf449a8d2ae1fe9011f9cf94731fb9f0de9ec9f323
+direct,3,3.1,U,frozen80,NN_Top32,as original table,sample SD %,0.028948888451572397,0.03,80,operational,77bf5654a2a0e26c0c2ff5cf449a8d2ae1fe9011f9cf94731fb9f0de9ec9f323
+direct,3,4.0,G,frozen80,NN_Top32,as original table,Macro-F1 %,76.64730964225964,76.65,80,operational,77bf5654a2a0e26c0c2ff5cf449a8d2ae1fe9011f9cf94731fb9f0de9ec9f323
+direct,3,4.1,G,frozen80,NN_Top32,as original table,sample SD %,0.31305210030552943,0.31,80,operational,77bf5654a2a0e26c0c2ff5cf449a8d2ae1fe9011f9cf94731fb9f0de9ec9f323
+direct,4,1.0,E,frozen80,NN_SetTop32,as original table,Macro-F1 %,89.0879319154088,89.09,80,operational,77bf5654a2a0e26c0c2ff5cf449a8d2ae1fe9011f9cf94731fb9f0de9ec9f323
+direct,4,1.1,E,frozen80,NN_SetTop32,as original table,sample SD %,0.4597810560351503,0.46,80,operational,77bf5654a2a0e26c0c2ff5cf449a8d2ae1fe9011f9cf94731fb9f0de9ec9f323
+direct,4,2.0,C,frozen80,NN_SetTop32,as original table,Macro-F1 %,74.40524983747943,74.41,80,operational,77bf5654a2a0e26c0c2ff5cf449a8d2ae1fe9011f9cf94731fb9f0de9ec9f323
+direct,4,2.1,C,frozen80,NN_SetTop32,as original table,sample SD %,0.14492587675256607,0.14,80,operational,77bf5654a2a0e26c0c2ff5cf449a8d2ae1fe9011f9cf94731fb9f0de9ec9f323
+direct,4,3.0,U,frozen80,NN_SetTop32,as original table,Macro-F1 %,85.48457175584974,85.48,80,operational,77bf5654a2a0e26c0c2ff5cf449a8d2ae1fe9011f9cf94731fb9f0de9ec9f323
+direct,4,3.1,U,frozen80,NN_SetTop32,as original table,sample SD %,0.06850403009174438,0.07,80,operational,77bf5654a2a0e26c0c2ff5cf449a8d2ae1fe9011f9cf94731fb9f0de9ec9f323
+direct,4,4.0,G,frozen80,NN_SetTop32,as original table,Macro-F1 %,74.37416594568049,74.37,80,operational,77bf5654a2a0e26c0c2ff5cf449a8d2ae1fe9011f9cf94731fb9f0de9ec9f323
+direct,4,4.1,G,frozen80,NN_SetTop32,as original table,sample SD %,0.2714641259227063,0.27,80,operational,77bf5654a2a0e26c0c2ff5cf449a8d2ae1fe9011f9cf94731fb9f0de9ec9f323
+direct,5,1.0,E,frozen80,NN_AttentionTop32,as original table,Macro-F1 %,89.02821286268686,89.03,80,operational,77bf5654a2a0e26c0c2ff5cf449a8d2ae1fe9011f9cf94731fb9f0de9ec9f323
+direct,5,1.1,E,frozen80,NN_AttentionTop32,as original table,sample SD %,0.40791117697708684,0.41,80,operational,77bf5654a2a0e26c0c2ff5cf449a8d2ae1fe9011f9cf94731fb9f0de9ec9f323
+direct,5,2.0,C,frozen80,NN_AttentionTop32,as original table,Macro-F1 %,74.51566358520427,74.52,80,operational,77bf5654a2a0e26c0c2ff5cf449a8d2ae1fe9011f9cf94731fb9f0de9ec9f323
+direct,5,2.1,C,frozen80,NN_AttentionTop32,as original table,sample SD %,0.289080782342939,0.29,80,operational,77bf5654a2a0e26c0c2ff5cf449a8d2ae1fe9011f9cf94731fb9f0de9ec9f323
+direct,5,3.0,U,frozen80,NN_AttentionTop32,as original table,Macro-F1 %,85.58624386688679,85.59,80,operational,77bf5654a2a0e26c0c2ff5cf449a8d2ae1fe9011f9cf94731fb9f0de9ec9f323
+direct,5,3.1,U,frozen80,NN_AttentionTop32,as original table,sample SD %,0.11353649119721793,0.11,80,operational,77bf5654a2a0e26c0c2ff5cf449a8d2ae1fe9011f9cf94731fb9f0de9ec9f323
+direct,5,4.0,G,frozen80,NN_AttentionTop32,as original table,Macro-F1 %,74.20324251085493,74.20,80,operational,77bf5654a2a0e26c0c2ff5cf449a8d2ae1fe9011f9cf94731fb9f0de9ec9f323
+direct,5,4.1,G,frozen80,NN_AttentionTop32,as original table,sample SD %,0.1054945327052374,0.11,80,operational,77bf5654a2a0e26c0c2ff5cf449a8d2ae1fe9011f9cf94731fb9f0de9ec9f323
+coverage,1,1,E,frozen80,Full-ABR,as original table,N or paired gain pp,1399,1399,80,operational,bd30d7bb3622b21982f567a4b863bd9ce3260e177c73a9481bd67957c2b53997
+coverage,1,2,E,frozen80,Full-ABR,as original table,N or paired gain pp,381,381,80,operational,bd30d7bb3622b21982f567a4b863bd9ce3260e177c73a9481bd67957c2b53997
+coverage,1,3,E,frozen80,Full-ABR,as original table,N or paired gain pp,1.9893623156312823,+1.99,80,operational,bd30d7bb3622b21982f567a4b863bd9ce3260e177c73a9481bd67957c2b53997
+coverage,1,4,E,frozen80,Full-ABR,as original table,N or paired gain pp,2.0915708789242093,+2.09,80,operational,bd30d7bb3622b21982f567a4b863bd9ce3260e177c73a9481bd67957c2b53997
+coverage,1,5,E,frozen80,Full-ABR,as original table,N or paired gain pp,4.605560504262907,+4.61,80,operational,bd30d7bb3622b21982f567a4b863bd9ce3260e177c73a9481bd67957c2b53997
+coverage,2,1,C,frozen80,Full-ABR,as original table,N or paired gain pp,10456,10456,80,operational,bd30d7bb3622b21982f567a4b863bd9ce3260e177c73a9481bd67957c2b53997
+coverage,2,2,C,frozen80,Full-ABR,as original table,N or paired gain pp,8931,8931,80,operational,bd30d7bb3622b21982f567a4b863bd9ce3260e177c73a9481bd67957c2b53997
+coverage,2,3,C,frozen80,Full-ABR,as original table,N or paired gain pp,1.6455833772727413,+1.65,80,operational,bd30d7bb3622b21982f567a4b863bd9ce3260e177c73a9481bd67957c2b53997
+coverage,2,4,C,frozen80,Full-ABR,as original table,N or paired gain pp,1.810493089581744,+1.81,80,operational,bd30d7bb3622b21982f567a4b863bd9ce3260e177c73a9481bd67957c2b53997
+coverage,2,5,C,frozen80,Full-ABR,as original table,N or paired gain pp,2.503131916694934,+2.50,80,operational,bd30d7bb3622b21982f567a4b863bd9ce3260e177c73a9481bd67957c2b53997
+coverage,3,1,U,frozen80,Full-ABR,as original table,N or paired gain pp,99973,99973,80,operational,bd30d7bb3622b21982f567a4b863bd9ce3260e177c73a9481bd67957c2b53997
+coverage,3,2,U,frozen80,Full-ABR,as original table,N or paired gain pp,97372,97372,80,operational,bd30d7bb3622b21982f567a4b863bd9ce3260e177c73a9481bd67957c2b53997
+coverage,3,3,U,frozen80,Full-ABR,as original table,N or paired gain pp,1.65401844281714,+1.65,80,operational,bd30d7bb3622b21982f567a4b863bd9ce3260e177c73a9481bd67957c2b53997
+coverage,3,4,U,frozen80,Full-ABR,as original table,N or paired gain pp,1.6522265944949766,+1.65,80,operational,bd30d7bb3622b21982f567a4b863bd9ce3260e177c73a9481bd67957c2b53997
+coverage,3,5,U,frozen80,Full-ABR,as original table,N or paired gain pp,2.354861722254409,+2.35,80,operational,bd30d7bb3622b21982f567a4b863bd9ce3260e177c73a9481bd67957c2b53997
+coverage,4,1,G,frozen80,Full-ABR,as original table,N or paired gain pp,16651,16651,80,operational,bd30d7bb3622b21982f567a4b863bd9ce3260e177c73a9481bd67957c2b53997
+coverage,4,2,G,frozen80,Full-ABR,as original table,N or paired gain pp,12238,12238,80,operational,bd30d7bb3622b21982f567a4b863bd9ce3260e177c73a9481bd67957c2b53997
+coverage,4,3,G,frozen80,Full-ABR,as original table,N or paired gain pp,2.686184219135601,+2.69,80,operational,bd30d7bb3622b21982f567a4b863bd9ce3260e177c73a9481bd67957c2b53997
+coverage,4,4,G,frozen80,Full-ABR,as original table,N or paired gain pp,3.0413313912056927,+3.04,80,operational,bd30d7bb3622b21982f567a4b863bd9ce3260e177c73a9481bd67957c2b53997
+coverage,4,5,G,frozen80,Full-ABR,as original table,N or paired gain pp,12.850589807054424,+12.85,80,operational,bd30d7bb3622b21982f567a4b863bd9ce3260e177c73a9481bd67957c2b53997
+strong,1,2.0,E,frozen80,BERT-Native,as original table,Macro-F1 %,78.95990792030794,78.96,80,operational,629d27794f6d15203b4442b94f26228df7d6d6e39fa639890021887eb57dec08
+strong,1,2.1,E,frozen80,BERT-Native,as original table,Macro-F1 %,1.0900816966132796,1.09,80,operational,629d27794f6d15203b4442b94f26228df7d6d6e39fa639890021887eb57dec08
+strong,1,3.0,C,frozen80,BERT-Native,as original table,Macro-F1 %,63.15383085012874,63.15,80,operational,629d27794f6d15203b4442b94f26228df7d6d6e39fa639890021887eb57dec08
+strong,1,3.1,C,frozen80,BERT-Native,as original table,Macro-F1 %,3.6852782175042162,3.69,80,operational,629d27794f6d15203b4442b94f26228df7d6d6e39fa639890021887eb57dec08
+strong,1,4.0,U,frozen80,BERT-Native,as original table,Macro-F1 %,78.17722009606699,78.18,80,operational,629d27794f6d15203b4442b94f26228df7d6d6e39fa639890021887eb57dec08
+strong,1,4.1,U,frozen80,BERT-Native,as original table,Macro-F1 %,0.3566524737038495,0.36,80,operational,629d27794f6d15203b4442b94f26228df7d6d6e39fa639890021887eb57dec08
+strong,1,5.0,G,frozen80,BERT-Native,as original table,Macro-F1 %,66.89304629662011,66.89,80,operational,629d27794f6d15203b4442b94f26228df7d6d6e39fa639890021887eb57dec08
+strong,1,5.1,G,frozen80,BERT-Native,as original table,Macro-F1 %,0.8670640500972407,0.87,80,operational,629d27794f6d15203b4442b94f26228df7d6d6e39fa639890021887eb57dec08
+strong,2,2.0,E,frozen80,BERT-T,as original table,Macro-F1 %,82.43716183687508,82.44,80,operational,629d27794f6d15203b4442b94f26228df7d6d6e39fa639890021887eb57dec08
+strong,2,2.1,E,frozen80,BERT-T,as original table,Macro-F1 %,1.2828771403088846,1.28,80,operational,629d27794f6d15203b4442b94f26228df7d6d6e39fa639890021887eb57dec08
+strong,2,3.0,C,frozen80,BERT-T,as original table,Macro-F1 %,64.16369651486663,64.16,80,operational,629d27794f6d15203b4442b94f26228df7d6d6e39fa639890021887eb57dec08
+strong,2,3.1,C,frozen80,BERT-T,as original table,Macro-F1 %,1.1453839832083246,1.15,80,operational,629d27794f6d15203b4442b94f26228df7d6d6e39fa639890021887eb57dec08
+strong,2,4.0,U,frozen80,BERT-T,as original table,Macro-F1 %,77.09297308446598,77.09,80,operational,629d27794f6d15203b4442b94f26228df7d6d6e39fa639890021887eb57dec08
+strong,2,4.1,U,frozen80,BERT-T,as original table,Macro-F1 %,0.22733215510999305,0.23,80,operational,629d27794f6d15203b4442b94f26228df7d6d6e39fa639890021887eb57dec08
+strong,2,5.0,G,frozen80,BERT-T,as original table,Macro-F1 %,69.58962297756761,69.59,80,operational,629d27794f6d15203b4442b94f26228df7d6d6e39fa639890021887eb57dec08
+strong,2,5.1,G,frozen80,BERT-T,as original table,Macro-F1 %,1.8956547210467651,1.90,80,operational,629d27794f6d15203b4442b94f26228df7d6d6e39fa639890021887eb57dec08
+strong,3,2.0,E,frozen80,BERT-TR,as original table,Macro-F1 %,88.92855001984,88.93,80,operational,629d27794f6d15203b4442b94f26228df7d6d6e39fa639890021887eb57dec08
+strong,3,2.1,E,frozen80,BERT-TR,as original table,Macro-F1 %,1.2933555147354636,1.29,80,operational,629d27794f6d15203b4442b94f26228df7d6d6e39fa639890021887eb57dec08
+strong,3,3.0,C,frozen80,BERT-TR,as original table,Macro-F1 %,69.01177877381915,69.01,80,operational,629d27794f6d15203b4442b94f26228df7d6d6e39fa639890021887eb57dec08
+strong,3,3.1,C,frozen80,BERT-TR,as original table,Macro-F1 %,0.5049144778404685,0.50,80,operational,629d27794f6d15203b4442b94f26228df7d6d6e39fa639890021887eb57dec08
+strong,3,4.0,U,frozen80,BERT-TR,as original table,Macro-F1 %,80.31441750842502,80.31,80,operational,629d27794f6d15203b4442b94f26228df7d6d6e39fa639890021887eb57dec08
+strong,3,4.1,U,frozen80,BERT-TR,as original table,Macro-F1 %,0.16773141531238137,0.17,80,operational,629d27794f6d15203b4442b94f26228df7d6d6e39fa639890021887eb57dec08
+strong,3,5.0,G,frozen80,BERT-TR,as original table,Macro-F1 %,71.34783050351233,71.35,80,operational,629d27794f6d15203b4442b94f26228df7d6d6e39fa639890021887eb57dec08
+strong,3,5.1,G,frozen80,BERT-TR,as original table,Macro-F1 %,1.165020544989279,1.17,80,operational,629d27794f6d15203b4442b94f26228df7d6d6e39fa639890021887eb57dec08
+strong,4,2.0,E,frozen80,BERT-TFull,as original table,Macro-F1 %,90.79176360436139,90.79,80,operational,629d27794f6d15203b4442b94f26228df7d6d6e39fa639890021887eb57dec08
+strong,4,2.1,E,frozen80,BERT-TFull,as original table,Macro-F1 %,0.9060485062598387,0.91,80,operational,629d27794f6d15203b4442b94f26228df7d6d6e39fa639890021887eb57dec08
+strong,4,3.0,C,frozen80,BERT-TFull,as original table,Macro-F1 %,69.86434669223668,69.86,80,operational,629d27794f6d15203b4442b94f26228df7d6d6e39fa639890021887eb57dec08
+strong,4,3.1,C,frozen80,BERT-TFull,as original table,Macro-F1 %,0.5446035023655358,0.54,80,operational,629d27794f6d15203b4442b94f26228df7d6d6e39fa639890021887eb57dec08
+strong,4,4.0,U,frozen80,BERT-TFull,as original table,Macro-F1 %,80.79552832424875,80.80,80,operational,629d27794f6d15203b4442b94f26228df7d6d6e39fa639890021887eb57dec08
+strong,4,4.1,U,frozen80,BERT-TFull,as original table,Macro-F1 %,0.19791404304150853,0.20,80,operational,629d27794f6d15203b4442b94f26228df7d6d6e39fa639890021887eb57dec08
+strong,4,5.0,G,frozen80,BERT-TFull,as original table,Macro-F1 %,72.43341124439725,72.43,80,operational,629d27794f6d15203b4442b94f26228df7d6d6e39fa639890021887eb57dec08
+strong,4,5.1,G,frozen80,BERT-TFull,as original table,Macro-F1 %,0.6040807560323913,0.60,80,operational,629d27794f6d15203b4442b94f26228df7d6d6e39fa639890021887eb57dec08
+strong,5,2.0,E,frozen80,TASER-Native,as original table,Macro-F1 %,67.58796708701253,67.59,80,operational,629d27794f6d15203b4442b94f26228df7d6d6e39fa639890021887eb57dec08
+strong,5,2.1,E,frozen80,TASER-Native,as original table,Macro-F1 %,0.7475564919093611,0.75,80,operational,629d27794f6d15203b4442b94f26228df7d6d6e39fa639890021887eb57dec08
+strong,5,3.0,C,frozen80,TASER-Native,as original table,Macro-F1 %,47.67063482637446,47.67,80,operational,629d27794f6d15203b4442b94f26228df7d6d6e39fa639890021887eb57dec08
+strong,5,3.1,C,frozen80,TASER-Native,as original table,Macro-F1 %,1.684717985945746,1.68,80,operational,629d27794f6d15203b4442b94f26228df7d6d6e39fa639890021887eb57dec08
+strong,5,4.0,U,frozen80,TASER-Native,as original table,Macro-F1 %,73.25279501012916,73.25,80,operational,629d27794f6d15203b4442b94f26228df7d6d6e39fa639890021887eb57dec08
+strong,5,4.1,U,frozen80,TASER-Native,as original table,Macro-F1 %,0.15792215546582805,0.16,80,operational,629d27794f6d15203b4442b94f26228df7d6d6e39fa639890021887eb57dec08
+strong,5,5.0,G,frozen80,TASER-Native,as original table,Macro-F1 %,52.15142198639394,52.15,80,operational,629d27794f6d15203b4442b94f26228df7d6d6e39fa639890021887eb57dec08
+strong,5,5.1,G,frozen80,TASER-Native,as original table,Macro-F1 %,2.203687850727366,2.20,80,operational,629d27794f6d15203b4442b94f26228df7d6d6e39fa639890021887eb57dec08
+strong,6,2.0,E,frozen80,TASER-T,as original table,Macro-F1 %,80.83165996941914,80.83,80,operational,629d27794f6d15203b4442b94f26228df7d6d6e39fa639890021887eb57dec08
+strong,6,2.1,E,frozen80,TASER-T,as original table,Macro-F1 %,0.8260732779483445,0.83,80,operational,629d27794f6d15203b4442b94f26228df7d6d6e39fa639890021887eb57dec08
+strong,6,3.0,C,frozen80,TASER-T,as original table,Macro-F1 %,60.72813932257108,60.73,80,operational,629d27794f6d15203b4442b94f26228df7d6d6e39fa639890021887eb57dec08
+strong,6,3.1,C,frozen80,TASER-T,as original table,Macro-F1 %,1.434311639742759,1.43,80,operational,629d27794f6d15203b4442b94f26228df7d6d6e39fa639890021887eb57dec08
+strong,6,4.0,U,frozen80,TASER-T,as original table,Macro-F1 %,71.65892106185422,71.66,80,operational,629d27794f6d15203b4442b94f26228df7d6d6e39fa639890021887eb57dec08
+strong,6,4.1,U,frozen80,TASER-T,as original table,Macro-F1 %,0.8256249635539307,0.83,80,operational,629d27794f6d15203b4442b94f26228df7d6d6e39fa639890021887eb57dec08
+strong,6,5.0,G,frozen80,TASER-T,as original table,Macro-F1 %,64.16652978623355,64.17,80,operational,629d27794f6d15203b4442b94f26228df7d6d6e39fa639890021887eb57dec08
+strong,6,5.1,G,frozen80,TASER-T,as original table,Macro-F1 %,0.4136708007794594,0.41,80,operational,629d27794f6d15203b4442b94f26228df7d6d6e39fa639890021887eb57dec08
+strong,7,2.0,E,frozen80,TASER-TR,as original table,Macro-F1 %,89.68273795970859,89.68,80,operational,629d27794f6d15203b4442b94f26228df7d6d6e39fa639890021887eb57dec08
+strong,7,2.1,E,frozen80,TASER-TR,as original table,Macro-F1 %,0.4597617379347573,0.46,80,operational,629d27794f6d15203b4442b94f26228df7d6d6e39fa639890021887eb57dec08
+strong,7,3.0,C,frozen80,TASER-TR,as original table,Macro-F1 %,71.1089718579149,71.11,80,operational,629d27794f6d15203b4442b94f26228df7d6d6e39fa639890021887eb57dec08
+strong,7,3.1,C,frozen80,TASER-TR,as original table,Macro-F1 %,1.3526555795697237,1.35,80,operational,629d27794f6d15203b4442b94f26228df7d6d6e39fa639890021887eb57dec08
+strong,7,4.0,U,frozen80,TASER-TR,as original table,Macro-F1 %,81.8180274613363,81.82,80,operational,629d27794f6d15203b4442b94f26228df7d6d6e39fa639890021887eb57dec08
+strong,7,4.1,U,frozen80,TASER-TR,as original table,Macro-F1 %,0.5423470069302828,0.54,80,operational,629d27794f6d15203b4442b94f26228df7d6d6e39fa639890021887eb57dec08
+strong,7,5.0,G,frozen80,TASER-TR,as original table,Macro-F1 %,71.32337872620018,71.32,80,operational,629d27794f6d15203b4442b94f26228df7d6d6e39fa639890021887eb57dec08
+strong,7,5.1,G,frozen80,TASER-TR,as original table,Macro-F1 %,0.64547893515479,0.65,80,operational,629d27794f6d15203b4442b94f26228df7d6d6e39fa639890021887eb57dec08
+strong,8,2.0,E,frozen80,TASER-TFull,as original table,Macro-F1 %,90.976889492124,90.98,80,operational,629d27794f6d15203b4442b94f26228df7d6d6e39fa639890021887eb57dec08
+strong,8,2.1,E,frozen80,TASER-TFull,as original table,Macro-F1 %,0.3377946558772135,0.34,80,operational,629d27794f6d15203b4442b94f26228df7d6d6e39fa639890021887eb57dec08
+strong,8,3.0,C,frozen80,TASER-TFull,as original table,Macro-F1 %,72.39414038321847,72.39,80,operational,629d27794f6d15203b4442b94f26228df7d6d6e39fa639890021887eb57dec08
+strong,8,3.1,C,frozen80,TASER-TFull,as original table,Macro-F1 %,1.3729882123805892,1.37,80,operational,629d27794f6d15203b4442b94f26228df7d6d6e39fa639890021887eb57dec08
+strong,8,4.0,U,frozen80,TASER-TFull,as original table,Macro-F1 %,82.868216999023,82.87,80,operational,629d27794f6d15203b4442b94f26228df7d6d6e39fa639890021887eb57dec08
+strong,8,4.1,U,frozen80,TASER-TFull,as original table,Macro-F1 %,0.48640076915393504,0.49,80,operational,629d27794f6d15203b4442b94f26228df7d6d6e39fa639890021887eb57dec08
+strong,8,5.0,G,frozen80,TASER-TFull,as original table,Macro-F1 %,73.45191146762815,73.45,80,operational,629d27794f6d15203b4442b94f26228df7d6d6e39fa639890021887eb57dec08
+strong,8,5.1,G,frozen80,TASER-TFull,as original table,Macro-F1 %,0.8526840240695212,0.85,80,operational,629d27794f6d15203b4442b94f26228df7d6d6e39fa639890021887eb57dec08
+supplement:seeds,7,2,E,frozen80,AB,table explicit,pooled seed Macro-F1 %,78.7476747609316,78.7477,80,operational,bd30d7bb3622b21982f567a4b863bd9ce3260e177c73a9481bd67957c2b53997
+supplement:seeds,7,3,E,frozen80,AB,table explicit,pooled seed Macro-F1 %,76.2314621452459,76.2315,80,operational,bd30d7bb3622b21982f567a4b863bd9ce3260e177c73a9481bd67957c2b53997
+supplement:seeds,7,4,E,frozen80,AB,table explicit,pooled seed Macro-F1 %,79.12392516167755,79.1239,80,operational,bd30d7bb3622b21982f567a4b863bd9ce3260e177c73a9481bd67957c2b53997
+supplement:seeds,8,2,E,frozen80,ABR,table explicit,pooled seed Macro-F1 %,89.83724838843665,89.8372,80,operational,bd30d7bb3622b21982f567a4b863bd9ce3260e177c73a9481bd67957c2b53997
+supplement:seeds,8,3,E,frozen80,ABR,table explicit,pooled seed Macro-F1 %,89.30643508026523,89.3064,80,operational,bd30d7bb3622b21982f567a4b863bd9ce3260e177c73a9481bd67957c2b53997
+supplement:seeds,8,4,E,frozen80,ABR,table explicit,pooled seed Macro-F1 %,89.96522810737744,89.9652,80,operational,bd30d7bb3622b21982f567a4b863bd9ce3260e177c73a9481bd67957c2b53997
+supplement:seeds,9,2,E,frozen80,Full,table explicit,pooled seed Macro-F1 %,91.36917885868108,91.3692,80,operational,bd30d7bb3622b21982f567a4b863bd9ce3260e177c73a9481bd67957c2b53997
+supplement:seeds,9,3,E,frozen80,Full,table explicit,pooled seed Macro-F1 %,91.75604357057507,91.7560,80,operational,bd30d7bb3622b21982f567a4b863bd9ce3260e177c73a9481bd67957c2b53997
+supplement:seeds,9,4,E,frozen80,Full,table explicit,pooled seed Macro-F1 %,91.95177609371703,91.9518,80,operational,bd30d7bb3622b21982f567a4b863bd9ce3260e177c73a9481bd67957c2b53997
+supplement:seeds,10,2,C,frozen80,AB,table explicit,pooled seed Macro-F1 %,58.19812446970973,58.1981,80,operational,bd30d7bb3622b21982f567a4b863bd9ce3260e177c73a9481bd67957c2b53997
+supplement:seeds,10,3,C,frozen80,AB,table explicit,pooled seed Macro-F1 %,55.3300400979692,55.3300,80,operational,bd30d7bb3622b21982f567a4b863bd9ce3260e177c73a9481bd67957c2b53997
+supplement:seeds,10,4,C,frozen80,AB,table explicit,pooled seed Macro-F1 %,59.80521197323612,59.8052,80,operational,bd30d7bb3622b21982f567a4b863bd9ce3260e177c73a9481bd67957c2b53997
+supplement:seeds,11,2,C,frozen80,ABR,table explicit,pooled seed Macro-F1 %,73.60055160014764,73.6006,80,operational,bd30d7bb3622b21982f567a4b863bd9ce3260e177c73a9481bd67957c2b53997
+supplement:seeds,11,3,C,frozen80,ABR,table explicit,pooled seed Macro-F1 %,73.93900207253411,73.9390,80,operational,bd30d7bb3622b21982f567a4b863bd9ce3260e177c73a9481bd67957c2b53997
+supplement:seeds,11,4,C,frozen80,ABR,table explicit,pooled seed Macro-F1 %,74.5476922290703,74.5477,80,operational,bd30d7bb3622b21982f567a4b863bd9ce3260e177c73a9481bd67957c2b53997
+supplement:seeds,12,2,C,frozen80,Full,table explicit,pooled seed Macro-F1 %,75.44774296364372,75.4477,80,operational,bd30d7bb3622b21982f567a4b863bd9ce3260e177c73a9481bd67957c2b53997
+supplement:seeds,12,3,C,frozen80,Full,table explicit,pooled seed Macro-F1 %,75.53773496062914,75.5377,80,operational,bd30d7bb3622b21982f567a4b863bd9ce3260e177c73a9481bd67957c2b53997
+supplement:seeds,12,4,C,frozen80,Full,table explicit,pooled seed Macro-F1 %,76.03851810929739,76.0385,80,operational,bd30d7bb3622b21982f567a4b863bd9ce3260e177c73a9481bd67957c2b53997
+supplement:seeds,13,2,U,frozen80,AB,table explicit,pooled seed Macro-F1 %,75.26333501041368,75.2633,80,operational,bd30d7bb3622b21982f567a4b863bd9ce3260e177c73a9481bd67957c2b53997
+supplement:seeds,13,3,U,frozen80,AB,table explicit,pooled seed Macro-F1 %,75.34889797121856,75.3489,80,operational,bd30d7bb3622b21982f567a4b863bd9ce3260e177c73a9481bd67957c2b53997
+supplement:seeds,13,4,U,frozen80,AB,table explicit,pooled seed Macro-F1 %,75.54310862844547,75.5431,80,operational,bd30d7bb3622b21982f567a4b863bd9ce3260e177c73a9481bd67957c2b53997
+supplement:seeds,14,2,U,frozen80,ABR,table explicit,pooled seed Macro-F1 %,84.42078850142103,84.4208,80,operational,bd30d7bb3622b21982f567a4b863bd9ce3260e177c73a9481bd67957c2b53997
+supplement:seeds,14,3,U,frozen80,ABR,table explicit,pooled seed Macro-F1 %,84.49305139579612,84.4931,80,operational,bd30d7bb3622b21982f567a4b863bd9ce3260e177c73a9481bd67957c2b53997
+supplement:seeds,14,4,U,frozen80,ABR,table explicit,pooled seed Macro-F1 %,84.41437660523815,84.4144,80,operational,bd30d7bb3622b21982f567a4b863bd9ce3260e177c73a9481bd67957c2b53997
+supplement:seeds,15,2,U,frozen80,Full,table explicit,pooled seed Macro-F1 %,85.9586373981066,85.9586,80,operational,bd30d7bb3622b21982f567a4b863bd9ce3260e177c73a9481bd67957c2b53997
+supplement:seeds,15,3,U,frozen80,Full,table explicit,pooled seed Macro-F1 %,86.07776193276035,86.0778,80,operational,bd30d7bb3622b21982f567a4b863bd9ce3260e177c73a9481bd67957c2b53997
+supplement:seeds,15,4,U,frozen80,Full,table explicit,pooled seed Macro-F1 %,86.25387250003975,86.2539,80,operational,bd30d7bb3622b21982f567a4b863bd9ce3260e177c73a9481bd67957c2b53997
+supplement:seeds,16,2,G,frozen80,AB,table explicit,pooled seed Macro-F1 %,61.98759634995471,61.9876,80,operational,bd30d7bb3622b21982f567a4b863bd9ce3260e177c73a9481bd67957c2b53997
+supplement:seeds,16,3,G,frozen80,AB,table explicit,pooled seed Macro-F1 %,62.127894906948434,62.1279,80,operational,bd30d7bb3622b21982f567a4b863bd9ce3260e177c73a9481bd67957c2b53997
+supplement:seeds,16,4,G,frozen80,AB,table explicit,pooled seed Macro-F1 %,62.46456913878966,62.4646,80,operational,bd30d7bb3622b21982f567a4b863bd9ce3260e177c73a9481bd67957c2b53997
+supplement:seeds,17,2,G,frozen80,ABR,table explicit,pooled seed Macro-F1 %,74.5326020402155,74.5326,80,operational,bd30d7bb3622b21982f567a4b863bd9ce3260e177c73a9481bd67957c2b53997
+supplement:seeds,17,3,G,frozen80,ABR,table explicit,pooled seed Macro-F1 %,73.49226936397353,73.4923,80,operational,bd30d7bb3622b21982f567a4b863bd9ce3260e177c73a9481bd67957c2b53997
+supplement:seeds,17,4,G,frozen80,ABR,table explicit,pooled seed Macro-F1 %,73.94694545797115,73.9469,80,operational,bd30d7bb3622b21982f567a4b863bd9ce3260e177c73a9481bd67957c2b53997
+supplement:seeds,18,2,G,frozen80,Full,table explicit,pooled seed Macro-F1 %,77.01008118494464,77.0101,80,operational,bd30d7bb3622b21982f567a4b863bd9ce3260e177c73a9481bd67957c2b53997
+supplement:seeds,18,3,G,frozen80,Full,table explicit,pooled seed Macro-F1 %,76.87413015804991,76.8741,80,operational,bd30d7bb3622b21982f567a4b863bd9ce3260e177c73a9481bd67957c2b53997
+supplement:seeds,18,4,G,frozen80,Full,table explicit,pooled seed Macro-F1 %,76.14615817657243,76.1462,80,operational,bd30d7bb3622b21982f567a4b863bd9ce3260e177c73a9481bd67957c2b53997
+supplement:raw,4,1,E,frozen80,AB,table explicit,raw Macro-F1 %,78.2786803357184,78.28,80,raw or operational by column,bd30d7bb3622b21982f567a4b863bd9ce3260e177c73a9481bd67957c2b53997
+supplement:raw,4,2,E,frozen80,AB,table explicit,operational Macro-F1 %,78.03435402261834,78.03,80,raw or operational by column,bd30d7bb3622b21982f567a4b863bd9ce3260e177c73a9481bd67957c2b53997
+supplement:raw,4,3,E,frozen80,ABR,table explicit,raw Macro-F1 %,91.71179382901967,91.71,80,raw or operational by column,bd30d7bb3622b21982f567a4b863bd9ce3260e177c73a9481bd67957c2b53997
+supplement:raw,4,4,E,frozen80,ABR,table explicit,operational Macro-F1 %,89.70297052535977,89.70,80,raw or operational by column,bd30d7bb3622b21982f567a4b863bd9ce3260e177c73a9481bd67957c2b53997
+supplement:raw,4,5,E,frozen80,Full,table explicit,raw Macro-F1 %,93.85433210950504,93.85,80,raw or operational by column,bd30d7bb3622b21982f567a4b863bd9ce3260e177c73a9481bd67957c2b53997
+supplement:raw,4,6,E,frozen80,Full,table explicit,operational Macro-F1 %,91.69233284099106,91.69,80,raw or operational by column,bd30d7bb3622b21982f567a4b863bd9ce3260e177c73a9481bd67957c2b53997
+supplement:raw,5,1,C,frozen80,AB,table explicit,raw Macro-F1 %,55.53363282095161,55.53,80,raw or operational by column,bd30d7bb3622b21982f567a4b863bd9ce3260e177c73a9481bd67957c2b53997
+supplement:raw,5,2,C,frozen80,AB,table explicit,operational Macro-F1 %,57.77779218030502,57.78,80,raw or operational by column,bd30d7bb3622b21982f567a4b863bd9ce3260e177c73a9481bd67957c2b53997
+supplement:raw,5,3,C,frozen80,ABR,table explicit,raw Macro-F1 %,79.21805913110106,79.22,80,raw or operational by column,bd30d7bb3622b21982f567a4b863bd9ce3260e177c73a9481bd67957c2b53997
+supplement:raw,5,4,C,frozen80,ABR,table explicit,operational Macro-F1 %,74.02908196725068,74.03,80,raw or operational by column,bd30d7bb3622b21982f567a4b863bd9ce3260e177c73a9481bd67957c2b53997
+supplement:raw,5,5,C,frozen80,Full,table explicit,raw Macro-F1 %,80.19104005861377,80.19,80,raw or operational by column,bd30d7bb3622b21982f567a4b863bd9ce3260e177c73a9481bd67957c2b53997
+supplement:raw,5,6,C,frozen80,Full,table explicit,operational Macro-F1 %,75.67466534452342,75.67,80,raw or operational by column,bd30d7bb3622b21982f567a4b863bd9ce3260e177c73a9481bd67957c2b53997
+supplement:raw,6,1,U,frozen80,AB,table explicit,raw Macro-F1 %,75.58891299297898,75.59,80,raw or operational by column,bd30d7bb3622b21982f567a4b863bd9ce3260e177c73a9481bd67957c2b53997
+supplement:raw,6,2,U,frozen80,AB,table explicit,operational Macro-F1 %,75.3851138700259,75.39,80,raw or operational by column,bd30d7bb3622b21982f567a4b863bd9ce3260e177c73a9481bd67957c2b53997
+supplement:raw,6,3,U,frozen80,ABR,table explicit,raw Macro-F1 %,90.11265900970375,90.11,80,raw or operational by column,bd30d7bb3622b21982f567a4b863bd9ce3260e177c73a9481bd67957c2b53997
+supplement:raw,6,4,U,frozen80,ABR,table explicit,operational Macro-F1 %,84.44273883415177,84.44,80,raw or operational by column,bd30d7bb3622b21982f567a4b863bd9ce3260e177c73a9481bd67957c2b53997
+supplement:raw,6,5,U,frozen80,Full,table explicit,raw Macro-F1 %,91.7973974058954,91.80,80,raw or operational by column,bd30d7bb3622b21982f567a4b863bd9ce3260e177c73a9481bd67957c2b53997
+supplement:raw,6,6,U,frozen80,Full,table explicit,operational Macro-F1 %,86.0967572769689,86.10,80,raw or operational by column,bd30d7bb3622b21982f567a4b863bd9ce3260e177c73a9481bd67957c2b53997
+supplement:raw,7,1,G,frozen80,AB,table explicit,raw Macro-F1 %,61.8635765286018,61.86,80,raw or operational by column,bd30d7bb3622b21982f567a4b863bd9ce3260e177c73a9481bd67957c2b53997
+supplement:raw,7,2,G,frozen80,AB,table explicit,operational Macro-F1 %,62.19335346523093,62.19,80,raw or operational by column,bd30d7bb3622b21982f567a4b863bd9ce3260e177c73a9481bd67957c2b53997
+supplement:raw,7,3,G,frozen80,ABR,table explicit,raw Macro-F1 %,76.90944161038566,76.91,80,raw or operational by column,bd30d7bb3622b21982f567a4b863bd9ce3260e177c73a9481bd67957c2b53997
+supplement:raw,7,4,G,frozen80,ABR,table explicit,operational Macro-F1 %,73.99060562072006,73.99,80,raw or operational by column,bd30d7bb3622b21982f567a4b863bd9ce3260e177c73a9481bd67957c2b53997
+supplement:raw,7,5,G,frozen80,Full,table explicit,raw Macro-F1 %,79.47073285010512,79.47,80,raw or operational by column,bd30d7bb3622b21982f567a4b863bd9ce3260e177c73a9481bd67957c2b53997
+supplement:raw,7,6,G,frozen80,Full,table explicit,operational Macro-F1 %,76.67678983985566,76.68,80,raw or operational by column,bd30d7bb3622b21982f567a4b863bd9ce3260e177c73a9481bd67957c2b53997
+supplement:mainCI,4,1.0,E,frozen80,ABR-AB,table explicit,CI endpoint pp,8.157710586929115,8.16,80,operational,3bbe8890508e79ed6a10715f05b9866af107050f505b5ed5228ece391851815f
+supplement:mainCI,4,1.1,E,frozen80,ABR-AB,table explicit,CI endpoint pp,15.179522418553749,15.18,80,operational,3bbe8890508e79ed6a10715f05b9866af107050f505b5ed5228ece391851815f
+supplement:mainCI,4,2.0,E,frozen80,Full-ABR,table explicit,CI endpoint pp,0.4462454989566942,0.45,80,operational,3bbe8890508e79ed6a10715f05b9866af107050f505b5ed5228ece391851815f
+supplement:mainCI,4,2.1,E,frozen80,Full-ABR,table explicit,CI endpoint pp,3.5324791323058706,3.53,80,operational,3bbe8890508e79ed6a10715f05b9866af107050f505b5ed5228ece391851815f
+supplement:mainCI,4,3.0,E,frozen80,Full-AB,table explicit,CI endpoint pp,9.9421566435943,9.94,80,operational,3bbe8890508e79ed6a10715f05b9866af107050f505b5ed5228ece391851815f
+supplement:mainCI,4,3.1,E,frozen80,Full-AB,table explicit,CI endpoint pp,17.37380099315113,17.37,80,operational,3bbe8890508e79ed6a10715f05b9866af107050f505b5ed5228ece391851815f
+supplement:mainCI,5,1.0,C,frozen80,ABR-AB,table explicit,CI endpoint pp,12.172294216668861,12.17,80,operational,3bbe8890508e79ed6a10715f05b9866af107050f505b5ed5228ece391851815f
+supplement:mainCI,5,1.1,C,frozen80,ABR-AB,table explicit,CI endpoint pp,20.330285357222472,20.33,80,operational,3bbe8890508e79ed6a10715f05b9866af107050f505b5ed5228ece391851815f
+supplement:mainCI,5,2.0,C,frozen80,Full-ABR,table explicit,CI endpoint pp,0.07350509900165003,0.07,80,operational,3bbe8890508e79ed6a10715f05b9866af107050f505b5ed5228ece391851815f
+supplement:mainCI,5,2.1,C,frozen80,Full-ABR,table explicit,CI endpoint pp,3.2176616555438105,3.22,80,operational,3bbe8890508e79ed6a10715f05b9866af107050f505b5ed5228ece391851815f
+supplement:mainCI,5,3.0,C,frozen80,Full-AB,table explicit,CI endpoint pp,13.476408673291898,13.48,80,operational,3bbe8890508e79ed6a10715f05b9866af107050f505b5ed5228ece391851815f
+supplement:mainCI,5,3.1,C,frozen80,Full-AB,table explicit,CI endpoint pp,22.317337655144893,22.32,80,operational,3bbe8890508e79ed6a10715f05b9866af107050f505b5ed5228ece391851815f
+supplement:mainCI,6,1.0,U,frozen80,ABR-AB,table explicit,CI endpoint pp,7.3812262926361,7.38,80,operational,3bbe8890508e79ed6a10715f05b9866af107050f505b5ed5228ece391851815f
+supplement:mainCI,6,1.1,U,frozen80,ABR-AB,table explicit,CI endpoint pp,10.734023635615609,10.73,80,operational,3bbe8890508e79ed6a10715f05b9866af107050f505b5ed5228ece391851815f
+supplement:mainCI,6,2.0,U,frozen80,Full-ABR,table explicit,CI endpoint pp,0.9938444313325592,0.99,80,operational,3bbe8890508e79ed6a10715f05b9866af107050f505b5ed5228ece391851815f
+supplement:mainCI,6,2.1,U,frozen80,Full-ABR,table explicit,CI endpoint pp,2.3141924543017285,2.31,80,operational,3bbe8890508e79ed6a10715f05b9866af107050f505b5ed5228ece391851815f
+supplement:mainCI,6,3.0,U,frozen80,Full-AB,table explicit,CI endpoint pp,8.866356799886729,8.87,80,operational,3bbe8890508e79ed6a10715f05b9866af107050f505b5ed5228ece391851815f
+supplement:mainCI,6,3.1,U,frozen80,Full-AB,table explicit,CI endpoint pp,12.556930013999267,12.56,80,operational,3bbe8890508e79ed6a10715f05b9866af107050f505b5ed5228ece391851815f
+supplement:mainCI,7,1.0,G,frozen80,ABR-AB,table explicit,CI endpoint pp,8.0806267910706,8.08,80,operational,3bbe8890508e79ed6a10715f05b9866af107050f505b5ed5228ece391851815f
+supplement:mainCI,7,1.1,G,frozen80,ABR-AB,table explicit,CI endpoint pp,15.513877519907648,15.51,80,operational,3bbe8890508e79ed6a10715f05b9866af107050f505b5ed5228ece391851815f
+supplement:mainCI,7,2.0,G,frozen80,Full-ABR,table explicit,CI endpoint pp,1.004175799501091,1.00,80,operational,3bbe8890508e79ed6a10715f05b9866af107050f505b5ed5228ece391851815f
+supplement:mainCI,7,2.1,G,frozen80,Full-ABR,table explicit,CI endpoint pp,4.368192638770112,4.37,80,operational,3bbe8890508e79ed6a10715f05b9866af107050f505b5ed5228ece391851815f
+supplement:mainCI,7,3.0,G,frozen80,Full-AB,table explicit,CI endpoint pp,10.591361236971961,10.59,80,operational,3bbe8890508e79ed6a10715f05b9866af107050f505b5ed5228ece391851815f
+supplement:mainCI,7,3.1,G,frozen80,Full-AB,table explicit,CI endpoint pp,18.37551151227749,18.38,80,operational,3bbe8890508e79ed6a10715f05b9866af107050f505b5ed5228ece391851815f
+supplement:R1CI,3,0,E,frozen80,D-A,table explicit,paired delta or CI pp,9.157171919730144,+9.1572,80,operational,3bbe8890508e79ed6a10715f05b9866af107050f505b5ed5228ece391851815f
+supplement:R1CI,3,1,E,frozen80,D-A,table explicit,paired delta or CI pp,6.302788056985306,6.3028,80,operational,3bbe8890508e79ed6a10715f05b9866af107050f505b5ed5228ece391851815f
+supplement:R1CI,3,2,E,frozen80,D-A,table explicit,paired delta or CI pp,12.011555782474984,12.0116,80,operational,3bbe8890508e79ed6a10715f05b9866af107050f505b5ed5228ece391851815f
+supplement:R1CI,4,0,E,frozen80,D-C-mean,table explicit,paired delta or CI pp,9.212812515657752,+9.2128,80,operational,3bbe8890508e79ed6a10715f05b9866af107050f505b5ed5228ece391851815f
+supplement:R1CI,4,1,E,frozen80,D-C-mean,table explicit,paired delta or CI pp,6.409739555635592,6.4097,80,operational,3bbe8890508e79ed6a10715f05b9866af107050f505b5ed5228ece391851815f
+supplement:R1CI,4,2,E,frozen80,D-C-mean,table explicit,paired delta or CI pp,12.015885475679914,12.0159,80,operational,3bbe8890508e79ed6a10715f05b9866af107050f505b5ed5228ece391851815f
+supplement:R1CI,5,0,C,frozen80,D-A,table explicit,paired delta or CI pp,6.005153654875395,+6.0052,80,operational,3bbe8890508e79ed6a10715f05b9866af107050f505b5ed5228ece391851815f
+supplement:R1CI,5,1,C,frozen80,D-A,table explicit,paired delta or CI pp,4.147025757808254,4.1470,80,operational,3bbe8890508e79ed6a10715f05b9866af107050f505b5ed5228ece391851815f
+supplement:R1CI,5,2,C,frozen80,D-A,table explicit,paired delta or CI pp,7.863281551942536,7.8633,80,operational,3bbe8890508e79ed6a10715f05b9866af107050f505b5ed5228ece391851815f
+supplement:R1CI,6,0,C,frozen80,D-C-mean,table explicit,paired delta or CI pp,6.382519344754467,+6.3825,80,operational,3bbe8890508e79ed6a10715f05b9866af107050f505b5ed5228ece391851815f
+supplement:R1CI,6,1,C,frozen80,D-C-mean,table explicit,paired delta or CI pp,4.331809683445931,4.3318,80,operational,3bbe8890508e79ed6a10715f05b9866af107050f505b5ed5228ece391851815f
+supplement:R1CI,6,2,C,frozen80,D-C-mean,table explicit,paired delta or CI pp,8.433229006063003,8.4332,80,operational,3bbe8890508e79ed6a10715f05b9866af107050f505b5ed5228ece391851815f
+supplement:R1CI,7,0,U,frozen80,D-A,table explicit,paired delta or CI pp,8.940466193913233,+8.9405,80,operational,3bbe8890508e79ed6a10715f05b9866af107050f505b5ed5228ece391851815f
+supplement:R1CI,7,1,U,frozen80,D-A,table explicit,paired delta or CI pp,7.198676269028506,7.1987,80,operational,3bbe8890508e79ed6a10715f05b9866af107050f505b5ed5228ece391851815f
+supplement:R1CI,7,2,U,frozen80,D-A,table explicit,paired delta or CI pp,10.682256118797959,10.6823,80,operational,3bbe8890508e79ed6a10715f05b9866af107050f505b5ed5228ece391851815f
+supplement:R1CI,8,0,U,frozen80,D-C-mean,table explicit,paired delta or CI pp,9.275271505075466,+9.2753,80,operational,3bbe8890508e79ed6a10715f05b9866af107050f505b5ed5228ece391851815f
+supplement:R1CI,8,1,U,frozen80,D-C-mean,table explicit,paired delta or CI pp,7.3102011882347675,7.3102,80,operational,3bbe8890508e79ed6a10715f05b9866af107050f505b5ed5228ece391851815f
+supplement:R1CI,8,2,U,frozen80,D-C-mean,table explicit,paired delta or CI pp,11.240341821916164,11.2403,80,operational,3bbe8890508e79ed6a10715f05b9866af107050f505b5ed5228ece391851815f
+supplement:LRCI,7,0,E,frozen80,QS48-Q24,table explicit,paired delta or CI pp,0.45987314194901874,+0.4599,80,operational,3bbe8890508e79ed6a10715f05b9866af107050f505b5ed5228ece391851815f
+supplement:LRCI,7,1,E,frozen80,QS48-Q24,table explicit,paired delta or CI pp,-0.7673964428526855,-0.7674,80,operational,3bbe8890508e79ed6a10715f05b9866af107050f505b5ed5228ece391851815f
+supplement:LRCI,7,2,E,frozen80,QS48-Q24,table explicit,paired delta or CI pp,1.6871427267507229,1.6871,80,operational,3bbe8890508e79ed6a10715f05b9866af107050f505b5ed5228ece391851815f
+supplement:LRCI,8,0,E,frozen80,QS48-S24,table explicit,paired delta or CI pp,0.3779944525366119,+0.3780,80,operational,3bbe8890508e79ed6a10715f05b9866af107050f505b5ed5228ece391851815f
+supplement:LRCI,8,1,E,frozen80,QS48-S24,table explicit,paired delta or CI pp,-0.2469184940791667,-0.2469,80,operational,3bbe8890508e79ed6a10715f05b9866af107050f505b5ed5228ece391851815f
+supplement:LRCI,8,2,E,frozen80,QS48-S24,table explicit,paired delta or CI pp,1.0029073991523905,1.0029,80,operational,3bbe8890508e79ed6a10715f05b9866af107050f505b5ed5228ece391851815f
+supplement:LRCI,9,0,E,frozen80,Full-QS48,table explicit,paired delta or CI pp,0.04004337505530975,+0.0400,80,operational,3bbe8890508e79ed6a10715f05b9866af107050f505b5ed5228ece391851815f
+supplement:LRCI,9,1,E,frozen80,Full-QS48,table explicit,paired delta or CI pp,-0.9285376229151057,-0.9285,80,operational,3bbe8890508e79ed6a10715f05b9866af107050f505b5ed5228ece391851815f
+supplement:LRCI,9,2,E,frozen80,Full-QS48,table explicit,paired delta or CI pp,1.0086243730257252,1.0086,80,operational,3bbe8890508e79ed6a10715f05b9866af107050f505b5ed5228ece391851815f
+supplement:LRCI,10,0,C,frozen80,QS48-Q24,table explicit,paired delta or CI pp,-0.6107144607129356,-0.6107,80,operational,3bbe8890508e79ed6a10715f05b9866af107050f505b5ed5228ece391851815f
+supplement:LRCI,10,1,C,frozen80,QS48-Q24,table explicit,paired delta or CI pp,-1.8270865993990102,-1.8271,80,operational,3bbe8890508e79ed6a10715f05b9866af107050f505b5ed5228ece391851815f
+supplement:LRCI,10,2,C,frozen80,QS48-Q24,table explicit,paired delta or CI pp,0.605657677973139,0.6057,80,operational,3bbe8890508e79ed6a10715f05b9866af107050f505b5ed5228ece391851815f
+supplement:LRCI,11,0,C,frozen80,QS48-S24,table explicit,paired delta or CI pp,0.338367117166416,+0.3384,80,operational,3bbe8890508e79ed6a10715f05b9866af107050f505b5ed5228ece391851815f
+supplement:LRCI,11,1,C,frozen80,QS48-S24,table explicit,paired delta or CI pp,-0.6082995230881911,-0.6083,80,operational,3bbe8890508e79ed6a10715f05b9866af107050f505b5ed5228ece391851815f
+supplement:LRCI,11,2,C,frozen80,QS48-S24,table explicit,paired delta or CI pp,1.285033757421023,1.2850,80,operational,3bbe8890508e79ed6a10715f05b9866af107050f505b5ed5228ece391851815f
+supplement:LRCI,12,0,C,frozen80,Full-QS48,table explicit,paired delta or CI pp,1.70362940420693,+1.7036,80,operational,3bbe8890508e79ed6a10715f05b9866af107050f505b5ed5228ece391851815f
+supplement:LRCI,12,1,C,frozen80,Full-QS48,table explicit,paired delta or CI pp,0.5196208038228987,0.5196,80,operational,3bbe8890508e79ed6a10715f05b9866af107050f505b5ed5228ece391851815f
+supplement:LRCI,12,2,C,frozen80,Full-QS48,table explicit,paired delta or CI pp,2.8876380045909613,2.8876,80,operational,3bbe8890508e79ed6a10715f05b9866af107050f505b5ed5228ece391851815f
+supplement:LRCI,13,0,U,frozen80,QS48-Q24,table explicit,paired delta or CI pp,0.9083766438096275,+0.9084,80,operational,3bbe8890508e79ed6a10715f05b9866af107050f505b5ed5228ece391851815f
+supplement:LRCI,13,1,U,frozen80,QS48-Q24,table explicit,paired delta or CI pp,0.3976601333099689,0.3977,80,operational,3bbe8890508e79ed6a10715f05b9866af107050f505b5ed5228ece391851815f
+supplement:LRCI,13,2,U,frozen80,QS48-Q24,table explicit,paired delta or CI pp,1.419093154309286,1.4191,80,operational,3bbe8890508e79ed6a10715f05b9866af107050f505b5ed5228ece391851815f
+supplement:LRCI,14,0,U,frozen80,QS48-S24,table explicit,paired delta or CI pp,1.098375886791647,+1.0984,80,operational,3bbe8890508e79ed6a10715f05b9866af107050f505b5ed5228ece391851815f
+supplement:LRCI,14,1,U,frozen80,QS48-S24,table explicit,paired delta or CI pp,0.25753591344408794,0.2575,80,operational,3bbe8890508e79ed6a10715f05b9866af107050f505b5ed5228ece391851815f
+supplement:LRCI,14,2,U,frozen80,QS48-S24,table explicit,paired delta or CI pp,1.939215860139206,1.9392,80,operational,3bbe8890508e79ed6a10715f05b9866af107050f505b5ed5228ece391851815f
+supplement:LRCI,15,0,U,frozen80,Full-QS48,table explicit,paired delta or CI pp,0.5158018059176817,+0.5158,80,operational,3bbe8890508e79ed6a10715f05b9866af107050f505b5ed5228ece391851815f
+supplement:LRCI,15,1,U,frozen80,Full-QS48,table explicit,paired delta or CI pp,0.12784685602901308,0.1278,80,operational,3bbe8890508e79ed6a10715f05b9866af107050f505b5ed5228ece391851815f
+supplement:LRCI,15,2,U,frozen80,Full-QS48,table explicit,paired delta or CI pp,0.9037567558063502,0.9038,80,operational,3bbe8890508e79ed6a10715f05b9866af107050f505b5ed5228ece391851815f
+supplement:LRCI,16,0,G,frozen80,QS48-Q24,table explicit,paired delta or CI pp,0.9411342810330736,+0.9411,80,operational,3bbe8890508e79ed6a10715f05b9866af107050f505b5ed5228ece391851815f
+supplement:LRCI,16,1,G,frozen80,QS48-Q24,table explicit,paired delta or CI pp,-0.4827409487292638,-0.4827,80,operational,3bbe8890508e79ed6a10715f05b9866af107050f505b5ed5228ece391851815f
+supplement:LRCI,16,2,G,frozen80,QS48-Q24,table explicit,paired delta or CI pp,2.365009510795411,2.3650,80,operational,3bbe8890508e79ed6a10715f05b9866af107050f505b5ed5228ece391851815f
+supplement:LRCI,17,0,G,frozen80,QS48-S24,table explicit,paired delta or CI pp,0.9623092394235089,+0.9623,80,operational,3bbe8890508e79ed6a10715f05b9866af107050f505b5ed5228ece391851815f
+supplement:LRCI,17,1,G,frozen80,QS48-S24,table explicit,paired delta or CI pp,-0.85902516917861,-0.8590,80,operational,3bbe8890508e79ed6a10715f05b9866af107050f505b5ed5228ece391851815f
+supplement:LRCI,17,2,G,frozen80,QS48-S24,table explicit,paired delta or CI pp,2.783643648025628,2.7836,80,operational,3bbe8890508e79ed6a10715f05b9866af107050f505b5ed5228ece391851815f
+supplement:LRCI,18,0,G,frozen80,Full-QS48,table explicit,paired delta or CI pp,0.4811754171675897,+0.4812,80,operational,3bbe8890508e79ed6a10715f05b9866af107050f505b5ed5228ece391851815f
+supplement:LRCI,18,1,G,frozen80,Full-QS48,table explicit,paired delta or CI pp,-0.8131782224422431,-0.8132,80,operational,3bbe8890508e79ed6a10715f05b9866af107050f505b5ed5228ece391851815f
+supplement:LRCI,18,2,G,frozen80,Full-QS48,table explicit,paired delta or CI pp,1.7755290567774225,1.7755,80,operational,3bbe8890508e79ed6a10715f05b9866af107050f505b5ed5228ece391851815f
+supplement:MLPCI,7,0,E,frozen80,QS48-Q24,table explicit,paired delta or CI pp,0.8180707012092095,+0.8181,80,operational,3bbe8890508e79ed6a10715f05b9866af107050f505b5ed5228ece391851815f
+supplement:MLPCI,7,1,E,frozen80,QS48-Q24,table explicit,paired delta or CI pp,-0.28681971507233345,-0.2868,80,operational,3bbe8890508e79ed6a10715f05b9866af107050f505b5ed5228ece391851815f
+supplement:MLPCI,7,2,E,frozen80,QS48-Q24,table explicit,paired delta or CI pp,1.9229611174907526,1.9230,80,operational,3bbe8890508e79ed6a10715f05b9866af107050f505b5ed5228ece391851815f
+supplement:MLPCI,8,0,E,frozen80,Full-QS48,table explicit,paired delta or CI pp,0.606877296160746,+0.6069,80,operational,3bbe8890508e79ed6a10715f05b9866af107050f505b5ed5228ece391851815f
+supplement:MLPCI,8,1,E,frozen80,Full-QS48,table explicit,paired delta or CI pp,-0.4193598515404018,-0.4194,80,operational,3bbe8890508e79ed6a10715f05b9866af107050f505b5ed5228ece391851815f
+supplement:MLPCI,8,2,E,frozen80,Full-QS48,table explicit,paired delta or CI pp,1.6331144438618939,1.6331,80,operational,3bbe8890508e79ed6a10715f05b9866af107050f505b5ed5228ece391851815f
+supplement:MLPCI,9,0,E,frozen80,Full-Q21select,table explicit,paired delta or CI pp,0.47397524976246314,+0.4740,80,operational,3bbe8890508e79ed6a10715f05b9866af107050f505b5ed5228ece391851815f
+supplement:MLPCI,9,1,E,frozen80,Full-Q21select,table explicit,paired delta or CI pp,-0.3838264324865397,-0.3838,80,operational,3bbe8890508e79ed6a10715f05b9866af107050f505b5ed5228ece391851815f
+supplement:MLPCI,9,2,E,frozen80,Full-Q21select,table explicit,paired delta or CI pp,1.331776932011466,1.3318,80,operational,3bbe8890508e79ed6a10715f05b9866af107050f505b5ed5228ece391851815f
+supplement:MLPCI,10,0,C,frozen80,QS48-Q24,table explicit,paired delta or CI pp,1.159830360573603,+1.1598,80,operational,3bbe8890508e79ed6a10715f05b9866af107050f505b5ed5228ece391851815f
+supplement:MLPCI,10,1,C,frozen80,QS48-Q24,table explicit,paired delta or CI pp,-0.012557964846134778,-0.0126,80,operational,3bbe8890508e79ed6a10715f05b9866af107050f505b5ed5228ece391851815f
+supplement:MLPCI,10,2,C,frozen80,QS48-Q24,table explicit,paired delta or CI pp,2.332218685993341,2.3322,80,operational,3bbe8890508e79ed6a10715f05b9866af107050f505b5ed5228ece391851815f
+supplement:MLPCI,11,0,C,frozen80,Full-QS48,table explicit,paired delta or CI pp,0.036910036482244266,+0.0369,80,operational,3bbe8890508e79ed6a10715f05b9866af107050f505b5ed5228ece391851815f
+supplement:MLPCI,11,1,C,frozen80,Full-QS48,table explicit,paired delta or CI pp,-0.7970323413899619,-0.7970,80,operational,3bbe8890508e79ed6a10715f05b9866af107050f505b5ed5228ece391851815f
+supplement:MLPCI,11,2,C,frozen80,Full-QS48,table explicit,paired delta or CI pp,0.8708524143544503,0.8709,80,operational,3bbe8890508e79ed6a10715f05b9866af107050f505b5ed5228ece391851815f
+supplement:MLPCI,12,0,C,frozen80,Full-Q21select,table explicit,paired delta or CI pp,0.2643754003796165,+0.2644,80,operational,3bbe8890508e79ed6a10715f05b9866af107050f505b5ed5228ece391851815f
+supplement:MLPCI,12,1,C,frozen80,Full-Q21select,table explicit,paired delta or CI pp,-0.6514880408520383,-0.6515,80,operational,3bbe8890508e79ed6a10715f05b9866af107050f505b5ed5228ece391851815f
+supplement:MLPCI,12,2,C,frozen80,Full-Q21select,table explicit,paired delta or CI pp,1.1802388416112712,1.1802,80,operational,3bbe8890508e79ed6a10715f05b9866af107050f505b5ed5228ece391851815f
+supplement:MLPCI,13,0,U,frozen80,QS48-Q24,table explicit,paired delta or CI pp,0.5454066216511417,+0.5454,80,operational,3bbe8890508e79ed6a10715f05b9866af107050f505b5ed5228ece391851815f
+supplement:MLPCI,13,1,U,frozen80,QS48-Q24,table explicit,paired delta or CI pp,0.12208859363086413,0.1221,80,operational,3bbe8890508e79ed6a10715f05b9866af107050f505b5ed5228ece391851815f
+supplement:MLPCI,13,2,U,frozen80,QS48-Q24,table explicit,paired delta or CI pp,0.9687246496714195,0.9687,80,operational,3bbe8890508e79ed6a10715f05b9866af107050f505b5ed5228ece391851815f
+supplement:MLPCI,14,0,U,frozen80,Full-QS48,table explicit,paired delta or CI pp,0.22380111215742904,+0.2238,80,operational,3bbe8890508e79ed6a10715f05b9866af107050f505b5ed5228ece391851815f
+supplement:MLPCI,14,1,U,frozen80,Full-QS48,table explicit,paired delta or CI pp,-0.06550785584229636,-0.0655,80,operational,3bbe8890508e79ed6a10715f05b9866af107050f505b5ed5228ece391851815f
+supplement:MLPCI,14,2,U,frozen80,Full-QS48,table explicit,paired delta or CI pp,0.5131100801571544,0.5131,80,operational,3bbe8890508e79ed6a10715f05b9866af107050f505b5ed5228ece391851815f
+supplement:MLPCI,15,0,U,frozen80,Full-Q21select,table explicit,paired delta or CI pp,0.18442474674709536,+0.1844,80,operational,3bbe8890508e79ed6a10715f05b9866af107050f505b5ed5228ece391851815f
+supplement:MLPCI,15,1,U,frozen80,Full-Q21select,table explicit,paired delta or CI pp,-0.12867040252832718,-0.1287,80,operational,3bbe8890508e79ed6a10715f05b9866af107050f505b5ed5228ece391851815f
+supplement:MLPCI,15,2,U,frozen80,Full-Q21select,table explicit,paired delta or CI pp,0.4975198960225179,0.4975,80,operational,3bbe8890508e79ed6a10715f05b9866af107050f505b5ed5228ece391851815f
+supplement:MLPCI,16,0,G,frozen80,QS48-Q24,table explicit,paired delta or CI pp,1.2648070937156919,+1.2648,80,operational,3bbe8890508e79ed6a10715f05b9866af107050f505b5ed5228ece391851815f
+supplement:MLPCI,16,1,G,frozen80,QS48-Q24,table explicit,paired delta or CI pp,0.07847639248664603,0.0785,80,operational,3bbe8890508e79ed6a10715f05b9866af107050f505b5ed5228ece391851815f
+supplement:MLPCI,16,2,G,frozen80,QS48-Q24,table explicit,paired delta or CI pp,2.4511377949447377,2.4511,80,operational,3bbe8890508e79ed6a10715f05b9866af107050f505b5ed5228ece391851815f
+supplement:MLPCI,17,0,G,frozen80,Full-QS48,table explicit,paired delta or CI pp,-0.4526817569191229,-0.4527,80,operational,3bbe8890508e79ed6a10715f05b9866af107050f505b5ed5228ece391851815f
+supplement:MLPCI,17,1,G,frozen80,Full-QS48,table explicit,paired delta or CI pp,-1.2132989695463912,-1.2133,80,operational,3bbe8890508e79ed6a10715f05b9866af107050f505b5ed5228ece391851815f
+supplement:MLPCI,17,2,G,frozen80,Full-QS48,table explicit,paired delta or CI pp,0.3079354557081454,0.3079,80,operational,3bbe8890508e79ed6a10715f05b9866af107050f505b5ed5228ece391851815f
+supplement:MLPCI,18,0,G,frozen80,Full-Q21select,table explicit,paired delta or CI pp,0.15911123065313798,+0.1591,80,operational,3bbe8890508e79ed6a10715f05b9866af107050f505b5ed5228ece391851815f
+supplement:MLPCI,18,1,G,frozen80,Full-Q21select,table explicit,paired delta or CI pp,-0.8444666841624563,-0.8445,80,operational,3bbe8890508e79ed6a10715f05b9866af107050f505b5ed5228ece391851815f
+supplement:MLPCI,18,2,G,frozen80,Full-Q21select,table explicit,paired delta or CI pp,1.1626891454687325,1.1627,80,operational,3bbe8890508e79ed6a10715f05b9866af107050f505b5ed5228ece391851815f
+supplement:AGGCI,7,0,E,frozen80,Full-Top32,table explicit,paired delta or CI pp,-0.011932823708519596,-0.0119,80,operational,3bbe8890508e79ed6a10715f05b9866af107050f505b5ed5228ece391851815f
+supplement:AGGCI,7,1,E,frozen80,Full-Top32,table explicit,paired delta or CI pp,-0.12054603239593134,-0.1205,80,operational,3bbe8890508e79ed6a10715f05b9866af107050f505b5ed5228ece391851815f
+supplement:AGGCI,7,2,E,frozen80,Full-Top32,table explicit,paired delta or CI pp,0.09668038497889214,0.0967,80,operational,3bbe8890508e79ed6a10715f05b9866af107050f505b5ed5228ece391851815f
+supplement:AGGCI,8,0,E,frozen80,Top32-SetTop32,table explicit,paired delta or CI pp,2.616333749290774,+2.6163,80,operational,3bbe8890508e79ed6a10715f05b9866af107050f505b5ed5228ece391851815f
+supplement:AGGCI,8,1,E,frozen80,Top32-SetTop32,table explicit,paired delta or CI pp,0.9700929520152609,0.9701,80,operational,3bbe8890508e79ed6a10715f05b9866af107050f505b5ed5228ece391851815f
+supplement:AGGCI,8,2,E,frozen80,Top32-SetTop32,table explicit,paired delta or CI pp,4.262574546566287,4.2626,80,operational,3bbe8890508e79ed6a10715f05b9866af107050f505b5ed5228ece391851815f
+supplement:AGGCI,9,0,E,frozen80,Top32-AttentionTop32,table explicit,paired delta or CI pp,2.6760528020127294,+2.6761,80,operational,3bbe8890508e79ed6a10715f05b9866af107050f505b5ed5228ece391851815f
+supplement:AGGCI,9,1,E,frozen80,Top32-AttentionTop32,table explicit,paired delta or CI pp,1.0621465977782254,1.0621,80,operational,3bbe8890508e79ed6a10715f05b9866af107050f505b5ed5228ece391851815f
+supplement:AGGCI,9,2,E,frozen80,Top32-AttentionTop32,table explicit,paired delta or CI pp,4.2899590062472335,4.2900,80,operational,3bbe8890508e79ed6a10715f05b9866af107050f505b5ed5228ece391851815f
+supplement:AGGCI,10,0,C,frozen80,Full-Top32,table explicit,paired delta or CI pp,0.0594755669645064,+0.0595,80,operational,3bbe8890508e79ed6a10715f05b9866af107050f505b5ed5228ece391851815f
+supplement:AGGCI,10,1,C,frozen80,Full-Top32,table explicit,paired delta or CI pp,-0.20888368692349887,-0.2089,80,operational,3bbe8890508e79ed6a10715f05b9866af107050f505b5ed5228ece391851815f
+supplement:AGGCI,10,2,C,frozen80,Full-Top32,table explicit,paired delta or CI pp,0.3278348208525117,0.3278,80,operational,3bbe8890508e79ed6a10715f05b9866af107050f505b5ed5228ece391851815f
+supplement:AGGCI,11,0,C,frozen80,Top32-SetTop32,table explicit,paired delta or CI pp,1.2099399400794666,+1.2099,80,operational,3bbe8890508e79ed6a10715f05b9866af107050f505b5ed5228ece391851815f
+supplement:AGGCI,11,1,C,frozen80,Top32-SetTop32,table explicit,paired delta or CI pp,-0.24148638676151668,-0.2415,80,operational,3bbe8890508e79ed6a10715f05b9866af107050f505b5ed5228ece391851815f
+supplement:AGGCI,11,2,C,frozen80,Top32-SetTop32,table explicit,paired delta or CI pp,2.66136626692045,2.6614,80,operational,3bbe8890508e79ed6a10715f05b9866af107050f505b5ed5228ece391851815f
+supplement:AGGCI,12,0,C,frozen80,Top32-AttentionTop32,table explicit,paired delta or CI pp,1.0995261923546495,+1.0995,80,operational,3bbe8890508e79ed6a10715f05b9866af107050f505b5ed5228ece391851815f
+supplement:AGGCI,12,1,C,frozen80,Top32-AttentionTop32,table explicit,paired delta or CI pp,-0.37202288837006015,-0.3720,80,operational,3bbe8890508e79ed6a10715f05b9866af107050f505b5ed5228ece391851815f
+supplement:AGGCI,12,2,C,frozen80,Top32-AttentionTop32,table explicit,paired delta or CI pp,2.571075273079359,2.5711,80,operational,3bbe8890508e79ed6a10715f05b9866af107050f505b5ed5228ece391851815f
+supplement:AGGCI,13,0,U,frozen80,Full-Top32,table explicit,paired delta or CI pp,0.09716012644764849,+0.0972,80,operational,3bbe8890508e79ed6a10715f05b9866af107050f505b5ed5228ece391851815f
+supplement:AGGCI,13,1,U,frozen80,Full-Top32,table explicit,paired delta or CI pp,-0.13646298768950418,-0.1365,80,operational,3bbe8890508e79ed6a10715f05b9866af107050f505b5ed5228ece391851815f
+supplement:AGGCI,13,2,U,frozen80,Full-Top32,table explicit,paired delta or CI pp,0.33078324058480113,0.3308,80,operational,3bbe8890508e79ed6a10715f05b9866af107050f505b5ed5228ece391851815f
+supplement:AGGCI,14,0,U,frozen80,Top32-SetTop32,table explicit,paired delta or CI pp,0.5150253946715051,+0.5150,80,operational,3bbe8890508e79ed6a10715f05b9866af107050f505b5ed5228ece391851815f
+supplement:AGGCI,14,1,U,frozen80,Top32-SetTop32,table explicit,paired delta or CI pp,0.000573166827532931,0.0006,80,operational,3bbe8890508e79ed6a10715f05b9866af107050f505b5ed5228ece391851815f
+supplement:AGGCI,14,2,U,frozen80,Top32-SetTop32,table explicit,paired delta or CI pp,1.0294776225154774,1.0295,80,operational,3bbe8890508e79ed6a10715f05b9866af107050f505b5ed5228ece391851815f
+supplement:AGGCI,15,0,U,frozen80,Top32-AttentionTop32,table explicit,paired delta or CI pp,0.41335328363446555,+0.4134,80,operational,3bbe8890508e79ed6a10715f05b9866af107050f505b5ed5228ece391851815f
+supplement:AGGCI,15,1,U,frozen80,Top32-AttentionTop32,table explicit,paired delta or CI pp,-0.04082590994263346,-0.0408,80,operational,3bbe8890508e79ed6a10715f05b9866af107050f505b5ed5228ece391851815f
+supplement:AGGCI,15,2,U,frozen80,Top32-AttentionTop32,table explicit,paired delta or CI pp,0.8675324772115646,0.8675,80,operational,3bbe8890508e79ed6a10715f05b9866af107050f505b5ed5228ece391851815f
+supplement:AGGCI,16,0,G,frozen80,Full-Top32,table explicit,paired delta or CI pp,0.029480197596021274,+0.0295,80,operational,3bbe8890508e79ed6a10715f05b9866af107050f505b5ed5228ece391851815f
+supplement:AGGCI,16,1,G,frozen80,Full-Top32,table explicit,paired delta or CI pp,-0.5226021125624399,-0.5226,80,operational,3bbe8890508e79ed6a10715f05b9866af107050f505b5ed5228ece391851815f
+supplement:AGGCI,16,2,G,frozen80,Full-Top32,table explicit,paired delta or CI pp,0.5815625077544825,0.5816,80,operational,3bbe8890508e79ed6a10715f05b9866af107050f505b5ed5228ece391851815f
+supplement:AGGCI,17,0,G,frozen80,Top32-SetTop32,table explicit,paired delta or CI pp,2.2731436965791536,+2.2731,80,operational,3bbe8890508e79ed6a10715f05b9866af107050f505b5ed5228ece391851815f
+supplement:AGGCI,17,1,G,frozen80,Top32-SetTop32,table explicit,paired delta or CI pp,0.5936691524104087,0.5937,80,operational,3bbe8890508e79ed6a10715f05b9866af107050f505b5ed5228ece391851815f
+supplement:AGGCI,17,2,G,frozen80,Top32-SetTop32,table explicit,paired delta or CI pp,3.9526182407478982,3.9526,80,operational,3bbe8890508e79ed6a10715f05b9866af107050f505b5ed5228ece391851815f
+supplement:AGGCI,18,0,G,frozen80,Top32-AttentionTop32,table explicit,paired delta or CI pp,2.4440671314046964,+2.4441,80,operational,3bbe8890508e79ed6a10715f05b9866af107050f505b5ed5228ece391851815f
+supplement:AGGCI,18,1,G,frozen80,Top32-AttentionTop32,table explicit,paired delta or CI pp,0.6902923653287367,0.6903,80,operational,3bbe8890508e79ed6a10715f05b9866af107050f505b5ed5228ece391851815f
+supplement:AGGCI,18,2,G,frozen80,Top32-AttentionTop32,table explicit,paired delta or CI pp,4.1978418974806555,4.1978,80,operational,3bbe8890508e79ed6a10715f05b9866af107050f505b5ed5228ece391851815f
+supplement:extraSeeds,7,2,E,frozen80,Q24,table explicit,pooled seed Macro-F1 %,90.45823527455869,90.4582,80,operational,77bf5654a2a0e26c0c2ff5cf449a8d2ae1fe9011f9cf94731fb9f0de9ec9f323
+supplement:extraSeeds,7,3,E,frozen80,Q24,table explicit,pooled seed Macro-F1 %,89.88859564612649,89.8886,80,operational,77bf5654a2a0e26c0c2ff5cf449a8d2ae1fe9011f9cf94731fb9f0de9ec9f323
+supplement:extraSeeds,7,4,E,frozen80,Q24,table explicit,pooled seed Macro-F1 %,90.45532361017813,90.4553,80,operational,77bf5654a2a0e26c0c2ff5cf449a8d2ae1fe9011f9cf94731fb9f0de9ec9f323
+supplement:extraSeeds,8,2,E,frozen80,QS48,table explicit,pooled seed Macro-F1 %,91.22367102630781,91.2237,80,operational,77bf5654a2a0e26c0c2ff5cf449a8d2ae1fe9011f9cf94731fb9f0de9ec9f323
+supplement:extraSeeds,8,3,E,frozen80,QS48,table explicit,pooled seed Macro-F1 %,90.66407418317594,90.6641,80,operational,77bf5654a2a0e26c0c2ff5cf449a8d2ae1fe9011f9cf94731fb9f0de9ec9f323
+supplement:extraSeeds,8,4,E,frozen80,QS48,table explicit,pooled seed Macro-F1 %,91.36862142500719,91.3686,80,operational,77bf5654a2a0e26c0c2ff5cf449a8d2ae1fe9011f9cf94731fb9f0de9ec9f323
+supplement:extraSeeds,9,2,E,frozen80,Q21select,table explicit,pooled seed Macro-F1 %,91.3780474495274,91.3780,80,operational,77bf5654a2a0e26c0c2ff5cf449a8d2ae1fe9011f9cf94731fb9f0de9ec9f323
+supplement:extraSeeds,9,3,E,frozen80,Q21select,table explicit,pooled seed Macro-F1 %,90.84076806355513,90.8408,80,operational,77bf5654a2a0e26c0c2ff5cf449a8d2ae1fe9011f9cf94731fb9f0de9ec9f323
+supplement:extraSeeds,9,4,E,frozen80,Q21select,table explicit,pooled seed Macro-F1 %,91.43625726060326,91.4363,80,operational,77bf5654a2a0e26c0c2ff5cf449a8d2ae1fe9011f9cf94731fb9f0de9ec9f323
+supplement:extraSeeds,10,2,E,frozen80,Top32,table explicit,pooled seed Macro-F1 %,91.30139290816078,91.3014,80,operational,77bf5654a2a0e26c0c2ff5cf449a8d2ae1fe9011f9cf94731fb9f0de9ec9f323
+supplement:extraSeeds,10,3,E,frozen80,Top32,table explicit,pooled seed Macro-F1 %,91.85962799222094,91.8596,80,operational,77bf5654a2a0e26c0c2ff5cf449a8d2ae1fe9011f9cf94731fb9f0de9ec9f323
+supplement:extraSeeds,10,4,E,frozen80,Top32,table explicit,pooled seed Macro-F1 %,91.95177609371703,91.9518,80,operational,77bf5654a2a0e26c0c2ff5cf449a8d2ae1fe9011f9cf94731fb9f0de9ec9f323
+supplement:extraSeeds,11,2,E,frozen80,SetTop32,table explicit,pooled seed Macro-F1 %,89.36724031586016,89.3672,80,operational,77bf5654a2a0e26c0c2ff5cf449a8d2ae1fe9011f9cf94731fb9f0de9ec9f323
+supplement:extraSeeds,11,3,E,frozen80,SetTop32,table explicit,pooled seed Macro-F1 %,89.33928760325091,89.3393,80,operational,77bf5654a2a0e26c0c2ff5cf449a8d2ae1fe9011f9cf94731fb9f0de9ec9f323
+supplement:extraSeeds,11,4,E,frozen80,SetTop32,table explicit,pooled seed Macro-F1 %,88.55726782711535,88.5573,80,operational,77bf5654a2a0e26c0c2ff5cf449a8d2ae1fe9011f9cf94731fb9f0de9ec9f323
+supplement:extraSeeds,12,2,E,frozen80,AttentionTop32,table explicit,pooled seed Macro-F1 %,89.27072870396013,89.2707,80,operational,77bf5654a2a0e26c0c2ff5cf449a8d2ae1fe9011f9cf94731fb9f0de9ec9f323
+supplement:extraSeeds,12,3,E,frozen80,AttentionTop32,table explicit,pooled seed Macro-F1 %,89.25664205698507,89.2566,80,operational,77bf5654a2a0e26c0c2ff5cf449a8d2ae1fe9011f9cf94731fb9f0de9ec9f323
+supplement:extraSeeds,12,4,E,frozen80,AttentionTop32,table explicit,pooled seed Macro-F1 %,88.55726782711535,88.5573,80,operational,77bf5654a2a0e26c0c2ff5cf449a8d2ae1fe9011f9cf94731fb9f0de9ec9f323
+supplement:extraSeeds,13,2,C,frozen80,Q24,table explicit,pooled seed Macro-F1 %,74.84226757670517,74.8423,80,operational,77bf5654a2a0e26c0c2ff5cf449a8d2ae1fe9011f9cf94731fb9f0de9ec9f323
+supplement:extraSeeds,13,3,C,frozen80,Q24,table explicit,pooled seed Macro-F1 %,73.51298257284988,73.5130,80,operational,77bf5654a2a0e26c0c2ff5cf449a8d2ae1fe9011f9cf94731fb9f0de9ec9f323
+supplement:extraSeeds,13,4,C,frozen80,Q24,table explicit,pooled seed Macro-F1 %,75.07852469284765,75.0785,80,operational,77bf5654a2a0e26c0c2ff5cf449a8d2ae1fe9011f9cf94731fb9f0de9ec9f323
+supplement:extraSeeds,14,2,C,frozen80,QS48,table explicit,pooled seed Macro-F1 %,75.53851504717971,75.5385,80,operational,77bf5654a2a0e26c0c2ff5cf449a8d2ae1fe9011f9cf94731fb9f0de9ec9f323
+supplement:extraSeeds,14,3,C,frozen80,QS48,table explicit,pooled seed Macro-F1 %,75.61714952462168,75.6171,80,operational,77bf5654a2a0e26c0c2ff5cf449a8d2ae1fe9011f9cf94731fb9f0de9ec9f323
+supplement:extraSeeds,14,4,C,frozen80,QS48,table explicit,pooled seed Macro-F1 %,75.7576013523221,75.7576,80,operational,77bf5654a2a0e26c0c2ff5cf449a8d2ae1fe9011f9cf94731fb9f0de9ec9f323
+supplement:extraSeeds,15,2,C,frozen80,Q21select,table explicit,pooled seed Macro-F1 %,75.38746711886049,75.3875,80,operational,77bf5654a2a0e26c0c2ff5cf449a8d2ae1fe9011f9cf94731fb9f0de9ec9f323
+supplement:extraSeeds,15,3,C,frozen80,Q21select,table explicit,pooled seed Macro-F1 %,75.23344198439392,75.2334,80,operational,77bf5654a2a0e26c0c2ff5cf449a8d2ae1fe9011f9cf94731fb9f0de9ec9f323
+supplement:extraSeeds,15,4,C,frozen80,Q21select,table explicit,pooled seed Macro-F1 %,75.60996072917699,75.6100,80,operational,77bf5654a2a0e26c0c2ff5cf449a8d2ae1fe9011f9cf94731fb9f0de9ec9f323
+supplement:extraSeeds,16,2,C,frozen80,Top32,table explicit,pooled seed Macro-F1 %,75.54106475063162,75.5411,80,operational,77bf5654a2a0e26c0c2ff5cf449a8d2ae1fe9011f9cf94731fb9f0de9ec9f323
+supplement:extraSeeds,16,3,C,frozen80,Top32,table explicit,pooled seed Macro-F1 %,75.3697296616242,75.3697,80,operational,77bf5654a2a0e26c0c2ff5cf449a8d2ae1fe9011f9cf94731fb9f0de9ec9f323
+supplement:extraSeeds,16,4,C,frozen80,Top32,table explicit,pooled seed Macro-F1 %,75.93477492042089,75.9348,80,operational,77bf5654a2a0e26c0c2ff5cf449a8d2ae1fe9011f9cf94731fb9f0de9ec9f323
+supplement:extraSeeds,17,2,C,frozen80,SetTop32,table explicit,pooled seed Macro-F1 %,74.56933710602526,74.5693,80,operational,77bf5654a2a0e26c0c2ff5cf449a8d2ae1fe9011f9cf94731fb9f0de9ec9f323
+supplement:extraSeeds,17,3,C,frozen80,SetTop32,table explicit,pooled seed Macro-F1 %,74.29474507219633,74.2947,80,operational,77bf5654a2a0e26c0c2ff5cf449a8d2ae1fe9011f9cf94731fb9f0de9ec9f323
+supplement:extraSeeds,17,4,C,frozen80,SetTop32,table explicit,pooled seed Macro-F1 %,74.35166733421673,74.3517,80,operational,77bf5654a2a0e26c0c2ff5cf449a8d2ae1fe9011f9cf94731fb9f0de9ec9f323
+supplement:extraSeeds,18,2,C,frozen80,AttentionTop32,table explicit,pooled seed Macro-F1 %,74.84521718356457,74.8452,80,operational,77bf5654a2a0e26c0c2ff5cf449a8d2ae1fe9011f9cf94731fb9f0de9ec9f323
+supplement:extraSeeds,18,3,C,frozen80,AttentionTop32,table explicit,pooled seed Macro-F1 %,74.30491377137602,74.3049,80,operational,77bf5654a2a0e26c0c2ff5cf449a8d2ae1fe9011f9cf94731fb9f0de9ec9f323
+supplement:extraSeeds,18,4,C,frozen80,AttentionTop32,table explicit,pooled seed Macro-F1 %,74.39685980067217,74.3969,80,operational,77bf5654a2a0e26c0c2ff5cf449a8d2ae1fe9011f9cf94731fb9f0de9ec9f323
+supplement:extraSeeds,19,2,U,frozen80,Q24,table explicit,pooled seed Macro-F1 %,85.52396709550007,85.5240,80,operational,77bf5654a2a0e26c0c2ff5cf449a8d2ae1fe9011f9cf94731fb9f0de9ec9f323
+supplement:extraSeeds,19,3,U,frozen80,Q24,table explicit,pooled seed Macro-F1 %,85.15692580850671,85.1569,80,operational,77bf5654a2a0e26c0c2ff5cf449a8d2ae1fe9011f9cf94731fb9f0de9ec9f323
+supplement:extraSeeds,19,4,U,frozen80,Q24,table explicit,pooled seed Macro-F1 %,85.30175572547422,85.3018,80,operational,77bf5654a2a0e26c0c2ff5cf449a8d2ae1fe9011f9cf94731fb9f0de9ec9f323
+supplement:extraSeeds,20,2,U,frozen80,QS48,table explicit,pooled seed Macro-F1 %,85.73136801888646,85.7314,80,operational,77bf5654a2a0e26c0c2ff5cf449a8d2ae1fe9011f9cf94731fb9f0de9ec9f323
+supplement:extraSeeds,20,3,U,frozen80,QS48,table explicit,pooled seed Macro-F1 %,85.90183483645487,85.9018,80,operational,77bf5654a2a0e26c0c2ff5cf449a8d2ae1fe9011f9cf94731fb9f0de9ec9f323
+supplement:extraSeeds,20,4,U,frozen80,QS48,table explicit,pooled seed Macro-F1 %,85.98566563909311,85.9857,80,operational,77bf5654a2a0e26c0c2ff5cf449a8d2ae1fe9011f9cf94731fb9f0de9ec9f323
+supplement:extraSeeds,21,2,U,frozen80,Q21select,table explicit,pooled seed Macro-F1 %,85.95167069706807,85.9517,80,operational,77bf5654a2a0e26c0c2ff5cf449a8d2ae1fe9011f9cf94731fb9f0de9ec9f323
+supplement:extraSeeds,21,3,U,frozen80,Q21select,table explicit,pooled seed Macro-F1 %,85.81262355098715,85.8126,80,operational,77bf5654a2a0e26c0c2ff5cf449a8d2ae1fe9011f9cf94731fb9f0de9ec9f323
+supplement:extraSeeds,21,4,U,frozen80,Q21select,table explicit,pooled seed Macro-F1 %,85.9727033426102,85.9727,80,operational,77bf5654a2a0e26c0c2ff5cf449a8d2ae1fe9011f9cf94731fb9f0de9ec9f323
+supplement:extraSeeds,22,2,U,frozen80,Top32,table explicit,pooled seed Macro-F1 %,85.98489964448723,85.9849,80,operational,77bf5654a2a0e26c0c2ff5cf449a8d2ae1fe9011f9cf94731fb9f0de9ec9f323
+supplement:extraSeeds,22,3,U,frozen80,Top32,table explicit,pooled seed Macro-F1 %,85.9809454106609,85.9809,80,operational,77bf5654a2a0e26c0c2ff5cf449a8d2ae1fe9011f9cf94731fb9f0de9ec9f323
+supplement:extraSeeds,22,4,U,frozen80,Top32,table explicit,pooled seed Macro-F1 %,86.03294639641564,86.0329,80,operational,77bf5654a2a0e26c0c2ff5cf449a8d2ae1fe9011f9cf94731fb9f0de9ec9f323
+supplement:extraSeeds,23,2,U,frozen80,SetTop32,table explicit,pooled seed Macro-F1 %,85.47717238466286,85.4772,80,operational,77bf5654a2a0e26c0c2ff5cf449a8d2ae1fe9011f9cf94731fb9f0de9ec9f323
+supplement:extraSeeds,23,3,U,frozen80,SetTop32,table explicit,pooled seed Macro-F1 %,85.5564751005704,85.5565,80,operational,77bf5654a2a0e26c0c2ff5cf449a8d2ae1fe9011f9cf94731fb9f0de9ec9f323
+supplement:extraSeeds,23,4,U,frozen80,SetTop32,table explicit,pooled seed Macro-F1 %,85.42006778231598,85.4201,80,operational,77bf5654a2a0e26c0c2ff5cf449a8d2ae1fe9011f9cf94731fb9f0de9ec9f323
+supplement:extraSeeds,24,2,U,frozen80,AttentionTop32,table explicit,pooled seed Macro-F1 %,85.47121196116797,85.4712,80,operational,77bf5654a2a0e26c0c2ff5cf449a8d2ae1fe9011f9cf94731fb9f0de9ec9f323
+supplement:extraSeeds,24,3,U,frozen80,AttentionTop32,table explicit,pooled seed Macro-F1 %,85.58929625088226,85.5893,80,operational,77bf5654a2a0e26c0c2ff5cf449a8d2ae1fe9011f9cf94731fb9f0de9ec9f323
+supplement:extraSeeds,24,4,U,frozen80,AttentionTop32,table explicit,pooled seed Macro-F1 %,85.69822338861015,85.6982,80,operational,77bf5654a2a0e26c0c2ff5cf449a8d2ae1fe9011f9cf94731fb9f0de9ec9f323
+supplement:extraSeeds,25,2,G,frozen80,Q24,table explicit,pooled seed Macro-F1 %,75.79646504474542,75.7965,80,operational,77bf5654a2a0e26c0c2ff5cf449a8d2ae1fe9011f9cf94731fb9f0de9ec9f323
+supplement:extraSeeds,25,3,G,frozen80,Q24,table explicit,pooled seed Macro-F1 %,75.8834724812836,75.8835,80,operational,77bf5654a2a0e26c0c2ff5cf449a8d2ae1fe9011f9cf94731fb9f0de9ec9f323
+supplement:extraSeeds,25,4,G,frozen80,Q24,table explicit,pooled seed Macro-F1 %,75.91405598314824,75.9141,80,operational,77bf5654a2a0e26c0c2ff5cf449a8d2ae1fe9011f9cf94731fb9f0de9ec9f323
+supplement:extraSeeds,26,2,G,frozen80,QS48,table explicit,pooled seed Macro-F1 %,77.17908097636025,77.1791,80,operational,77bf5654a2a0e26c0c2ff5cf449a8d2ae1fe9011f9cf94731fb9f0de9ec9f323
+supplement:extraSeeds,26,3,G,frozen80,QS48,table explicit,pooled seed Macro-F1 %,77.1903155652355,77.1903,80,operational,77bf5654a2a0e26c0c2ff5cf449a8d2ae1fe9011f9cf94731fb9f0de9ec9f323
+supplement:extraSeeds,26,4,G,frozen80,QS48,table explicit,pooled seed Macro-F1 %,77.0190182487286,77.0190,80,operational,77bf5654a2a0e26c0c2ff5cf449a8d2ae1fe9011f9cf94731fb9f0de9ec9f323
+supplement:extraSeeds,27,2,G,frozen80,Q21select,table explicit,pooled seed Macro-F1 %,76.71748737638488,76.7175,80,operational,77bf5654a2a0e26c0c2ff5cf449a8d2ae1fe9011f9cf94731fb9f0de9ec9f323
+supplement:extraSeeds,27,3,G,frozen80,Q21select,table explicit,pooled seed Macro-F1 %,76.31962212309567,76.3196,80,operational,77bf5654a2a0e26c0c2ff5cf449a8d2ae1fe9011f9cf94731fb9f0de9ec9f323
+supplement:extraSeeds,27,4,G,frozen80,Q21select,table explicit,pooled seed Macro-F1 %,76.51592632812701,76.5159,80,operational,77bf5654a2a0e26c0c2ff5cf449a8d2ae1fe9011f9cf94731fb9f0de9ec9f323
+supplement:extraSeeds,28,2,G,frozen80,Top32,table explicit,pooled seed Macro-F1 %,76.46434381235832,76.4643,80,operational,77bf5654a2a0e26c0c2ff5cf449a8d2ae1fe9011f9cf94731fb9f0de9ec9f323
+supplement:extraSeeds,28,3,G,frozen80,Top32,table explicit,pooled seed Macro-F1 %,77.00878190204097,77.0088,80,operational,77bf5654a2a0e26c0c2ff5cf449a8d2ae1fe9011f9cf94731fb9f0de9ec9f323
+supplement:extraSeeds,28,4,G,frozen80,Top32,table explicit,pooled seed Macro-F1 %,76.46880321237963,76.4688,80,operational,77bf5654a2a0e26c0c2ff5cf449a8d2ae1fe9011f9cf94731fb9f0de9ec9f323
+supplement:extraSeeds,29,2,G,frozen80,SetTop32,table explicit,pooled seed Macro-F1 %,74.0807030494777,74.0807,80,operational,77bf5654a2a0e26c0c2ff5cf449a8d2ae1fe9011f9cf94731fb9f0de9ec9f323
+supplement:extraSeeds,29,3,G,frozen80,SetTop32,table explicit,pooled seed Macro-F1 %,74.61630398724996,74.6163,80,operational,77bf5654a2a0e26c0c2ff5cf449a8d2ae1fe9011f9cf94731fb9f0de9ec9f323
+supplement:extraSeeds,29,4,G,frozen80,SetTop32,table explicit,pooled seed Macro-F1 %,74.42549080031378,74.4255,80,operational,77bf5654a2a0e26c0c2ff5cf449a8d2ae1fe9011f9cf94731fb9f0de9ec9f323
+supplement:extraSeeds,30,2,G,frozen80,AttentionTop32,table explicit,pooled seed Macro-F1 %,74.13075773338565,74.1308,80,operational,77bf5654a2a0e26c0c2ff5cf449a8d2ae1fe9011f9cf94731fb9f0de9ec9f323
+supplement:extraSeeds,30,3,G,frozen80,AttentionTop32,table explicit,pooled seed Macro-F1 %,74.15469949868168,74.1547,80,operational,77bf5654a2a0e26c0c2ff5cf449a8d2ae1fe9011f9cf94731fb9f0de9ec9f323
+supplement:extraSeeds,30,4,G,frozen80,AttentionTop32,table explicit,pooled seed Macro-F1 %,74.3242703004975,74.3243,80,operational,77bf5654a2a0e26c0c2ff5cf449a8d2ae1fe9011f9cf94731fb9f0de9ec9f323

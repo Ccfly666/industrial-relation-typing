@@ -1,0 +1,56 @@
+{
+  "environment": {
+    "python": "3.12.14",
+    "torch": "2.5.1+cu118",
+    "numpy": "2.1.3",
+    "independent_BLAS": "OpenBLAS",
+    "reference_BLAS": "MKL"
+  },
+  "experiment": {
+    "task": "E",
+    "outer": 0,
+    "seed": 2026111601,
+    "selected": {
+      "lr": 0.001,
+      "epochs": 140,
+      "mean_inner_macro": 0.869700488112325
+    },
+    "rows": 650,
+    "raw_max_abs_error": 2.1219253540039062e-05,
+    "operational_max_abs_error": 3.306195219654473e-05,
+    "prediction_agreement": 1.0,
+    "new_macro": 0.9324948413357547,
+    "reference_macro": 0.9324948413357547,
+    "metric_difference": 0.0
+  },
+  "starting_inputs": "Raw RDF, retained role/split metadata, scoped A64 projector and name vectors",
+  "feature_differences": [
+    {
+      "component": "A64",
+      "max_abs_error": 0.0,
+      "strict_2e5_threshold_pass": true
+    },
+    {
+      "component": "B7",
+      "max_abs_error": 1.0728836059570312e-06,
+      "strict_2e5_threshold_pass": true
+    },
+    {
+      "component": "R1",
+      "max_abs_error": 0.0,
+      "strict_2e5_threshold_pass": true
+    },
+    {
+      "component": "Q63",
+      "max_abs_error": 8.392333984375e-05,
+      "strict_2e5_threshold_pass": false
+    },
+    {
+      "component": "refitted fixed-C1 fallback vs retained",
+      "max_abs_error": 5.149706329810044e-05,
+      "strict_1e5_threshold_pass": false
+    }
+  ],
+  "same_input_MKL_Q63_max_error": 0.0,
+  "prediction_tolerance": 0.0001
+}
