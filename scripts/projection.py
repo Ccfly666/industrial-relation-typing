@@ -15,6 +15,14 @@ def retract(l):
 
 
 def solve(X, XT, mu, norm2, y, L, log=None, outer=4, steps=10):
+    """Fit the retained classification/reconstruction low-rank objective.
+
+    X/XT are fit-only sparse text tensors and their transpose, mu the fit
+    mean, norm2 the centered fit squared norm, y the four-class fit labels,
+    and L the initial rank-64 basis. Return basis, temporary class head,
+    class intercept and optimization records. Neither evaluation labels
+    nor evaluation-driven stopping enter this computation.
+    """
     n = len(y)
     Y = torch.nn.functional.one_hot(y, 4).to(torch.float64)
     w = torch.zeros((64, 4), device=L.device, dtype=L.dtype)

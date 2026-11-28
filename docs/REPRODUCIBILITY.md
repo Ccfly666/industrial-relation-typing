@@ -2,13 +2,19 @@
 
 ## Environment and inputs
 
-The tested environment uses Python 3.12.14, PyTorch 2.5.1+cu118, NumPy 2.1.3, SciPy 1.15.3, scikit-learn 1.6.1 and Matplotlib 3.10.0. The reference classifier runs in CUDA float32 with TF32 and AMP disabled. Package versions are recorded in `requirements-lock.txt`. The tested separate environment used checksum-verified local PyTorch/NumPy distributions and separately installed numerical dependencies.
+The tested environment uses Python 3.12.14, PyTorch 2.5.1+cu118, NumPy 2.1.3, SciPy 1.15.3, scikit-learn 1.6.1 and Matplotlib 3.10.0. The reference classifier runs in CUDA float32 with TF32 and AMP disabled. Package versions are recorded in `requirements-lock.txt`. Install the CPU or CUDA 11.8 build using the explicit commands in the README. A fresh Python 3.12 CPU environment is used for component/CLI/table checks; the CUDA environment above is the historical experiment reference. CPU component checks do not reproduce CUDA training scores.
 
 Obtain the RDF snapshots and encoder files as described in [DATA_ACCESS.md](../DATA_ACCESS.md). The workflow below uses task E; replace the task code, source directory and split CSV for C/U/G.
 
+## Choose a reproduction path
+
+1. **Quick check:** run the README synthetic smoke checks, unit tests and table generation using only this repository.
+2. **Rebuild a benchmark experiment:** obtain the RDF and name-encoder files, restore the retained roles/splits, and build all scoped features below. A64 is newly fitted unless a matching retained projector is supplied.
+3. **Verify reported assets:** obtain the hash-identified prediction/dependency files, then use the score/statistical replay commands. The separately tested E-fold recipe also requires its retained name vectors and fit-specific A64 projector.
+
 ## Restore rows and splits
 
-First build the pool and legal fit-label files:
+First build the pool and scoped fit-label files:
 
 ```sh
 python scripts/verify_dataset.py --input work/benchmark/etim-eclass --manifest manifests/E_retained_roles_splits.csv --task E --out work/E
@@ -23,12 +29,12 @@ python scripts/encode_names.py --names work/names/target_names.json --model MODE
 python scripts/prepare_name_vectors.py pack --pool work/E/E__pool_public.npz --names-dir work/names --source-vectors work/source_vectors.npz --target-vectors work/target_vectors.npz --out work/name_vectors.npz
 ```
 
-The preparation step checks the RDF snapshot identities; assembly checks encoded-name order and vector shapes. `work/name_vectors.npz` contains the two 384-dimensional endpoint arrays and their keys. Exact retained-vector replay also uses the original quantized batch grouping. In the following commands, `NAME_VECTORS.npz` denotes this assembled file or a matching retained cache.
+The preparation step checks the RDF snapshot identities; assembly checks encoded-name order and vector shapes. `work/name_vectors.npz` contains the two 384-dimensional endpoint arrays and their keys. Exact retained-vector replay also uses the original quantized batch grouping. The following feature commands use the assembled `work/name_vectors.npz`; a retained cache can be substituted if its endpoint and snapshot identities match.
 
 Re-run pool construction with the vector cache to include B7's name cosine:
 
 ```sh
-python scripts/verify_dataset.py --input work/benchmark/etim-eclass --manifest manifests/E_retained_roles_splits.csv --task E --name-vectors NAME_VECTORS.npz --out work/E
+python scripts/verify_dataset.py --input work/benchmark/etim-eclass --manifest manifests/E_retained_roles_splits.csv --task E --name-vectors work/name_vectors.npz --out work/E
 ```
 
 `E__outer_truth.npz` is the sealed evaluation file. Per-scope fit labels and inner validation labels are emitted separately. Retained split/role choices are inputs to this reconstruction, including the corrected E proof grouping and historical data-development exposure.
@@ -36,27 +42,39 @@ python scripts/verify_dataset.py --input work/benchmark/etim-eclass --manifest m
 ## Build A64, B7, R1 and Q63
 
 ```sh
-python scripts/build_features.py --pool work/E/E__pool_public.npz --fit-labels work/E/E__o0__fit_labels.npz --name-vectors NAME_VECTORS.npz --outer 0 --out work/scopes/E_o0.npz --device cuda
-python scripts/build_features.py --pool work/E/E__pool_public.npz --fit-labels work/E/E__o0i0__fit_labels.npz --validation-labels work/E/E__o0i0__validation_labels.npz --name-vectors NAME_VECTORS.npz --outer 0 --inner 0 --out work/scopes/E_o0i0.npz --device cuda
+python scripts/build_features.py --pool work/E/E__pool_public.npz --fit-labels work/E/E__o0__fit_labels.npz --name-vectors work/name_vectors.npz --outer 0 --out work/scopes/E_o0.npz --device cuda
+python scripts/build_features.py --pool work/E/E__pool_public.npz --fit-labels work/E/E__o0i0__fit_labels.npz --validation-labels work/E/E__o0i0__validation_labels.npz --name-vectors work/name_vectors.npz --outer 0 --inner 0 --out work/scopes/E_o0i0.npz --device cuda
 ```
 
-Repeat for all five outer and fifteen inner scopes. An explicit `--projector PROJECTOR.npz` reuses a retained fit-specific A64 projection; otherwise a new projection is fitted using only that scope's fit labels. Projectors contain `fit_rows`, `L` and `mean`. Vocabulary/text transforms, scalers and the common LR fallback are fitted on the matching fit range. Relation features use its legal graph and exclude the query dependency block. The fixed hash prefix in the method settings is retained to reproduce the original block ordering.
+For all 20 scopes, the thin wrapper plans these same commands and checks inputs/output collisions before execution:
+
+```sh
+python scripts/build_scope_suite.py --task E --pool work/E/E__pool_public.npz --labels-dir work/E --name-vectors work/name_vectors.npz --out work/scopes --device cuda --dry-run
+```
+
+Remove `--dry-run` to build the suite. If retaining projectors, add `--projectors-dir work/projectors`, containing `E_o0_projector.npz`, `E_o0i0_projector.npz`, and the corresponding files for every scope. The wrapper binds validation labels only to inner scopes and never passes the sealed outer truth file. An explicit `--projector PROJECTOR.npz` reuses a retained fit-specific A64 projection; otherwise a new projection is fitted using only that scope's fit labels. Projectors contain `fit_rows`, `L` and `mean`. Vocabulary/text transforms, scalers and the common LR fallback are fitted on the matching fit range. Relation features use the admissible mapping graph and exclude the query dependency block. The fixed hash prefix in the method settings is retained to reproduce the original block ordering.
 
 Each prepared scope contains `x_fit`/`x_eval` with 146 standardized coordinates, `y_fit`, `fit_rows`, `eval_rows`, `degree_eval` and `fallback_probability`. Inner files additionally bind their validation `y_eval`. Outer-test labels stay outside feature building and model selection.
 
 ## Train and evaluate
 
-The suite evaluates both learning rates at every five-epoch checkpoint through the selected budget, averages three inner raw Macro-F1 scores and breaks ties by lower learning rate then earlier epoch. It fits AB/ABR/Full with final seeds 2026111601/02/03. Configuration JSON files document the settings; the executable uses the explicit `--budget` option.
+The suite evaluates both learning rates at every five-epoch checkpoint through the selected budget, averages three inner raw Macro-F1 scores and breaks ties by lower learning rate then earlier epoch. It fits AB/ABR/Full with final seeds 2026111601/02/03. Configuration JSON files document the settings; see [which records are read at runtime](../configs/README.md). The suite executable uses the explicit `--budget` option.
 
 ```sh
 python scripts/train_classifier.py --suite work/scopes --task E --out work/E_budget80 --budget 80 --device cuda
 python scripts/train_classifier.py --suite work/scopes --task E --out work/E_budget160 --budget 160 --device cuda
 ```
 
-For the tested E fold-0 Full recipe:
+The independently tested **E outer-fold-0, Full, seed 2026111601** recipe uses the retained projector and name-vector cache for that scope. First build its feature file using those matched inputs (replace the two retained-input paths with the obtained files):
 
 ```sh
-python scripts/train_classifier.py --input work/scopes/E_o0.npz --out work/E_o0_Full --arm Full --lr 0.001 --epochs 140 --seed 2026111601 --device cuda
+python scripts/build_features.py --pool work/E/E__pool_public.npz --fit-labels work/E/E__o0__fit_labels.npz --name-vectors RETAINED_E_NAME_VECTORS.npz --projector RETAINED_E_O0_PROJECTOR.npz --outer 0 --out work/retained_scopes/E_o0.npz --device cuda
+```
+
+Then run its selected 140-epoch recipe:
+
+```sh
+python scripts/train_classifier.py --input work/retained_scopes/E_o0.npz --out work/E_o0_Full --arm Full --lr 0.001 --epochs 140 --seed 2026111601 --device cuda
 ```
 
 After each seed's five outer predictions exist, supply them together to evaluation:
@@ -93,4 +111,4 @@ Data parsing/identity restoration, feature/classifier components, result replay,
 
 OpenBLAS versus MKL produced a maximum standardized-Q63 difference of `8.392333984375e-5`; the same-input MKL control was exact. B7 differed by `1.0728836059570312e-6`, and refitted common-LR probabilities by `5.149706329810044e-5`. The Q63/common-LR intermediate differences exceed the earlier `2e-5`/`1e-5` checks, while the final E prediction differences meet `1e-4` and preserve labels. The measurements are retained in [reproduction_measurements.json](../verification/reproduction_measurements.json).
 
-The independent rerun covers this specified E scope and retained-input result checks. A complete independent four-task run and retraining of every comparison family remain outside that tested scope. Timing files describe their stated component/cache conditions; they are not whole-deployment latency measurements.
+This reproduction establishes agreement of all 650 prediction labels for the specified E scope and replay of the retained result checks. It does not cover fresh four-task retraining. Timing files measure their specified component/cache conditions; the timed inputs already contain ABR features and endpoint name vectors.

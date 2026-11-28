@@ -99,7 +99,7 @@
     "cap_seed": 2026111607,
     "log_floor": 1e-30,
     "q63_sd_floor": 1e-12,
-    "depth_cycle_handling": "Historical cycle policy unknown. New tool: root0 longest declared-parent DAG depth, cycles error. All current snapshots verified."
+    "depth_cycle_handling": "Root-zero longest declared-parent DAG depth; reconstructed parser rejects cycles. Current snapshots are acyclic; historical parser cycle handling is unrecorded."
   },
   "mlp": {
     "batch": 4096,

@@ -3,10 +3,18 @@ import hashlib
 import numpy as np
 from sklearn.preprocessing import StandardScaler
 
+# Reversing an ordered relation swaps strict containment directions.
 INV = np.array([0, 2, 1, 3])
 
 
 def relation_features(pool, fit, ev, y):
+    """Build R1 from labels aligned to fit positions, without evaluation labels.
+
+    Training queries exclude their entire registered block; evaluation queries
+    use the scoped fit graph. Convert target type counts by INV to the target-endpoint-local
+    direction; Q63 separately uses the original global direction. Return raw/standardized (n_fit+n_eval,12) arrays, two degrees,
+    the fit-only scaler, and registered block identifiers for fit rows.
+    """
     u = pool["u"]
     v = pool["v"]
     groups = pool["groups"]

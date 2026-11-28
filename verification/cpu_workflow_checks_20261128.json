@@ -1,0 +1,20 @@
+{
+  "status": "PASS",
+  "environment": {
+    "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+    "torch": "2.5.1+cpu",
+    "cuda": null,
+    "cuda_available": false,
+    "numpy": "2.1.3",
+    "scipy": "1.15.3",
+    "sklearn": "1.6.1",
+    "matplotlib": "3.10.0"
+  },
+  "unit_test_count": 11,
+  "help_entrypoints": 13,
+  "planned_outer_scopes": 5,
+  "planned_inner_scopes": 15,
+  "CPU_build_preserved_after_requirements": true,
+  "scope": "Fresh CPU installation; synthetic checks, CLI help and generation from included aggregates. CUDA installation command verified against official version-specific instructions; no new CUDA training.",
+  "synthetic_smoke_checks": 4
+}

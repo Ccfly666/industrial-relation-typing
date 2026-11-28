@@ -19,6 +19,20 @@ The name encoder is [all-MiniLM-L6-v2, revision 1110a243](https://huggingface.co
 
 Download model files from these author sources. [model_sources.csv](manifests/model_sources.csv) records checkpoint hashes and the corresponding source terms. `scripts/encode_names.py` encodes an ordered JSON list of names with explicitly supplied ONNX/tokenizer files. The guide describes how its outputs map to source/target vector arrays.
 
+## Input availability at a glance
+
+| Input | Included here? | Source or access route | Use |
+| --- | --- | --- | --- |
+| RDF/text/reference mapping snapshots | No | Zenodo archive and source terms above | Rebuild benchmark pool |
+| Row roles, split and dependency-group metadata | Yes, `manifests/*_retained_roles_splits.csv` | Repository | Restore formal evaluation identities |
+| MiniLM ONNX/tokenizer | No | Pinned author model above | Encode ordered endpoint names |
+| Name-vector cache | No | Retained research input; source terms apply | Exact retained-vector comparison |
+| Fit-specific A64 projectors | No | Retained research input; scope identity must match | Exact retained-projection comparison |
+| Individual predictions and dependency NPZs | No | Hash manifest and retained-input access | Score/interval replay |
+| Aggregate result tables and measured reproduction differences | Yes | `results/`, `verification/reproduction_measurements.json` | Inspect reported evidence without training |
+
+Request availability of retained inputs through a [repository issue](https://github.com/Ccfly666/industrial-relation-typing/issues), identifying the task, scope and manifest entries needed. Source licenses govern what can be shared; do not attach restricted source data to a public issue.
+
 ## Reproduction inputs
 
 The split CSVs contain reference-cell indices, row identifiers, dependency-group hashes and fold assignments. Join them against the matching RDF snapshot to obtain names and labels. Historical role/Guard and cross-source screening decisions are retained metadata.

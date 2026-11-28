@@ -18,6 +18,13 @@ def load(p):
 
 
 def build(pool, fit, ev, y, vectors, projector=None, device="cpu"):
+    """Build one scope from explicit fit labels and ordered endpoint vectors.
+
+    Return standardized 146-column fit/evaluation arrays, their row identities,
+    raw relation summaries, evaluation degrees, and the common LR fallback.
+    An optional retained projector must match exactly the current fit rows.
+    Feature scalers use fit rows; the evaluation truth is not an input.
+    """
     if len(fit) != len(y) or len(set(pool["groups"][fit]) & set(pool["groups"][ev])):
         raise ValueError("Fit/evaluation identity violation")
     if projector is not None and not np.array_equal(

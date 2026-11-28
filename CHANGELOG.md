@@ -1,5 +1,13 @@
 # Changelog
 
+## 2026-11-28 — Reproduction workflow and documentation
+
+- Added explicit CPU/CUDA installation paths and a method-to-code index.
+- Added a scope-suite command wrapper with input/collision checks and a planning mode.
+- Clarified label direction, retained-input replay and result-file units.
+- Expanded kernel docstrings and CLI help; retained all feature and classifier calculations.
+- Updated the manuscript navigation to the refined V5 table structure.
+
 ## 2026-11-26 — Researcher-facing documentation and code formatting
 
 - Organized installation, data preparation, experiment commands and result links around the reproduction workflow.

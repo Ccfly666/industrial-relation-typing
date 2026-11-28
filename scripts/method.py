@@ -1,4 +1,10 @@
-"""Text, catalogue and relational features, smoke checks and saved-result replay."""
+"""Feature primitives plus synthetic smoke checks and saved-score verification.
+
+name_and_depth builds B7; text_matrices/fit_a64 build A64; q63 joins
+the two directed endpoint summaries. Use build_features.py for scoped real
+inputs and train_classifier.py for classifier fitting. The CLI here exposes
+smoke (synthetic inputs) and check-scores (hash-identified saved predictions).
+"""
 
 import argparse
 import csv
@@ -49,6 +55,11 @@ def name_and_depth(source, target, source_depth, target_depth, maxima, vectors):
 
 
 def q63(side_cosines, side_labels):
+    """Return 63 raw coordinates from two query-directed neighbourhoods.
+
+    Each cosine list aligns with its relation-label list. The layout is
+    Q24, S24, log-ESS6, entropy6, then three between-side JS divergences.
+    """
     summaries = []
     for cos, labels in zip(side_cosines, side_labels, strict=True):
         cos = np.asarray(cos)
@@ -69,6 +80,7 @@ def q63(side_cosines, side_labels):
 
 
 def text_matrices(fields, fit):
+    """Fit character TF-IDF on fit-row fields, then concatenate four fields."""
     fit_fields = np.unique(fields[fit])
     tfidf = TfidfVectorizer(
         analyzer="char_wb",
@@ -86,6 +98,7 @@ def text_matrices(fields, fit):
 
 
 def fit_a64(fields, fit, fit_labels, device):
+    """Fit the supervised rank-64 projection and scaler on fit rows only."""
     import torch
     from projection import solve
     from threadpoolctl import threadpool_limits

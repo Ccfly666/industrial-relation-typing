@@ -22,9 +22,9 @@
     "Full"
   ],
   "layout": {
-    "AB": "first71, last75 exactlyzero AFTER scaling",
-    "ABR": "first83, last63 exactlyzero AFTER scaling",
-    "Full": "all146; original fit-only Q63 mean/std"
+    "AB": "first 71 active; last 75 exactly zero after fit-only scaling",
+    "ABR": "first 83 active; last 63 exactly zero after fit-only scaling",
+    "Full": "all 146 coordinates; original fit-only Q63 mean/std"
   },
   "registered_parameters": 28645,
   "head_parameters": 27332,
@@ -95,11 +95,11 @@
     ]
   },
   "training": "CUDA float32; no AMP; original SeedSequence([seed,epoch]) permutation; no gradient accumulation",
-  "selection": "Full160 all32 epoch candidates; same mean3 inner / lower lr / earlier epoch",
+  "selection": "All 32 five-epoch checkpoints through 160; mean of three inner raw Macro-F1 values; ties lower learning rate then earlier epoch",
   "early_stopping": false,
   "outer_labels_read_before_all_predictions_locked": false,
-  "scope": "same frozen fit graph, query wholeblock/proof rules and direction",
-  "fallback": "raw.float64 then exact common fixedLR-AB bothdegreezero; original formal v2 probability definition",
+  "scope": "Same frozen fit graph, whole-query-block/proof exclusions and query-direction conversion",
+  "fallback": "Cast raw probabilities to float64, then use the exact common fit-specific fixed LR-AB probabilities where both endpoint degrees are zero",
   "statistics": {
     "primary": "operational/full/mean of3 paired per-seed pooled differences",
     "comparisons": [
@@ -130,7 +130,7 @@
     "macro_abs_tolerance": 1e-12,
     "rule": "all prefix validation checkpoints must match; otherwise halt affected family before formal scores"
   },
-  "continuation": "Only complete model+AdamW+CPU/CUDA RNG checkpoint with exact input/model/RNG identity; otherwise fresh full160",
+  "continuation": "Continue only from a complete model, AdamW and CPU/CUDA RNG checkpoint with exact input/model/RNG identity; otherwise fit the full 160-epoch trajectory afresh",
   "statistics_new": {
     "family1": "12 operational stage gains at160",
     "family2": "12 paired four-prediction stage gain changes160-80",

@@ -101,17 +101,22 @@ def trajectory(scope, arm, lr, epochs, seed, device="cpu", validation=False):
 
 
 def main():
-    p = argparse.ArgumentParser()
-    p.add_argument("--input", type=Path)
-    p.add_argument("--suite", type=Path)
+    p = argparse.ArgumentParser(
+        description="Fit one common-layout MLP or the nested five-outer-fold suite.",
+        epilog="Outputs prediction.npz (raw/operational), weights.npz and run.json; "
+        "suite runs also write selection.json. Use --budget for suite selection; "
+        "--epochs applies to --input. Configuration JSONs are recipe records.",
+    )
+    p.add_argument("--input", type=Path, help='One prepared outer scope; uses --arm/--lr/--epochs/--seed.')
+    p.add_argument("--suite", type=Path, help='Directory containing TASK_oO.npz and TASK_oOiI.npz for 5 outer/15 inner scopes.')
     p.add_argument("--task", default="E")
     p.add_argument("--out", required=True, type=Path)
     p.add_argument("--arm", choices=["AB", "ABR", "Full"], default="Full")
     p.add_argument("--lr", type=float, default=0.001)
-    p.add_argument("--epochs", type=int, default=80)
-    p.add_argument("--budget", type=int, choices=[80, 160], default=160)
+    p.add_argument("--epochs", type=int, default=80, help='Single-scope epochs (default: 80); not the suite selection ceiling.')
+    p.add_argument("--budget", type=int, choices=[80, 160], default=160, help='Suite epoch ceiling: 80 or 160 (default: 160).')
     p.add_argument("--seed", type=int, default=2026111601)
-    p.add_argument("--device", choices=["cpu", "cuda"], default="cpu")
+    p.add_argument("--device", choices=["cpu", "cuda"], default="cpu", help='Execution device (default: cpu).')
     a = p.parse_args()
     a.out.mkdir(parents=True, exist_ok=True)
 

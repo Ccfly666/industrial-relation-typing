@@ -1,0 +1,22 @@
+﻿v5_table,stable_key,result_files,scope
+5,main,budget_main_results.csv; main_seed_summary.csv,Common MLP; 80 and 160 ceilings
+6,AB,paper_tables.csv,Separate Tanh MLP and fixed LR
+7,R1,paper_tables.csv; r1_six_intervals.csv,Fixed LR; E/C/U
+8,MLP,paper_tables.csv; mechanism_intervals.csv,Original 80-epoch MLP mechanisms
+9,direct,paper_tables.csv; mechanism_intervals.csv,Matched Top32 events; three seeds
+10,baselines,paper_tables.csv,Overall models with respective training recipes
+11,strong,paper_tables.csv,Supervised BERT/TaSeR and fixed-LR readouts
+E.1,supplement:seeds,budget_summary.csv; paper_tables.csv,Three seeds; both common ceilings
+E.2,supplement:raw,budget_main_results.csv; paper_tables.csv,Raw and operational; both ceilings
+E.3,supplement:mainCI,main_intervals.csv; budget_statistical_intervals.csv,80/160 stage families separately adjusted
+E.4,supplement:R1CI,r1_six_intervals.csv,Six fixed-LR comparisons
+E.5,supplement:LRCI,mechanism_intervals.csv; paper_tables.csv,Twelve LR mechanism comparisons
+E.6,supplement:MLPCI,mechanism_intervals.csv; paper_tables.csv,Twelve original MLP mechanism comparisons
+E.7,supplement:AGGCI,mechanism_intervals.csv; paper_tables.csv,Twelve matched-event aggregation comparisons
+E.8,concentration,cluster_concentration_localization.csv,Maximum paired-IF concentration; 36 mechanism comparisons
+E.9,classes,paper_tables.csv,Full class F1; full precision/recall/support in Online Resource 2
+E.10,coverage,paper_tables.csv,Original 80-epoch coverage-specific gains
+E.12,sensitivity,cluster_sensitivity_results.csv,Fourteen descriptive endpoint deletions
+E.13,budget_change,budget_statistical_intervals.csv,Twelve paired 160-minus-80 gain changes
+E.14,timing,inference_timing_summary.csv,Cached ABR/name vectors; ms/query
+D.2,Q28,compact_q28_displayed.csv,E/C/U LR; displayed precision only
